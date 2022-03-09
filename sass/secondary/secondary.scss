@@ -1,0 +1,87 @@
+  .myBtn {
+      overflow: hidden;
+      position: relative;
+      display: inline-block;
+      border-radius: 3px;
+      margin-bottom: 30px;
+  }
+
+  .myBtn_circle {
+      background-color: red;
+      border-radius: 1000px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 0px;
+      height: 0px;
+      margin-left: 0px;
+      margin-top: 0px;
+      pointer-events: none;
+      /*animation-timing-function: ease-in-out; */
+
+      .myBtn_inner {
+          display: inline-block;
+          background: #F8B627;
+          color: #F4F4F4;
+          font-size: 16px;
+          font-weight: normal;
+          width: 132px;
+          text-align: center;
+          border-radius: 3px;
+          transition: 400ms;
+          text-decoration: none;
+          padding: 22px;
+          z-index: 100000;
+      }
+
+
+      .myBtn_text {
+          position: relative;
+          z-index: 10000;
+      }
+
+      .explode-circle {
+          animation: explode 0.5s forwards;
+
+      }
+
+      .desplode-circle {
+          animation: desplode 0.5s forwards;
+      }
+  }
+
+  @keyframes explode {
+      0% {
+          width: 0px;
+          height: 0px;
+          margin-left: 0px;
+          margin-top: 0px;
+          background-color: rgba(42, 53, 80, 0.2);
+      }
+
+      100% {
+          width: 400px;
+          height: 400px;
+          margin-left: -200px;
+          margin-top: -200px;
+          background-color: rgba(20, 180, 87, 0.8);
+      }
+  }
+
+  @keyframes desplode {
+      0% {
+          width: 400px;
+          height: 400px;
+          margin-left: -200px;
+          margin-top: -200px;
+          background-color: rgba(20, 180, 87, 0.8);
+      }
+
+      100% {
+          width: 0px;
+          height: 0px;
+          margin-left: 0px;
+          margin-top: 0px;
+          background-color: rgba(129, 80, 108, 0.6);
+      }
+  }
