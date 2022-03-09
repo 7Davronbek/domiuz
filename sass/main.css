@@ -1,61 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap");
 body {
   font-family: 'Montserrat', sans-serif;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
 }
 
-body h1,
-body h2,
-body h3,
-body h4,
-body h5,
-body h6,
-body p {
-  margin-bottom: 0 !important;
-}
-
-body img {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
-
-body a {
-  text-decoration: none;
-  color: #000;
-  outline: none !important;
-}
-
-body a:hover {
-  text-decoration: none !important;
-  color: #666;
-}
-
-body ul,
-body li {
-  list-style: none;
-  margin: 0;
-  padding: 0 !important;
-}
-
-body .card {
-  background-color: transparent;
-  border: 0;
-  padding: 0;
-}
-
-body .card .card-body {
-  background-color: transparent;
-  border: 0;
-  padding: 0;
-}
-
-body .container {
-  max-width: 1440px;
+body .btn-danger {
+  border-color: #00C65E !important;
 }
 
 body .nav-01 {
@@ -64,9 +13,9 @@ body .nav-01 {
 }
 
 body .nav-01 .skoring a {
-  border-color: #e31e24;
+  border-color: #00C65E;
   cursor: pointer;
-  color: #e31e24;
+  color: #00C65E;
   font-weight: 500;
   padding: 15px;
   border-radius: 10px;
@@ -78,12 +27,12 @@ body .nav-01 .skoring a i {
 
 body .nav-01 .skoring a:hover {
   color: #fff;
-  background-color: #e31e24;
+  background-color: #00C65E;
 }
 
 body .nav-01 .search input {
-  border-color: #e31e24;
-  color: #e31e24;
+  border-color: #00C65E;
+  color: #00C65E;
   font-weight: 500;
   padding: 27px;
   border-radius: 10px 0 0 10px;
@@ -92,17 +41,17 @@ body .nav-01 .search input {
 body .nav-01 .search input:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border-color: #e31e24;
+  border-color: #00C65E;
 }
 
 body .nav-01 .search a {
   border-radius: 0 15px 15px 0;
   padding: 15px 17px;
-  background-color: #e31e24;
+  background-color: #00C65E;
 }
 
 body .nav-01 .contact i {
-  color: #e31e24;
+  color: #00C65E;
   font-size: 20px;
 }
 
@@ -112,13 +61,13 @@ body .nav-01 .contact p {
 
 body .nav-01 .my_Btn a {
   color: #fff;
-  background: #e31e24;
+  background: #00C65E;
 }
 
 body .nav-01 .my_Btn a:hover {
-  border-color: 1px solid #e31e24;
+  border-color: 1px solid #00C65E;
   background-color: #fff;
-  color: #e31e24;
+  color: #00C65E;
 }
 
 body .nav-02 {
@@ -156,7 +105,7 @@ body .nav-02 .btn {
 }
 
 body .nav-02 .btn:hover {
-  color: #e31e24;
+  color: #00C65E;
 }
 
 body .nav-02 .btn-light {

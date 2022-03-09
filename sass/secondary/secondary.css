@@ -1,3 +1,54 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0 !important;
+}
+
+img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  outline: none !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #666;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0 !important;
+}
+
+.card {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+}
+
+.card .card-body {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+}
+
 .myBtn {
   overflow: hidden;
   position: relative;
@@ -6,7 +57,7 @@
   margin-bottom: 30px;
 }
 
-.myBtn_circle {
+.myBtn .myBtn_circle {
   background-color: red;
   border-radius: 1000px;
   position: absolute;
@@ -20,33 +71,16 @@
   /*animation-timing-function: ease-in-out; */
 }
 
-.myBtn_circle .myBtn_inner {
-  display: inline-block;
-  background: #F8B627;
-  color: #F4F4F4;
-  font-size: 16px;
-  font-weight: normal;
-  width: 132px;
-  text-align: center;
-  border-radius: 3px;
-  -webkit-transition: 400ms;
-  transition: 400ms;
-  text-decoration: none;
-  padding: 22px;
-  z-index: 100000;
+.myBtn .myBtn_circle .myBtn_inner {
+  color: #fff !important;
 }
 
-.myBtn_circle .myBtn_text {
-  position: relative;
-  z-index: 10000;
-}
-
-.myBtn_circle .explode-circle {
+.explode-circle {
   -webkit-animation: explode 0.5s forwards;
           animation: explode 0.5s forwards;
 }
 
-.myBtn_circle .desplode-circle {
+.desplode-circle {
   -webkit-animation: desplode 0.5s forwards;
           animation: desplode 0.5s forwards;
 }
@@ -116,6 +150,52 @@
     margin-left: 0px;
     margin-top: 0px;
     background-color: rgba(129, 80, 108, 0.6);
+  }
+}
+
+.myCircle {
+  position: relative;
+  overflow: hidden;
+  padding: 40px;
+  text-align: center;
+  background-color: orange;
+}
+
+.myCircle span {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  -webkit-animation: ripples 0.6s linear infinite;
+          animation: ripples 0.6s linear infinite;
+}
+
+@-webkit-keyframes ripples {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0.5;
+  }
+  100% {
+    width: 400px;
+    height: 400px;
+    opacity: 0;
+  }
+}
+
+@keyframes ripples {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0.5;
+  }
+  100% {
+    width: 400px;
+    height: 400px;
+    opacity: 0;
   }
 }
 /*# sourceMappingURL=secondary.css.map */
