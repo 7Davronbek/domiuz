@@ -1,0 +1,313 @@
+  .header-slider {
+    position: relative;
+    height: 100%;
+  }
+
+  .header-slider {
+    font-size: 14px;
+    color: #000;
+    margin: 40px;
+    padding: 0;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 400px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev{
+    width: 60px;
+    height: 50px;    
+    background: rgba(255,255,255,.15);
+    border-radius: 16px;
+    border: 1px solid rgba(255,255,255,.44);
+  }
+
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover{
+    -webkit-animation-name: btneffect;
+    animation-name: btneffect;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @keyframes btneffect{from,11.1%,to{-webkit-transform:none;transform:none}22.2%{-webkit-transform:skewX(12.5deg) skewY(12.5deg);transform:skewX(12.5deg) skewY(12.5deg)}33.3%{-webkit-transform:skewX(-6.25deg) skewY(-6.25deg);transform:skewX(-6.25deg) skewY(-6.25deg)}44.4%{-webkit-transform:skewX(3.125deg) skewY(3.125deg);transform:skewX(3.125deg) skewY(3.125deg)}55.5%{-webkit-transform:skewX(-1.5625deg) skewY(-1.5625deg);transform:skewX(-1.5625deg) skewY(-1.5625deg)}66.6%{-webkit-transform:skewX(0.78125deg) skewY(0.78125deg);transform:skewX(0.78125deg) skewY(0.78125deg)}77.7%{-webkit-transform:skewX(-0.390625deg) skewY(-0.390625deg);transform:skewX(-0.390625deg) skewY(-0.390625deg)}88.8%{-webkit-transform:skewX(0.1953125deg) skewY(0.1953125deg);transform:skewX(0.1953125deg) skewY(0.1953125deg)}}
+
+  .swiper-button-next::after{
+    font-size: 22px;
+    color: #fff;
+    content: 'next';
+  }
+
+  .swiper-button-prev::after{
+    font-size: 22px;
+    color: #fff;
+    content: 'prev';
+  }
+
+  /*********************************** Ommabop Product slider ****************************/
+
+  .mySwiper-products .swiper-slide {
+    width: 26%;
+    padding: 10px;
+  }
+
+  .swiper-slide:hover{
+    border-radius: 16px;
+    box-shadow: 0 3px 16px rgb(29 57 169 / 8%);
+  }
+
+  #swp-btn-next,
+  #swp-btn-prev{
+    width: 60px;
+    height: 50px;    
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #eceef4;
+    outline: none !important;
+    position: static;
+    margin-top: 0;
+    box-shadow: 0 3px 16px rgb(29 57 169 / 8%);
+  }
+
+  #swp-btn-next:hover,
+  #swp-btn-prev:hover{
+    -webkit-animation-name: btneffectswp;
+    animation-name: btneffectswp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @keyframes btneffectswp{from,11.1%,to{-webkit-transform:none;transform:none}22.2%{-webkit-transform:skewX(12.5deg) skewY(12.5deg);transform:skewX(12.5deg) skewY(12.5deg)}33.3%{-webkit-transform:skewX(-6.25deg) skewY(-6.25deg);transform:skewX(-6.25deg) skewY(-6.25deg)}44.4%{-webkit-transform:skewX(3.125deg) skewY(3.125deg);transform:skewX(3.125deg) skewY(3.125deg)}55.5%{-webkit-transform:skewX(-1.5625deg) skewY(-1.5625deg);transform:skewX(-1.5625deg) skewY(-1.5625deg)}66.6%{-webkit-transform:skewX(0.78125deg) skewY(0.78125deg);transform:skewX(0.78125deg) skewY(0.78125deg)}77.7%{-webkit-transform:skewX(-0.390625deg) skewY(-0.390625deg);transform:skewX(-0.390625deg) skewY(-0.390625deg)}88.8%{-webkit-transform:skewX(0.1953125deg) skewY(0.1953125deg);transform:skewX(0.1953125deg) skewY(0.1953125deg)}}
+
+
+  #swp-btn-next::after{
+    font-size: 18px;
+    color: #282830;
+    content: 'next';
+  }
+
+  #swp-btn-prev::after{
+    font-size: 18px;
+    color: #282830;
+    content: 'prev';
+  }
+
+
+  /************************** New Product *************************/
+
+  .mySwiper-new-products .swiper-slide {
+    width: 26%;
+    padding: 10px;
+  }
+
+
+  #swp-new-next,
+  #swp-new-prev{
+    width: 60px;
+    height: 50px;    
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #eceef4;
+    outline: none !important;
+    position: static;
+    margin-top: 0;
+    box-shadow: 0 3px 16px rgb(29 57 169 / 8%);
+  }
+
+  #swp-new-next:hover,
+  #swp-new-prev:hover{
+    -webkit-animation-name: neweffectswp;
+    animation-name: neweffectswp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @keyframes neweffectswp{from,11.1%,to{-webkit-transform:none;transform:none}22.2%{-webkit-transform:skewX(12.5deg) skewY(12.5deg);transform:skewX(12.5deg) skewY(12.5deg)}33.3%{-webkit-transform:skewX(-6.25deg) skewY(-6.25deg);transform:skewX(-6.25deg) skewY(-6.25deg)}44.4%{-webkit-transform:skewX(3.125deg) skewY(3.125deg);transform:skewX(3.125deg) skewY(3.125deg)}55.5%{-webkit-transform:skewX(-1.5625deg) skewY(-1.5625deg);transform:skewX(-1.5625deg) skewY(-1.5625deg)}66.6%{-webkit-transform:skewX(0.78125deg) skewY(0.78125deg);transform:skewX(0.78125deg) skewY(0.78125deg)}77.7%{-webkit-transform:skewX(-0.390625deg) skewY(-0.390625deg);transform:skewX(-0.390625deg) skewY(-0.390625deg)}88.8%{-webkit-transform:skewX(0.1953125deg) skewY(0.1953125deg);transform:skewX(0.1953125deg) skewY(0.1953125deg)}}
+
+
+  #swp-new-next::after{
+    font-size: 18px;
+    color: #282830;
+    content: 'next';
+  }
+
+  #swp-new-prev::after{
+    font-size: 18px;
+    color: #282830;
+    content: 'prev';
+  }
+
+  /* ********************** Smartfonlar ********************* */
+
+  .mySwiper-smart-products .swiper-slide {
+    width: 26%;
+    padding: 10px;
+  }
+
+
+  #swp-smart-next,
+  #swp-smart-prev{
+    width: 60px;
+    height: 50px;    
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #eceef4;
+    outline: none !important;
+    position: static;
+    margin-top: 0;
+    box-shadow: 0 3px 16px rgb(29 57 169 / 8%);
+  }
+
+  #swp-smart-next:hover,
+  #swp-smart-prev:hover{
+    -webkit-animation-name: smarteffectswp;
+    animation-name: smarteffectswp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @keyframes smarteffectswp{from,11.1%,to{-webkit-transform:none;transform:none}22.2%{-webkit-transform:skewX(12.5deg) skewY(12.5deg);transform:skewX(12.5deg) skewY(12.5deg)}33.3%{-webkit-transform:skewX(-6.25deg) skewY(-6.25deg);transform:skewX(-6.25deg) skewY(-6.25deg)}44.4%{-webkit-transform:skewX(3.125deg) skewY(3.125deg);transform:skewX(3.125deg) skewY(3.125deg)}55.5%{-webkit-transform:skewX(-1.5625deg) skewY(-1.5625deg);transform:skewX(-1.5625deg) skewY(-1.5625deg)}66.6%{-webkit-transform:skewX(0.78125deg) skewY(0.78125deg);transform:skewX(0.78125deg) skewY(0.78125deg)}77.7%{-webkit-transform:skewX(-0.390625deg) skewY(-0.390625deg);transform:skewX(-0.390625deg) skewY(-0.390625deg)}88.8%{-webkit-transform:skewX(0.1953125deg) skewY(0.1953125deg);transform:skewX(0.1953125deg) skewY(0.1953125deg)}}
+
+
+  #swp-smart-next::after{
+    font-size: 18px;
+    color: #282830;
+    content: 'next';
+  }
+
+  #swp-smart-prev::after{
+    font-size: 18px;
+    color: #282830;
+    content: 'prev';
+  }
+
+
+    /* ********************** Televizorlar ********************* */
+
+    .mySwiper-tel-products .swiper-slide {
+      width: 26%;
+      padding: 10px;
+    }
+  
+  
+    #swp-tel-next,
+    #swp-tel-prev{
+      width: 60px;
+      height: 50px;    
+      background: #fff;
+      border-radius: 16px;
+      border: 1px solid #eceef4;
+      outline: none !important;
+      position: static;
+      margin-top: 0;
+      box-shadow: 0 3px 16px rgb(29 57 169 / 8%);
+    }
+  
+    #swp-tel-next:hover,
+    #swp-tel-prev:hover{
+      -webkit-animation-name: teleffectswp;
+      animation-name: teleffectswp;
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+    }
+  
+    @keyframes teleffectswp{from,11.1%,to{-webkit-transform:none;transform:none}22.2%{-webkit-transform:skewX(12.5deg) skewY(12.5deg);transform:skewX(12.5deg) skewY(12.5deg)}33.3%{-webkit-transform:skewX(-6.25deg) skewY(-6.25deg);transform:skewX(-6.25deg) skewY(-6.25deg)}44.4%{-webkit-transform:skewX(3.125deg) skewY(3.125deg);transform:skewX(3.125deg) skewY(3.125deg)}55.5%{-webkit-transform:skewX(-1.5625deg) skewY(-1.5625deg);transform:skewX(-1.5625deg) skewY(-1.5625deg)}66.6%{-webkit-transform:skewX(0.78125deg) skewY(0.78125deg);transform:skewX(0.78125deg) skewY(0.78125deg)}77.7%{-webkit-transform:skewX(-0.390625deg) skewY(-0.390625deg);transform:skewX(-0.390625deg) skewY(-0.390625deg)}88.8%{-webkit-transform:skewX(0.1953125deg) skewY(0.1953125deg);transform:skewX(0.1953125deg) skewY(0.1953125deg)}}
+  
+  
+    #swp-tel-next::after{
+      font-size: 18px;
+      color: #282830;
+      content: 'next';
+    }
+  
+    #swp-tel-prev::after{
+      font-size: 18px;
+      color: #282830;
+      content: 'prev';
+    }
+
+      /* ********************** Muzlatgichlar ********************* */
+
+  .mySwiper-muz-products .swiper-slide {
+    width: 26%;
+    padding: 10px;
+  }
+
+
+  #swp-muz-next,
+  #swp-muz-prev{
+    width: 60px;
+    height: 50px;    
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #eceef4;
+    outline: none !important;
+    position: static;
+    margin-top: 0;
+    box-shadow: 0 3px 16px rgb(29 57 169 / 8%);
+  }
+
+  #swp-muz-next:hover,
+  #swp-muz-prev:hover{
+    -webkit-animation-name: muzeffectswp;
+    animation-name: muzeffectswp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @keyframes muzeffectswp{from,11.1%,to{-webkit-transform:none;transform:none}22.2%{-webkit-transform:skewX(12.5deg) skewY(12.5deg);transform:skewX(12.5deg) skewY(12.5deg)}33.3%{-webkit-transform:skewX(-6.25deg) skewY(-6.25deg);transform:skewX(-6.25deg) skewY(-6.25deg)}44.4%{-webkit-transform:skewX(3.125deg) skewY(3.125deg);transform:skewX(3.125deg) skewY(3.125deg)}55.5%{-webkit-transform:skewX(-1.5625deg) skewY(-1.5625deg);transform:skewX(-1.5625deg) skewY(-1.5625deg)}66.6%{-webkit-transform:skewX(0.78125deg) skewY(0.78125deg);transform:skewX(0.78125deg) skewY(0.78125deg)}77.7%{-webkit-transform:skewX(-0.390625deg) skewY(-0.390625deg);transform:skewX(-0.390625deg) skewY(-0.390625deg)}88.8%{-webkit-transform:skewX(0.1953125deg) skewY(0.1953125deg);transform:skewX(0.1953125deg) skewY(0.1953125deg)}}
+
+
+  #swp-muz-next::after{
+    font-size: 18px;
+    color: #282830;
+    content: 'next';
+  }
+
+  #swp-muz-prev::after{
+    font-size: 18px;
+    color: #282830;
+    content: 'prev';
+  }

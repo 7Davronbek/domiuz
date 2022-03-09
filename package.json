@@ -1,0 +1,13 @@
+{
+    "tags": [
+      "swiper"
+    ],
+    "name": "Swiper - Navigation",
+    "name": "Swiper - Slides per view auto",
+    "dependencies": {
+      "swiper": "latest",
+      "parcel-bundler": "^1.6.1"
+    }
+
+}
+
