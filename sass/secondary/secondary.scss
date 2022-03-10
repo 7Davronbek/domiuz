@@ -1,3 +1,27 @@
+html {
+    ::selection {
+        background-color: #00C65E;
+        color: #fff;
+    }
+
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #00C65E;
+        border-radius: 15px;
+    }
+}
+
+
 h1,
 h2,
 h3,
@@ -125,7 +149,7 @@ li {
     overflow: hidden;
     padding: 40px ;
     text-align: center;
-    background-color: orange;
+    background-color: red;
 
     span {
         position: absolute;
@@ -134,7 +158,8 @@ li {
         transform: translate(-50%, -50%);
         width: 400px;
         height: 400px;
-        animation: ripples 0.6s linear infinite
+        animation: ripples 0.6s linear infinite;
+        z-index: 1;
     }
 }
 

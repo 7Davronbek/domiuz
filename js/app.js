@@ -81,8 +81,8 @@ buttons.forEach((button) => {
     ripple.style.left = `${x}px`
     ripple.style.top = `${y}px`
     this.appendChild(ripple)
-    setTimeout(function() {
-      ripple.remove()
-    }, 600)
+    // setTimeout(function() {
+    //   ripple.remove()
+    // }, 600)
   }
 })
