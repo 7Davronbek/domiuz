@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap");
 body {
   font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  color: #212529;
+}
+
+body .h2 {
+  font-size: 44px;
 }
 
 body .btn-danger {
@@ -114,9 +120,8 @@ body .nav-02 .btn-light {
 
 body .pop-categories .card {
   background: #eceef4b3;
-  padding: 30px 10px;
+  padding: 25px 10px;
   overflow: hidden;
-  margin-bottom: 30px;
   border-radius: 12px;
 }
 
@@ -124,6 +129,8 @@ body .pop-categories .card .card-body p {
   font-size: 18px;
   line-height: 20px;
   margin-top: 10px;
+  font-weight: 500;
+  color: #282830;
 }
 
 body .pop-categories .card .card-body .cardImg {
@@ -200,7 +207,7 @@ body .pop-categories .card:hover::after {
 body .pop-categories h2 {
   font-weight: 600;
   font-size: 40px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 body .pop-categories .pop-category a {
