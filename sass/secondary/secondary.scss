@@ -1,6 +1,24 @@
 // ***************** ICONS *************************
 
 
+.icon {
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+  
+    mask-size: 100%;
+    mask-repeat: no-repeat;
+  
+    -webkit-mask-size: 100%;
+    -webkit-mask-repeat: no-repeat;
+  
+    background-color: #00C65E;
+  
+    &.icon-heart {
+      mask-image: url("../../img/icon/heart.svg");
+      -webkit-mask-image: url("../../img/icon/heart.svg");
+    }
+}
 
 html {
     ::selection {
@@ -184,7 +202,7 @@ li {
 .scales {
 
     &:hover {
-        animation: scales .5s linear infinite;
+        animation: scales 1s linear infinite;
     }
 }
 
@@ -193,11 +211,15 @@ li {
         transform: scale(1);
     }
 
+    10% {
+        transform: scale(1.1);
+    }
+
     50% {
-        transform: scale(1.2);
+        transform: scale(0.9);
     }
 
     100% {
-        transform: scale(0.8);
+        transform: scale(1.1);
     }
 }

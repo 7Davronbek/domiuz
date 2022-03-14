@@ -1,3 +1,19 @@
+.icon {
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+  mask-size: 100%;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  background-color: #00C65E;
+}
+
+.icon.icon-heart {
+  mask-image: url("../../img/icon/heart.svg");
+  -webkit-mask-image: url("../../img/icon/heart.svg");
+}
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -229,8 +245,8 @@ li {
 }
 
 .scales:hover {
-  -webkit-animation: scales .5s linear infinite;
-          animation: scales .5s linear infinite;
+  -webkit-animation: scales 1s linear infinite;
+          animation: scales 1s linear infinite;
 }
 
 @-webkit-keyframes scales {
@@ -238,13 +254,17 @@ li {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
+  10% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
   50% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
   }
   100% {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
 
@@ -253,13 +273,17 @@ li {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
+  10% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
   50% {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
   }
   100% {
-    -webkit-transform: scale(0.8);
-            transform: scale(0.8);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
 /*# sourceMappingURL=secondary.css.map */
