@@ -1,3 +1,7 @@
+// ***************** ICONS *************************
+
+
+
 html {
     ::selection {
         background-color: #00C65E;
@@ -174,5 +178,26 @@ li {
         width: 400px;
         height: 400px;
         opacity: 0;
+    }
+}
+
+.scales {
+
+    &:hover {
+        animation: scales .5s linear infinite;
+    }
+}
+
+@keyframes scales {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(0.8);
     }
 }

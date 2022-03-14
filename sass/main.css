@@ -223,6 +223,10 @@ body .pop-categories .pop-category .card a {
   padding: 10px;
 }
 
+body .pop-products {
+  padding: 50px 0 0 0;
+}
+
 body .pop-products .pop-pro-sidebar a {
   overflow: hidden;
   display: block;
@@ -242,14 +246,52 @@ body .pop-products .pop-pro-sidebar a img:hover {
           transform: scale(1.05);
 }
 
-body .pop-products .pop-product a {
-  text-decoration: none;
-  color: #282830;
+body .pop-products .pop-product .myCard {
+  padding: 20px;
+  border-radius: 16px;
+  background: #fff;
+  height: 100%;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
-body .pop-products .pop-product h2 {
+body .pop-products .pop-product .myCard h5 {
+  color: rgba(40, 40, 48, 0.5);
   font-weight: 600;
-  font-size: 40px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+body .pop-products .pop-product .myCard h4 {
+  font-weight: bold;
+  color: #00C65E;
+  font-size: 17px;
+  margin: 20px 0 14px;
+}
+
+body .pop-products .pop-product .myCard p {
+  font-size: 14px;
+  height: 42px;
+}
+
+body .pop-products .pop-product .myCard .line {
+  margin: 20px 0 19px;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(40, 40, 48, 0.1);
+}
+
+body .pop-products .pop-product .myCard h3 {
+  font-weight: 500;
+  color: #282830;
+  font-size: 15px;
+}
+
+body .pop-products .pop-product .myCard:hover {
+  -webkit-box-shadow: 2px 3px 10px #0072ff40;
+          box-shadow: 2px 3px 10px #0072ff40;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
 }
 
 body .brands .slider {

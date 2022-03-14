@@ -241,6 +241,8 @@ body {
     }
 
     .pop-products {
+        padding: 50px 0 0 0;
+
         .pop-pro-sidebar {
             a {
                 overflow: hidden;
@@ -260,14 +262,51 @@ body {
         }
 
         .pop-product {
-            a {
-                text-decoration: none;
-                color: $dark;
-            }
 
-            h2 {
-                font-weight: 600;
-                font-size: 40px;
+            .myCard {
+                padding: 20px;
+                border-radius: 16px;
+                background: #fff;
+                height: 100%;
+                transition: all .3s ease-in-out;
+
+                h5 {
+                    color: rgba(40,40,48,.5);
+                    font-weight: 600;
+                    margin-top: 20px;
+                    font-size: 15px;
+                }
+
+                h4 {
+                    font-weight: bold;
+                    color: $red;
+                    font-size: 17px;
+                    margin: 20px 0 14px;
+                }
+
+                p {
+                    font-size: 14px;
+                    height: 42px;
+                }
+
+                .line {
+                    margin: 20px 0 19px;
+                    width: 100%;
+                    height: 1px;
+                    background-color: rgba(40,40,48,.1);
+                }
+
+                h3 {
+                    font-weight: 500;
+                    color: #282830;
+                    font-size: 15px;
+                }
+
+                &:hover {
+                    // -webkit-box-shadow: 0 3px 16px #51ff7d1a;
+                    box-shadow: 2px 3px 10px #0072ff40;
+                    transform: translateY(-3px);
+                }
             }
         }
     }
@@ -382,7 +421,7 @@ body {
                 height: 100%;
             }
 
-            .swiper-slide {
+            .swiper-slide { 
                 text-align: center;
                 font-size: 18px;
                 background: #fff;

@@ -83,11 +83,6 @@
     padding: 10px;
   }
 
-  .swiper-slide:hover{
-    border-radius: 16px;
-    box-shadow: 0 3px 16px rgb(29 57 169 / 8%);
-  }
-
   #swp-btn-next,
   #swp-btn-prev{
     width: 60px;

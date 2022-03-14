@@ -227,4 +227,39 @@ li {
     opacity: 0;
   }
 }
+
+.scales:hover {
+  -webkit-animation: scales .5s linear infinite;
+          animation: scales .5s linear infinite;
+}
+
+@-webkit-keyframes scales {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
+
+@keyframes scales {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+}
 /*# sourceMappingURL=secondary.css.map */
