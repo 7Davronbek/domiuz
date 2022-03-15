@@ -303,39 +303,27 @@ body .brands .slider {
   position: relative;
   margin: 40px auto;
   border-radius: 10px;
-  -webkit-box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
 }
 
-body .brands .slider::before,
-body .brands .slider::after {
+body .brands .slider::after, body .brands .slider::before {
   content: '';
   position: absolute;
   width: 200px;
-  height: 100px;
-  background-color: linear-gradient(to right, #fff 0%, rgba(255, 255, 255, 0) 100%);
-  z-index: 2;
+  height: 100%;
 }
 
 body .brands .slider::before {
-  top: 0;
   left: 0;
+  top: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#fff), to(transparent));
+  background: linear-gradient(90deg, #fff, transparent);
 }
 
 body .brands .slider::after {
-  top: 0;
   right: 0;
-  -webkit-transform: rotateZ(180deg);
-          transform: rotateZ(180deg);
-}
-
-body .brands .slider-track {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: calc(250px * 14);
-  -webkit-animation: scroll 10s infinite linear;
-          animation: scroll 10s infinite linear;
+  top: 0;
+  background: -webkit-gradient(linear, left top, right top, from(transparent), to(#fff));
+  background: linear-gradient(90deg, transparent, #fff);
 }
 
 body .brands .slider .slide img {
