@@ -297,7 +297,6 @@ body .pop-products .pop-product .myCard:hover {
 
 body .brands .slider {
   background-color: #fff;
-  height: 140px;
   padding: 20px;
   overflow: hidden;
   position: relative;
@@ -310,6 +309,7 @@ body .brands .slider::after, body .brands .slider::before {
   position: absolute;
   width: 200px;
   height: 100%;
+  z-index: 20;
 }
 
 body .brands .slider::before {
@@ -327,8 +327,7 @@ body .brands .slider::after {
 }
 
 body .brands .slider .slide img {
-  width: 250px;
-  height: 100px;
+  width: 100%;
 }
 
 @-webkit-keyframes scroll {

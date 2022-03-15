@@ -82,5 +82,15 @@ var swiper6 = new Swiper(".mySwiper-muz-products", {
   },
 });
 
+var swiper7 = new Swiper(".brands-slider", {
+  slidesPerView: 5,
+  spaceBetween: 30,
+  autoplay: true,
+  autoplay: {
+    delay: 1500,
+    disableOnInteraction: false,
+  },
+  loop: true,
+});
 
 

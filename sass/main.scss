@@ -137,7 +137,7 @@ body {
     }
 
     .pop-categories {
-        
+
         .card {
             background: #eceef4b3;
             padding: 25px 10px;
@@ -173,7 +173,7 @@ body {
 
                     &::before {
                         content: '';
-                        background-color: rgba(255,255,255,.1);
+                        background-color: rgba(255, 255, 255, .1);
                         position: absolute;
                         top: 0;
                         left: 0;
@@ -184,7 +184,7 @@ body {
                     }
                 }
             }
-            
+
             &::after {
                 content: '';
                 position: absolute;
@@ -192,7 +192,7 @@ body {
                 right: 0;
                 width: 0;
                 height: 0;
-                background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.9) 100%);
+                background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .9) 100%);
                 border-radius: 0 0 0 50%;
             }
 
@@ -208,6 +208,7 @@ body {
                     width: 0;
                     height: 0;
                 }
+
                 100% {
                     width: 100%;
                     height: 100%;
@@ -215,7 +216,7 @@ body {
                 }
             }
         }
-        
+
         h2 {
             font-weight: 600;
             font-size: 40px;
@@ -271,7 +272,7 @@ body {
                 transition: all .3s ease-in-out;
 
                 h5 {
-                    color: rgba(40,40,48,.5);
+                    color: rgba(40, 40, 48, .5);
                     font-weight: 600;
                     margin-top: 20px;
                     font-size: 15px;
@@ -293,7 +294,7 @@ body {
                     margin: 20px 0 19px;
                     width: 100%;
                     height: 1px;
-                    background-color: rgba(40,40,48,.1);
+                    background-color: rgba(40, 40, 48, .1);
                 }
 
                 h3 {
@@ -315,18 +316,19 @@ body {
 
         .slider {
             background-color: $white;
-            height: 140px;
             padding: 20px;
             overflow: hidden;
             position: relative;
             margin: 40px auto;
             border-radius: 10px;
 
-            &::after, &::before {
+            &::after,
+            &::before {
                 content: '';
                 position: absolute;
                 width: 200px;
                 height: 100%;
+                z-index: 20 ;
             }
 
             &::before {
@@ -343,8 +345,7 @@ body {
         }
 
         .slider .slide img {
-            width: 250px;
-            height: 100px;
+            width: 100%;
         }
 
         @keyframes scroll {
@@ -412,7 +413,7 @@ body {
                 height: 100%;
             }
 
-            .swiper-slide { 
+            .swiper-slide {
                 text-align: center;
                 font-size: 18px;
                 background: #fff;
