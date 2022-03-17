@@ -104,7 +104,7 @@ body .nav-02 .katalog i {
 }
 
 body .nav-02 .btn {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
   color: #282830;
   text-transform: uppercase;
@@ -116,6 +116,10 @@ body .nav-02 .btn:hover {
 
 body .nav-02 .btn-light {
   border-radius: 10px;
+  padding: 9px 16px;
+  background: #d9d9d97a;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 body .pop-categories .card {

@@ -120,7 +120,7 @@ body {
         }
 
         .btn {
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 600;
             color: $dark;
             text-transform: uppercase;
@@ -132,6 +132,9 @@ body {
 
         .btn-light {
             border-radius: 10px;
+            padding: 9px 16px;
+            background: #d9d9d97a;
+            transition: all .3s ease-in-out;
         }
 
     }
@@ -328,7 +331,7 @@ body {
                 position: absolute;
                 width: 200px;
                 height: 100%;
-                z-index: 20 ;
+                z-index: 20;
             }
 
             &::before {
