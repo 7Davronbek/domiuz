@@ -402,7 +402,12 @@ body {
         }
     }
 
-    section.view {
+    .view {
+
+        .swiper {
+            height: auto !important;
+        }
+        
         .view-left {
             margin-top: 30px;
             padding: 30px;
@@ -587,7 +592,7 @@ body {
         }
     }
 
-    section.byUmarcek {
+    .viewTable {
         margin-top: 100px;
 
         .section-info {

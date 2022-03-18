@@ -389,7 +389,11 @@ body .footer .socials a {
   margin-right: 20px;
 }
 
-body section.view .view-left {
+body .view .swiper {
+  height: auto !important;
+}
+
+body .view .view-left {
   margin-top: 30px;
   padding: 30px;
   border-radius: 16px;
@@ -397,12 +401,12 @@ body section.view .view-left {
   box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 }
 
-body section.view .view-left .swiper {
+body .view .view-left .swiper {
   width: 100%;
   height: 100%;
 }
 
-body section.view .view-left .swiper-slide {
+body .view .view-left .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -418,7 +422,7 @@ body section.view .view-left .swiper-slide {
   align-items: center;
 }
 
-body section.view .view-left .swiper-slide img {
+body .view .view-left .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
@@ -426,34 +430,34 @@ body section.view .view-left .swiper-slide img {
      object-fit: cover;
 }
 
-body section.view .view-left .swiper {
+body .view .view-left .swiper {
   width: 100%;
   height: 300px;
   margin-left: auto;
   margin-right: auto;
 }
 
-body section.view .view-left .swiper-slide {
+body .view .view-left .swiper-slide {
   background-size: cover;
   background-position: center;
 }
 
-body section.view .view-left .mySwiper2 {
+body .view .view-left .mySwiper2 {
   height: 80%;
   width: 100%;
 }
 
-body section.view .view-left .mySwiper {
+body .view .view-left .mySwiper {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 10px 0;
 }
 
-body section.view .view-left .mySwiper .swiper-slide {
+body .view .view-left .mySwiper .swiper-slide {
   opacity: 0.4;
 }
 
-body section.view .view-left .mySwiper .swiper-slide img {
+body .view .view-left .mySwiper .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
@@ -461,7 +465,7 @@ body section.view .view-left .mySwiper .swiper-slide img {
      object-fit: cover;
 }
 
-body section.view .view-left .info table td {
+body .view .view-left .info table td {
   padding: 10px 0 12px;
   font-size: 15px;
   font-weight: 500;
@@ -470,17 +474,17 @@ body section.view .view-left .info table td {
   border-bottom: 1px solid rgba(40, 40, 48, 0.1);
 }
 
-body section.view .view-left .info .all-btn {
+body .view .view-left .info .all-btn {
   border-radius: 16px;
   border: 1px solid #eceef4;
 }
 
-body section.view .view-left .info .all-btn:hover {
+body .view .view-left .info .all-btn:hover {
   border-color: #241cf0;
   color: #241cf0;
 }
 
-body section.view .view-right {
+body .view .view-right {
   margin-top: 30px;
   padding: 16px;
   border-radius: 16px;
@@ -488,19 +492,19 @@ body section.view .view-right {
   box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 }
 
-body section.view .view-right h6.full__price {
+body .view .view-right h6.full__price {
   font-size: 22px;
   line-height: 27px;
   color: rgba(40, 40, 48, 0.5);
   margin-bottom: 20px !important;
 }
 
-body section.view .view-right h6.full__price span {
+body .view .view-right h6.full__price span {
   font-size: 18px;
   line-height: 23px;
 }
 
-body section.view .view-right h6.monthly__price {
+body .view .view-right h6.monthly__price {
   font-size: 30px;
   line-height: 38px;
   font-weight: 500;
@@ -508,23 +512,23 @@ body section.view .view-right h6.monthly__price {
   margin-bottom: 20px !important;
 }
 
-body section.view .view-right h6.monthly__price span {
+body .view .view-right h6.monthly__price span {
   line-height: 23px;
   font-size: 18px;
 }
 
-body section.view .view-right .delivery {
+body .view .view-right .delivery {
   margin-bottom: 20px;
 }
 
-body section.view .view-right .delivery i {
+body .view .view-right .delivery i {
   font-size: 20px;
   -webkit-transform: translate(0px, 10px);
           transform: translate(0px, 10px);
   margin-right: 10px;
 }
 
-body section.view .view-right .delivery .delivery__title {
+body .view .view-right .delivery .delivery__title {
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 500;
@@ -532,7 +536,7 @@ body section.view .view-right .delivery .delivery__title {
   line-height: 19px;
 }
 
-body section.view .view-right .qanaqadir__link a {
+body .view .view-right .qanaqadir__link a {
   width: 100%;
   padding: 15px 11px;
   display: block;
@@ -547,11 +551,11 @@ body section.view .view-right .qanaqadir__link a {
   outline: none !important;
 }
 
-body section.view .view-right .qanaqadir__link a:hover {
+body .view .view-right .qanaqadir__link a:hover {
   text-decoration: underline !important;
 }
 
-body section.view .view-right .price-btn {
+body .view .view-right .price-btn {
   font-size: 18px;
   padding: 15px 21px;
   line-height: 23px;
@@ -561,31 +565,31 @@ body section.view .view-right .price-btn {
   color: #fff;
 }
 
-body section.byUmarcek {
+body .viewTable {
   margin-top: 100px;
 }
 
-body section.byUmarcek .section-info {
+body .viewTable .section-info {
   padding: 16px;
 }
 
-body section.byUmarcek .section-info h2 {
+body .viewTable .section-info h2 {
   font-size: 28px;
   font-weight: 400;
   margin-bottom: 30px;
 }
 
-body section.byUmarcek .section-info h4 {
+body .viewTable .section-info h4 {
   font-size: 30px;
   font-weight: 600;
   margin-bottom: 30px;
 }
 
-body section.byUmarcek .section-info .info table tr {
+body .viewTable .section-info .info table tr {
   margin-bottom: 15px;
 }
 
-body section.byUmarcek .section-info .info table tr td {
+body .viewTable .section-info .info table tr td {
   padding: 10px 0 12px;
   font-size: 20px;
   font-weight: 500;
@@ -594,7 +598,7 @@ body section.byUmarcek .section-info .info table tr td {
   border-bottom: 1px solid rgba(40, 40, 48, 0.1);
 }
 
-body section.byUmarcek .section-info .info table .text-left {
+body .viewTable .section-info .info table .text-left {
   color: #818181;
 }
 /*# sourceMappingURL=main.css.map */

@@ -156,7 +156,7 @@
                     </div>
                   </div> -->
 
-                  <div class="col-2">
+                  <div class="col-1">
 
                     <div class="swiper productSwiper">
                       <div class="swiper-wrapper d-flex flex-column">
@@ -214,7 +214,7 @@
                     </div>
                   </div>
 
-                  <div class="col-4">
+                  <div class="col-5">
                     <div
                       style="
                         --swiper-navigation-color: #fff;
@@ -279,7 +279,7 @@
                     </div>
                   </div>
 
-                  <div class="col-4 ml-auto">
+                  <div class="col-5 ml-auto">
                     <div class="info">
                       <table class="table table-borderless">
                         <tbody>
@@ -364,8 +364,10 @@
           </div>
         </div>
       </div>
+
     </section>
-    <section class="byUmarcek">
+    
+    <section class="viewTable">
       <div class="container">
         <div class="row">
           <div class="col-9">
@@ -498,14 +500,15 @@
     </footer>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <script>
-      var swiper = new Swiper(".mySwiper", {
+      var swiper = new Swiper(".productSwiper", {
         spaceBetween: 10,
         slidesPerView: 4,
         freeMode: true,
         watchSlidesProgress: true,
       });
-      var swiper2 = new Swiper(".mySwiper2", {
+      var swiper2 = new Swiper(".productSwiper2", {
         spaceBetween: 10,
         navigation: {
           nextEl: ".swiper-button-next",
