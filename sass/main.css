@@ -560,4 +560,41 @@ body section.view .view-right .price-btn {
   font-weight: 500;
   color: #fff;
 }
+
+body section.byUmarcek {
+  margin-top: 100px;
+}
+
+body section.byUmarcek .section-info {
+  padding: 16px;
+}
+
+body section.byUmarcek .section-info h2 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+body section.byUmarcek .section-info h4 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+body section.byUmarcek .section-info .info table tr {
+  margin-bottom: 15px;
+}
+
+body section.byUmarcek .section-info .info table tr td {
+  padding: 10px 0 12px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #282830;
+  line-height: 18px;
+  border-bottom: 1px solid rgba(40, 40, 48, 0.1);
+}
+
+body section.byUmarcek .section-info .info table .text-left {
+  color: #818181;
+}
 /*# sourceMappingURL=main.css.map */
