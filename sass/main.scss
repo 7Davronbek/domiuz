@@ -404,6 +404,28 @@ body {
 
     .view {
 
+        .info {
+
+            .btn {
+                font-size: 14px;
+                font-weight: 500;
+                color: #241cf0;
+            }
+
+            h1 {
+                font-size: 22px;
+                font-weight: 500;
+                color: #282830;
+                line-height: 27px;
+                margin-bottom: 42px;
+            }
+        }
+
+        .section__title {
+            margin-top: 70px;
+            margin-bottom: 40px;
+        }
+
         .productSwiper {
             overflow: visible;
         }
@@ -435,7 +457,7 @@ body {
                         -ms-transform: translateY(-50%);
                         transform: translateY(-50%);
                         height: calc(100% - 30px);
-                        background-color: #e31e24;
+                        background-color: $red;
                         border-radius: 3px;
 
                         // content: '';

@@ -389,6 +389,25 @@ body .footer .socials a {
   margin-right: 20px;
 }
 
+body .view .info .btn {
+  font-size: 14px;
+  font-weight: 500;
+  color: #241cf0;
+}
+
+body .view .info h1 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #282830;
+  line-height: 27px;
+  margin-bottom: 42px;
+}
+
+body .view .section__title {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
 body .view .productSwiper {
   overflow: visible;
 }
@@ -416,7 +435,7 @@ body .view .leftCol .swiper-slide.swiper-slide-thumb-active::after {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   height: calc(100% - 30px);
-  background-color: #e31e24;
+  background-color: #00C65E;
   border-radius: 3px;
 }
 
