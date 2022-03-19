@@ -14,6 +14,25 @@ body .myShadow {
   box-shadow: 2px 3px 10px #0072ff40;
 }
 
+body .pop-pro-sidebar a {
+  overflow: hidden;
+  display: block;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+  border-radius: 16px;
+}
+
+body .pop-pro-sidebar a img {
+  border-radius: 16px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+body .pop-pro-sidebar a img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
 body .h2 {
   font-size: 44px;
 }
@@ -241,25 +260,6 @@ body .pop-products {
   padding: 50px 0 0 0;
 }
 
-body .pop-products .pop-pro-sidebar a {
-  overflow: hidden;
-  display: block;
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
-          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
-  border-radius: 16px;
-}
-
-body .pop-products .pop-pro-sidebar a img {
-  border-radius: 16px;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-
-body .pop-products .pop-pro-sidebar a img:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-}
-
 body .pop-products .pop-product .myCard {
   padding: 20px;
   border-radius: 16px;
@@ -412,89 +412,6 @@ body .fancybox__nav .carousel__button svg {
   color: #00C65E !important;
 }
 
-body .fancybox__nav .carousel__button:hover {
-  -webkit-animation-name: btneffect;
-  animation-name: btneffect;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-
-@-webkit-keyframes btneffect {
-  from,
-  11.1%,
-  to {
-    -webkit-transform: none;
-    transform: none;
-  }
-  22.2% {
-    -webkit-transform: skewX(12.5deg) skewY(12.5deg);
-    transform: skewX(12.5deg) skewY(12.5deg);
-  }
-  33.3% {
-    -webkit-transform: skewX(-6.25deg) skewY(-6.25deg);
-    transform: skewX(-6.25deg) skewY(-6.25deg);
-  }
-  44.4% {
-    -webkit-transform: skewX(3.125deg) skewY(3.125deg);
-    transform: skewX(3.125deg) skewY(3.125deg);
-  }
-  55.5% {
-    -webkit-transform: skewX(-1.5625deg) skewY(-1.5625deg);
-    transform: skewX(-1.5625deg) skewY(-1.5625deg);
-  }
-  66.6% {
-    -webkit-transform: skewX(0.78125deg) skewY(0.78125deg);
-    transform: skewX(0.78125deg) skewY(0.78125deg);
-  }
-  77.7% {
-    -webkit-transform: skewX(-0.39062deg) skewY(-0.39062deg);
-    transform: skewX(-0.39062deg) skewY(-0.39062deg);
-  }
-  88.8% {
-    -webkit-transform: skewX(0.19531deg) skewY(0.19531deg);
-    transform: skewX(0.19531deg) skewY(0.19531deg);
-  }
-}
-
-@keyframes btneffect {
-  from,
-  11.1%,
-  to {
-    -webkit-transform: none;
-    transform: none;
-  }
-  22.2% {
-    -webkit-transform: skewX(12.5deg) skewY(12.5deg);
-    transform: skewX(12.5deg) skewY(12.5deg);
-  }
-  33.3% {
-    -webkit-transform: skewX(-6.25deg) skewY(-6.25deg);
-    transform: skewX(-6.25deg) skewY(-6.25deg);
-  }
-  44.4% {
-    -webkit-transform: skewX(3.125deg) skewY(3.125deg);
-    transform: skewX(3.125deg) skewY(3.125deg);
-  }
-  55.5% {
-    -webkit-transform: skewX(-1.5625deg) skewY(-1.5625deg);
-    transform: skewX(-1.5625deg) skewY(-1.5625deg);
-  }
-  66.6% {
-    -webkit-transform: skewX(0.78125deg) skewY(0.78125deg);
-    transform: skewX(0.78125deg) skewY(0.78125deg);
-  }
-  77.7% {
-    -webkit-transform: skewX(-0.39062deg) skewY(-0.39062deg);
-    transform: skewX(-0.39062deg) skewY(-0.39062deg);
-  }
-  88.8% {
-    -webkit-transform: skewX(0.19531deg) skewY(0.19531deg);
-    transform: skewX(0.19531deg) skewY(0.19531deg);
-  }
-}
-
 body .carousel__slide .fancybox__toolbar {
   background: -webkit-gradient(linear, left top, left bottom, from(#00000085), to(transparent));
   background: linear-gradient(180deg, #00000085, transparent);
@@ -575,10 +492,10 @@ body .view .info .btn {
 
 body .view .info h1 {
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
   color: #282830;
   line-height: 27px;
-  margin-bottom: 42px;
+  margin-bottom: 32px;
 }
 
 body .view .section__title {
