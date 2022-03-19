@@ -389,6 +389,66 @@ body .footer .socials a {
   margin-right: 20px;
 }
 
+body .carousel__slide .fancybox__toolbar {
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000085), to(transparent));
+  background: linear-gradient(180deg, #00000085, transparent);
+}
+
+body .carousel__slide .fancybox__thumb {
+  background-size: contain;
+  padding: 29px;
+}
+
+body .carousel__slide .fancybox__thumb::after {
+  border: none !important;
+}
+
+body .carousel__slide.has-thumb {
+  margin: 16px 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  border-width: 3px;
+  width: 50px;
+  height: 50px;
+}
+
+body .carousel__slide.has-thumb.is-nav-selected, body .carousel__slide.has-thumb:hover {
+  border-color: #00C65E;
+}
+
+body .fancybox__container {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+body .fancybox__container .fancybox__progress {
+  background-color: #00C65E;
+}
+
+body .fancybox__container .fancybox__backdrop {
+  background-color: #fff;
+}
+
+body .fancybox__container .fancybox__caption {
+  display: none;
+}
+
+body .fancybox__container .fancybox__content {
+  width: 800px;
+  height: 800px;
+}
+
+body .fancybox__container .fancybox__content img {
+  width: 800px;
+  height: 800px;
+  max-width: none;
+  max-height: none;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
 body .view .info .btn {
   font-size: 14px;
   font-weight: 500;

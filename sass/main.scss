@@ -402,6 +402,67 @@ body {
         }
     }
 
+
+
+    .carousel__slide {
+
+        .fancybox__toolbar {
+            background: linear-gradient(180deg, #00000085, transparent);
+        }
+
+        .fancybox__thumb {  
+            background-size: contain;
+            padding: 29px;
+
+            &::after {
+                border: none !important;
+            }
+        }
+
+        &.has-thumb {
+            margin: 16px 8px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            transition: all .3s ease-in-out;
+            border-width: 3px;
+            width: 50px;
+            height: 50px;
+
+            &.is-nav-selected, &:hover {
+                border-color: $red;
+            }
+        }
+    }
+
+    .fancybox__container {
+        cursor: grab;
+
+        .fancybox__progress {
+            background-color: $red;
+        }
+
+        .fancybox__backdrop {
+            background-color: #fff;
+        }
+
+        .fancybox__caption {
+            display: none;
+        }
+
+        .fancybox__content {
+            width: 800px;
+            height: 800px;
+
+            img {
+                width: 800px;
+                height: 800px;
+                max-width: none;
+                max-height: none;
+                cursor: grab;
+            }
+        }
+    }
+
     .view {
 
         .info {

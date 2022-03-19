@@ -10,6 +10,11 @@
     />
     <link rel="stylesheet" href="/css/bootstrap.css" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+
     <link rel="stylesheet" href="/sass/secondary/secondary.css" />
     <link rel="stylesheet" href="/sass/main.css" />
     <link rel="stylesheet" href="/sass/product/product.css" />
@@ -157,28 +162,19 @@
                   </div> -->
 
                   <div class="col-1 leftCol">
-
                     <div class="swiper productSwiper">
                       <div class="swiper-wrapper d-flex flex-column">
                         <div class="swiper-slide">
-                          <img
-                            src="../img/viewProduct/1.png"
-                          />
+                          <img src="../img/viewProduct/1.png" />
                         </div>
                         <div class="swiper-slide">
-                          <img
-                            src="../img/viewProduct/2.webp"
-                          />
+                          <img src="../img/viewProduct/2.webp" />
                         </div>
                         <div class="swiper-slide">
-                          <img
-                            src="../img/viewProduct/3.png"
-                          />
+                          <img src="../img/viewProduct/3.png" />
                         </div>
                         <div class="swiper-slide">
-                          <img
-                            src="../img/viewProduct/4.png"
-                          />
+                          <img src="../img/viewProduct/4.png" />
                         </div>
                       </div>
                     </div>
@@ -194,24 +190,40 @@
                     >
                       <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                          <img
-                            src="../img/viewProduct/1.png"
-                          />
+                          <a
+                            href="../img/viewProduct/1.png"
+                            data-fancybox="gallery"
+                            data-caption="Optional caption"
+                          >
+                            <img src="../img/viewProduct/1.png" />
+                          </a>
                         </div>
                         <div class="swiper-slide">
-                          <img
-                            src="../img/viewProduct/2.webp"
-                          />
+                          <a
+                            href="../img/viewProduct/2.webp"
+                            data-fancybox="gallery"
+                            data-caption="Optional caption"
+                          >
+                            <img src="../img/viewProduct/2.webp" />
+                          </a>
                         </div>
                         <div class="swiper-slide">
-                          <img
-                            src="../img/viewProduct/3.png"
-                          />
+                          <a
+                            href="../img/viewProduct/3.png"
+                            data-fancybox="gallery"
+                            data-caption="Optional caption"
+                          >
+                            <img src="../img/viewProduct/3.png" />
+                          </a>
                         </div>
                         <div class="swiper-slide">
-                          <img
-                            src="../img/viewProduct/4.png"
-                          />
+                          <a
+                            href="../img/viewProduct/4.png"
+                            data-fancybox="gallery"
+                            data-caption="Optional caption"
+                          >
+                            <img src="../img/viewProduct/4.png" />
+                          </a>
                         </div>
                       </div>
                       <div class="swiper-button-next"></div>
@@ -314,7 +326,9 @@
         <div class="row">
           <div class="col-9">
             <div class="section-info">
-              <h2>Характеристики Смартфон Samsung Galaxy A32 6 GB 128GB Черный</h2>
+              <h2>
+                Характеристики Смартфон Samsung Galaxy A32 6 GB 128GB Черный
+              </h2>
               <h4>Общие характеристики смартфона</h4>
               <div class="info">
                 <table class="table table-borderless">
@@ -329,9 +343,7 @@
                     </tr>
                     <tr>
                       <td class="text-left">Аудио</td>
-                      <td class="text-right">
-                        MP3, AAC, WAV, WMA, FM-радио
-                      </td>
+                      <td class="text-right">MP3, AAC, WAV, WMA, FM-радио</td>
                     </tr>
                     <tr>
                       <td class="text-left">Tip protsessora</td>
@@ -345,9 +357,7 @@
                     </tr>
                     <tr>
                       <td class="text-left">Стандарт</td>
-                      <td class="text-right">
-                        GSM 900/1800/1900, 3G, 4G LTE
-                      </td>
+                      <td class="text-right">GSM 900/1800/1900, 3G, 4G LTE</td>
                     </tr>
                     <tr>
                       <td class="text-left">Тип аккумулятора</td>
@@ -370,7 +380,6 @@
           </div>
         </div>
       </div>
-
     </section>
     <!-- Footer -->
     <footer class="footer mt-5">
@@ -440,6 +449,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
