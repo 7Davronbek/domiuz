@@ -184,7 +184,7 @@
                     </div>
                   </div>
 
-                  <div class="col-6">
+                  <div class="col-6 midCol">
                     <div
                       style="
                         --swiper-navigation-color: #fff;
@@ -217,6 +217,7 @@
                       <div class="swiper-button-next"></div>
                       <div class="swiper-button-prev"></div>
                     </div>
+                    <div class="swiper-pagination"></div>
                   </div>
 
                   <div class="col-5 ml-auto">
@@ -450,7 +451,10 @@
         watchSlidesProgress: true,
       });
       var swiper2 = new Swiper(".productSwiper2", {
-        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",

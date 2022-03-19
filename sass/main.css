@@ -412,6 +412,55 @@ body .view .productSwiper {
   overflow: visible;
 }
 
+body .view .midCol .swiper-button-next,
+body .view .midCol .swiper-button-prev {
+  display: none;
+}
+
+body .view .midCol .swiper-slide {
+  cursor: pointer;
+  margin-right: 0;
+}
+
+body .view .midCol .swiper-pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70px;
+  bottom: 80px;
+}
+
+body .view .midCol .swiper-pagination .swiper-pagination-bullet {
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  width: 10px;
+  height: 6px;
+  background: #fff;
+  border: 1px solid #000000;
+  opacity: .6;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body .view .midCol .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  left: -18px;
+  width: 28px;
+  background: #00C65E;
+  border-color: #00C65E;
+  opacity: 1;
+  border-radius: 16px;
+}
+
+body .view .leftCol {
+  padding: 0;
+}
+
 body .view .leftCol .swiper-wrapper {
   overflow: visible;
 }
@@ -423,6 +472,7 @@ body .view .leftCol .swiper-slide {
   position: relative;
   width: 100% !important;
   position: relative;
+  cursor: pointer;
 }
 
 body .view .leftCol .swiper-slide.swiper-slide-thumb-active::after {
@@ -431,7 +481,7 @@ body .view .leftCol .swiper-slide.swiper-slide-thumb-active::after {
   position: absolute;
   top: 50%;
   left: -5px;
-  width: 3px;
+  width: 4px;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   height: calc(100% - 30px);
