@@ -1,8 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #fff;
   color: #212529;
+}
+
+body .myShadow {
+  -webkit-box-shadow: 2px 3px 10px #0072ff40;
+  box-shadow: 2px 3px 10px #0072ff40;
 }
 
 body .h2 {
@@ -389,6 +398,103 @@ body .footer .socials a {
   margin-right: 20px;
 }
 
+body .fancybox__nav .carousel__button {
+  width: 60px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.44);
+  -webkit-box-shadow: 0 0 10px silver;
+          box-shadow: 0 0 10px silver;
+}
+
+body .fancybox__nav .carousel__button svg {
+  color: #00C65E !important;
+}
+
+body .fancybox__nav .carousel__button:hover {
+  -webkit-animation-name: btneffect;
+  animation-name: btneffect;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes btneffect {
+  from,
+  11.1%,
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+  22.2% {
+    -webkit-transform: skewX(12.5deg) skewY(12.5deg);
+    transform: skewX(12.5deg) skewY(12.5deg);
+  }
+  33.3% {
+    -webkit-transform: skewX(-6.25deg) skewY(-6.25deg);
+    transform: skewX(-6.25deg) skewY(-6.25deg);
+  }
+  44.4% {
+    -webkit-transform: skewX(3.125deg) skewY(3.125deg);
+    transform: skewX(3.125deg) skewY(3.125deg);
+  }
+  55.5% {
+    -webkit-transform: skewX(-1.5625deg) skewY(-1.5625deg);
+    transform: skewX(-1.5625deg) skewY(-1.5625deg);
+  }
+  66.6% {
+    -webkit-transform: skewX(0.78125deg) skewY(0.78125deg);
+    transform: skewX(0.78125deg) skewY(0.78125deg);
+  }
+  77.7% {
+    -webkit-transform: skewX(-0.39062deg) skewY(-0.39062deg);
+    transform: skewX(-0.39062deg) skewY(-0.39062deg);
+  }
+  88.8% {
+    -webkit-transform: skewX(0.19531deg) skewY(0.19531deg);
+    transform: skewX(0.19531deg) skewY(0.19531deg);
+  }
+}
+
+@keyframes btneffect {
+  from,
+  11.1%,
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+  22.2% {
+    -webkit-transform: skewX(12.5deg) skewY(12.5deg);
+    transform: skewX(12.5deg) skewY(12.5deg);
+  }
+  33.3% {
+    -webkit-transform: skewX(-6.25deg) skewY(-6.25deg);
+    transform: skewX(-6.25deg) skewY(-6.25deg);
+  }
+  44.4% {
+    -webkit-transform: skewX(3.125deg) skewY(3.125deg);
+    transform: skewX(3.125deg) skewY(3.125deg);
+  }
+  55.5% {
+    -webkit-transform: skewX(-1.5625deg) skewY(-1.5625deg);
+    transform: skewX(-1.5625deg) skewY(-1.5625deg);
+  }
+  66.6% {
+    -webkit-transform: skewX(0.78125deg) skewY(0.78125deg);
+    transform: skewX(0.78125deg) skewY(0.78125deg);
+  }
+  77.7% {
+    -webkit-transform: skewX(-0.39062deg) skewY(-0.39062deg);
+    transform: skewX(-0.39062deg) skewY(-0.39062deg);
+  }
+  88.8% {
+    -webkit-transform: skewX(0.19531deg) skewY(0.19531deg);
+    transform: skewX(0.19531deg) skewY(0.19531deg);
+  }
+}
+
 body .carousel__slide .fancybox__toolbar {
   background: -webkit-gradient(linear, left top, left bottom, from(#00000085), to(transparent));
   background: linear-gradient(180deg, #00000085, transparent);
@@ -418,9 +524,21 @@ body .carousel__slide.has-thumb.is-nav-selected, body .carousel__slide.has-thumb
   border-color: #00C65E;
 }
 
+body .fancybox__toolbar {
+  background: transparent !important;
+}
+
 body .fancybox__container {
   cursor: -webkit-grab;
   cursor: grab;
+}
+
+body .fancybox__container .fancybox__counter {
+  color: #000;
+}
+
+body .fancybox__container svg {
+  color: #000;
 }
 
 body .fancybox__container .fancybox__progress {
@@ -566,8 +684,6 @@ body .view .view-left {
   margin-top: 30px;
   padding: 40px 40px 40px 60px;
   border-radius: 16px;
-  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
-  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 }
 
 body .view .view-left .swiper {
@@ -657,8 +773,6 @@ body .view .view-right {
   margin-top: 30px;
   padding: 16px;
   border-radius: 16px;
-  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
-  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
 }
 
 body .view .view-right h6.full__price {
