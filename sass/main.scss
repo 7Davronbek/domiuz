@@ -22,6 +22,7 @@ body {
     }
 
     .pop-pro-sidebar {
+
         a {
             overflow: hidden;
             display: block;
@@ -30,7 +31,7 @@ body {
 
             img {
                 border-radius: 16px;
-                transition: all 0.5s ease-in-out;
+                transition: all 0.3s ease-in-out;
 
                 &:hover {
                     transform: scale(1.05);
@@ -410,7 +411,6 @@ body {
 
         }
     }
-
 
 
     .fancybox__nav {
@@ -844,6 +844,61 @@ body {
                         color: #818181;
                     }
                 }
+            }
+        }
+    }
+
+    .offers {
+
+        .myCard {
+            border-radius: 16px;
+            padding: 16px;
+
+            h2 {
+                margin-right: 8px;
+                font-size: 18px;
+                font-weight: 600;
+                color: rgba(40,40,48,.5);
+                line-height: 23px;
+                margin-bottom: 0.5rem !important;
+            }
+
+            h3 {
+                font-size: 24px;
+                font-weight: 500;
+                color: #282830;
+                line-height: 23px;
+            }
+
+            span, h4 {
+                font-size: 16px;
+                font-weight: 500;
+                color: #282830;
+                line-height: 23px;
+            }
+
+            a {
+                text-decoration: underline;
+                font-size: 14px;
+                font-weight: 600;
+                color: #241cf0;
+                line-height: 18px;
+                outline: none !important;
+            }
+
+            .line {
+                width: 1px;
+                height: 100%;
+                background-color: silver;
+                margin: 0 60px 0 30px;
+            }
+
+            .myBtn {
+                padding: 20px 30px;
+                border-radius: 12px;
+                font-size: 14px;
+                font-weight: 500;
+                color: #fff;
             }
         }
     }

@@ -24,8 +24,8 @@ body .pop-pro-sidebar a {
 
 body .pop-pro-sidebar a img {
   border-radius: 16px;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 body .pop-pro-sidebar a img:hover {
@@ -800,5 +800,57 @@ body .viewTable .section-info .info table tr td {
 
 body .viewTable .section-info .info table .text-left {
   color: #818181;
+}
+
+body .offers .myCard {
+  border-radius: 16px;
+  padding: 16px;
+}
+
+body .offers .myCard h2 {
+  margin-right: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(40, 40, 48, 0.5);
+  line-height: 23px;
+  margin-bottom: 0.5rem !important;
+}
+
+body .offers .myCard h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #282830;
+  line-height: 23px;
+}
+
+body .offers .myCard span, body .offers .myCard h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #282830;
+  line-height: 23px;
+}
+
+body .offers .myCard a {
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 600;
+  color: #241cf0;
+  line-height: 18px;
+  outline: none !important;
+}
+
+body .offers .myCard .line {
+  width: 1px;
+  height: 100%;
+  background-color: silver;
+  margin: 0 60px 0 30px;
+}
+
+body .offers .myCard .myBtn {
+  padding: 20px 30px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
