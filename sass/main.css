@@ -767,9 +767,22 @@ body .view .view-right .price-btn {
 
 body .viewTable {
   margin-top: 80px;
+}
+
+body .viewTable .info {
   padding: 40px 60px;
   margin-bottom: 60px;
   border-radius: 30px;
+}
+
+body .viewTable .info h4 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+body .viewTable .info .table td {
+  font-size: 18px;
 }
 
 body .viewTable h1 {

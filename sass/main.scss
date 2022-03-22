@@ -808,9 +808,25 @@ body {
 
     .viewTable {
         margin-top: 80px;
-        padding: 40px 60px;
-        margin-bottom: 60px;
-        border-radius: 30px;
+
+        .info {
+            padding: 40px 60px;
+            margin-bottom: 60px;
+            border-radius: 30px;
+
+            h4 {
+                margin-bottom: 15px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+
+            .table {
+
+                td {
+                    font-size: 18px;
+                }
+            }
+        }
 
         h1 {
             font-size: 44px;
