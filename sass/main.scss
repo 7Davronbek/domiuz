@@ -807,23 +807,19 @@ body {
     }
 
     .viewTable {
-        margin-top: 100px;
+        margin-top: 80px;
+        padding: 40px 60px;
+        margin-bottom: 60px;
+        border-radius: 30px;
+
+        h1 {
+            font-size: 44px;
+            margin-bottom: 40px;
+        }
 
         .section-info {
 
             padding: 16px;
-
-            h2 {
-                font-size: 28px;
-                font-weight: 400;
-                margin-bottom: 30px;
-            }
-
-            h4 {
-                font-size: 30px;
-                font-weight: 600;
-                margin-bottom: 30px;
-            }
 
             .info {
                 table {
@@ -849,17 +845,19 @@ body {
     }
 
     .offers {
+        padding-top: 48px;
 
         h1 {
             font-size: 42px;
             font-weight: 600;
-            margin: 48px 0 35px;
+            margin-bottom: 35px;
         }
 
         .myCard {
             border-radius: 16px;
             padding: 18px 20px 18px 20px;
-        
+            margin-bottom: 32px;
+
 
             h2 {
                 margin-right: 8px;
@@ -917,6 +915,10 @@ body {
                 background: #25c36f;
                 border-color: #25c36f;
                 margin-left: auto !important;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
             }
         }
     }

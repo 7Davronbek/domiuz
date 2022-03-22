@@ -766,23 +766,19 @@ body .view .view-right .price-btn {
 }
 
 body .viewTable {
-  margin-top: 100px;
+  margin-top: 80px;
+  padding: 40px 60px;
+  margin-bottom: 60px;
+  border-radius: 30px;
+}
+
+body .viewTable h1 {
+  font-size: 44px;
+  margin-bottom: 40px;
 }
 
 body .viewTable .section-info {
   padding: 16px;
-}
-
-body .viewTable .section-info h2 {
-  font-size: 28px;
-  font-weight: 400;
-  margin-bottom: 30px;
-}
-
-body .viewTable .section-info h4 {
-  font-size: 30px;
-  font-weight: 600;
-  margin-bottom: 30px;
 }
 
 body .viewTable .section-info .info table tr {
@@ -802,15 +798,20 @@ body .viewTable .section-info .info table .text-left {
   color: #818181;
 }
 
+body .offers {
+  padding-top: 48px;
+}
+
 body .offers h1 {
   font-size: 42px;
   font-weight: 600;
-  margin: 48px 0 35px;
+  margin-bottom: 35px;
 }
 
 body .offers .myCard {
   border-radius: 16px;
   padding: 18px 20px 18px 20px;
+  margin-bottom: 32px;
 }
 
 body .offers .myCard h2 {
@@ -869,5 +870,9 @@ body .offers .myCard .myBtn {
   background: #25c36f;
   border-color: #25c36f;
   margin-left: auto !important;
+}
+
+body .offers .myCard:last-child {
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=main.css.map */
