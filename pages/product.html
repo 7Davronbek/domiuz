@@ -488,7 +488,7 @@
             </div>
           </div>
 
-          <div class="col-3  d-none d-lg-block pop-pro-sidebar">
+          <div class="col-3 d-none d-lg-block pop-pro-sidebar">
             <a href="">
               <img src="/img/sidebar-01.png" class="w-100" alt="" />
             </a>
@@ -695,7 +695,7 @@
             </div>
           </div>
 
-          <div class="col-3  d-none d-lg-block pop-pro-sidebar">
+          <div class="col-3 d-none d-lg-block pop-pro-sidebar">
             <a href="">
               <img src="/img/sidebar-01.png" class="w-100" alt="" />
             </a>
@@ -712,6 +712,145 @@
         </div>
       </div>
     </section>
+
+    <div class="sameProducts">
+      <div class="container">
+        <div class="row">
+          <h2 class="col-7">O'xshash mahsulotlar</h2>
+          <div class="col-2 d-flex">
+            <div class="swiper-button-prev" id="swp-btn-prev"></div>
+            <div class="swiper-button-next ml-2" id="swp-btn-next"></div>
+          </div>
+
+          <div
+            class="productSwiper3 swiper mySwiper-products mt-3"
+            style="height: inherit"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide d-flex flex-column">
+                <a class="myCard" href="">
+                  <img
+                    src="/img/pop-category-01.jpg"
+                    class="swiper-lazy"
+                    alt=""
+                  />
+                  <h5>Narx: 1 900 000 so'm</h5>
+                  <h4>101 440 <span>so‘mdan oyiga</span></h4>
+                  <p>Смартфон Samsung Galaxy A21s 3/32GB Red</p>
+
+                  <div class="line"></div>
+
+                  <div
+                    class="d-flex align-items-center justify-content-between w-100"
+                  >
+                    <h3>11 taklif</h3>
+                    <div class="heart scales">
+                      <i class="icon icon-heart scales"></i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="swiper-slide d-flex flex-column">
+                <a class="myCard" href="">
+                  <img
+                    src="../img/new-products/3.png"
+                    class="swiper-lazy"
+                    alt=""
+                  />
+                  <h5>Narx: 1 750 000 so'm</h5>
+                  <h4>93 430 <span> so‘mdan oyiga</span></h4>
+                  <p>Смартфон Samsung A125 Galaxy A12 4/64Gb Blue</p>
+
+                  <div class="line"></div>
+
+                  <div
+                    class="d-flex align-items-center justify-content-between w-100"
+                  >
+                    <h3>15 taklif</h3>
+                    <div class="heart scales">
+                      <i class="icon icon-heart scales"></i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="swiper-slide d-flex flex-column">
+                <a class="myCard" href="">
+                  <img
+                    src="../img/popular-products/2.webp"
+                    class="swiper-lazy"
+                    alt=""
+                  />
+                  <h5>Narx: 1 750 000 so'm</h5>
+                  <h4>93 430 <span>so‘mdan oyiga </span></h4>
+                  <p>Смартфон Samsung Galaxy A12 32GB Black</p>
+
+                  <div class="line"></div>
+
+                  <div
+                    class="d-flex align-items-center justify-content-between w-100"
+                  >
+                    <h3>25 taklif</h3>
+                    <div class="heart scales">
+                      <i class="icon icon-heart scales"></i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="swiper-slide d-flex flex-column">
+                <a class="myCard" href="">
+                  <img
+                    src="../img/popular-products/3.webp"
+                    class="swiper-lazy"
+                    alt=""
+                  />
+                  <h5>Narx: 21 200 000 so'm</h5>
+                  <h4>1 131 780 <span> so‘mdan oyiga </span></h4>
+                  <p>Смартфон iPhone 12 Pro max 512GB Black (Dual)</p>
+
+                  <div class="line"></div>
+
+                  <div
+                    class="d-flex align-items-center justify-content-between w-100"
+                  >
+                    <h3>2 taklif</h3>
+                    <div class="heart scales">
+                      <i class="icon icon-heart scales"></i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="swiper-slide d-flex flex-column">
+                <a class="myCard" href="">
+                  <img
+                    src="../img/popular-products/4.webp"
+                    class="swiper-lazy"
+                    alt=""
+                  />
+                  <h5>Narx: 1 900 000 so'm</h5>
+                  <h4>101 440 <span>so‘mdan oyiga </span></h4>
+                  <p>Смартфон Samsung Galaxy A21s 3/32GB black</p>
+
+                  <div class="line"></div>
+
+                  <div
+                    class="d-flex align-items-center justify-content-between w-100"
+                  >
+                    <h3>3 taklif</h3>
+                    <div class="heart scales">
+                      <i class="icon icon-heart scales"></i>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Footer -->
     <footer class="footer mt-5">
       <div class="container">
@@ -792,11 +931,24 @@
         freeMode: true,
         watchSlidesProgress: true,
       });
+
       var swiper2 = new Swiper(".productSwiper2", {
         pagination: {
           el: ".swiper-pagination",
           dynamicBullets: true,
         },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+          swiper: swiper,
+        },
+      });
+
+      var swiper3 = new Swiper(".productSwiper3", {
+        spaceBetween: 10,
+        slidesPerView: 4,
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
