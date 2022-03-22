@@ -547,7 +547,7 @@ body {
                 align-items: center;
                 justify-content: center;
                 width: 70px;
-                bottom: 80px;
+                bottom: 30px;
 
                 .swiper-pagination-bullet {
                     transition: all .4s ease-in-out;
@@ -850,15 +850,22 @@ body {
 
     .offers {
 
+        h1 {
+            font-size: 42px;
+            font-weight: 600;
+            margin: 48px 0 35px;
+        }
+
         .myCard {
             border-radius: 16px;
-            padding: 16px;
+            padding: 18px 20px 18px 20px;
+        
 
             h2 {
                 margin-right: 8px;
                 font-size: 18px;
                 font-weight: 600;
-                color: rgba(40,40,48,.5);
+                color: rgba(40, 40, 48, .5);
                 line-height: 23px;
                 margin-bottom: 0.5rem !important;
             }
@@ -870,7 +877,8 @@ body {
                 line-height: 23px;
             }
 
-            span, h4 {
+            span,
+            h4 {
                 font-size: 16px;
                 font-weight: 500;
                 color: #282830;
@@ -888,17 +896,27 @@ body {
 
             .line {
                 width: 1px;
-                height: 100%;
-                background-color: silver;
-                margin: 0 60px 0 30px;
+                height: 60px;
+                background-color: #c0c0c082;
+                margin: 0 50px 0 50px;
+                border-radius: 1px;
+            }
+
+            i {
+                margin-right: 8px;
+                color: #3b3b41;
+                font-size: 12px;
             }
 
             .myBtn {
-                padding: 20px 30px;
                 border-radius: 12px;
+                padding: 18px 21px;
                 font-size: 14px;
                 font-weight: 500;
                 color: #fff;
+                background: #25c36f;
+                border-color: #25c36f;
+                margin-left: auto !important;
             }
         }
     }

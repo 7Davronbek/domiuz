@@ -528,7 +528,7 @@ body .view .midCol .swiper-pagination {
       -ms-flex-pack: center;
           justify-content: center;
   width: 70px;
-  bottom: 80px;
+  bottom: 30px;
 }
 
 body .view .midCol .swiper-pagination .swiper-pagination-bullet {
@@ -802,9 +802,15 @@ body .viewTable .section-info .info table .text-left {
   color: #818181;
 }
 
+body .offers h1 {
+  font-size: 42px;
+  font-weight: 600;
+  margin: 48px 0 35px;
+}
+
 body .offers .myCard {
   border-radius: 16px;
-  padding: 16px;
+  padding: 18px 20px 18px 20px;
 }
 
 body .offers .myCard h2 {
@@ -823,7 +829,8 @@ body .offers .myCard h3 {
   line-height: 23px;
 }
 
-body .offers .myCard span, body .offers .myCard h4 {
+body .offers .myCard span,
+body .offers .myCard h4 {
   font-size: 16px;
   font-weight: 500;
   color: #282830;
@@ -841,16 +848,26 @@ body .offers .myCard a {
 
 body .offers .myCard .line {
   width: 1px;
-  height: 100%;
-  background-color: silver;
-  margin: 0 60px 0 30px;
+  height: 60px;
+  background-color: #c0c0c082;
+  margin: 0 50px 0 50px;
+  border-radius: 1px;
+}
+
+body .offers .myCard i {
+  margin-right: 8px;
+  color: #3b3b41;
+  font-size: 12px;
 }
 
 body .offers .myCard .myBtn {
-  padding: 20px 30px;
   border-radius: 12px;
+  padding: 18px 21px;
   font-size: 14px;
   font-weight: 500;
   color: #fff;
+  background: #25c36f;
+  border-color: #25c36f;
+  margin-left: auto !important;
 }
 /*# sourceMappingURL=main.css.map */
