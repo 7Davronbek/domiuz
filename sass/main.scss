@@ -587,30 +587,25 @@ body {
                 position: relative;
                 cursor: pointer;
 
+                &::after {
+                    content: "";
+                    z-index: 1;
+                    position: absolute;
+                    top: 50%;
+                    left: -5px;
+                    width: 4px;
+                    -webkit-transform: translateY(-50%);
+                    -ms-transform: translateY(-50%);
+                    transform: translateY(-50%);
+                    height: calc(100% - 30px);
+                    background-color: transparent;
+                    border-radius: 3px;
+                }
+
                 &.swiper-slide-thumb-active {
 
                     &::after {
-                        content: "";
-                        z-index: 1;
-                        position: absolute;
-                        top: 50%;
-                        left: -5px;
-                        width: 4px;
-                        -webkit-transform: translateY(-50%);
-                        -ms-transform: translateY(-50%);
-                        transform: translateY(-50%);
-                        height: calc(100% - 30px);
                         background-color: $red;
-                        border-radius: 3px;
-
-                        // content: '';
-                        // width: 2px;
-                        // height: 80%;
-                        // background-color: red;
-                        // position: absolute;
-                        // top: 12%;
-                        // left: -5px;
-                        // border-radius: 5px;
                     }
                 }
 
