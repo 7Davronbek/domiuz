@@ -15,18 +15,18 @@
   margin-bottom: 30px;
 }
 
-.catalog .catalogMain h2 {
+.catalog .catalogMain .leftCatalog h2 {
   font-size: 24px;
   font-weight: 500;
   color: #282830;
   margin-bottom: 20px;
 }
 
-.catalog .catalogMain .inputWrap {
+.catalog .catalogMain .leftCatalog .inputWrap {
   margin-bottom: 40px;
 }
 
-.catalog .catalogMain .inputWrap .wrap {
+.catalog .catalogMain .leftCatalog .inputWrap .wrap {
   padding: 10px 5px 10px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38,12 +38,12 @@
   border-radius: 16px;
 }
 
-.catalog .catalogMain .inputWrap .wrap.myShadow {
+.catalog .catalogMain .leftCatalog .inputWrap .wrap.myShadow {
   -webkit-box-shadow: 1px 2px 6px #0072ff40;
   box-shadow: 1px 2px 6px #0072ff40;
 }
 
-.catalog .catalogMain .inputWrap .wrap label {
+.catalog .catalogMain .leftCatalog .inputWrap .wrap label {
   margin-right: 6px;
   margin-bottom: 0;
   display: inline-block;
@@ -52,7 +52,7 @@
   color: #c5c9d2;
 }
 
-.catalog .catalogMain .inputWrap .wrap input {
+.catalog .catalogMain .leftCatalog .inputWrap .wrap input {
   width: 100%;
   font-size: 14px;
   font-weight: 600;
@@ -62,35 +62,35 @@
   padding: 0;
 }
 
-.catalog .catalogMain .inputWrap .wrap input:focus {
+.catalog .catalogMain .leftCatalog .inputWrap .wrap input:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-.catalog .catalogMain .inputWrap .wrap input::-webkit-input-placeholder {
+.catalog .catalogMain .leftCatalog .inputWrap .wrap input::-webkit-input-placeholder {
   color: #8c8ca0;
 }
 
-.catalog .catalogMain .inputWrap .wrap input:-ms-input-placeholder {
+.catalog .catalogMain .leftCatalog .inputWrap .wrap input:-ms-input-placeholder {
   color: #8c8ca0;
 }
 
-.catalog .catalogMain .inputWrap .wrap input::-ms-input-placeholder {
+.catalog .catalogMain .leftCatalog .inputWrap .wrap input::-ms-input-placeholder {
   color: #8c8ca0;
 }
 
-.catalog .catalogMain .inputWrap .wrap input::placeholder {
+.catalog .catalogMain .leftCatalog .inputWrap .wrap input::placeholder {
   color: #8c8ca0;
 }
 
-.catalog .catalogMain .inputWrap h3 {
+.catalog .catalogMain .leftCatalog .inputWrap h3 {
   font-size: 24px;
   font-weight: 500;
   color: #282830;
   margin-bottom: 20px;
 }
 
-.catalog .catalogMain .checkWrap {
+.catalog .catalogMain .leftCatalog .checkWrap {
   padding: 20px 24px;
   margin-bottom: 40px;
   border-radius: 16px;
@@ -103,29 +103,50 @@
           user-select: none;
 }
 
-.catalog .catalogMain .checkWrap .wrap {
+.catalog .catalogMain .leftCatalog .checkWrap .collapse.show ~ p span:first-child {
+  display: none;
+}
+
+.catalog .catalogMain .leftCatalog .checkWrap .collapse.show ~ p span:last-child {
+  display: block;
+}
+
+.catalog .catalogMain .leftCatalog .checkWrap p {
+  padding-top: 12px;
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  color: #241cf0;
+  cursor: pointer;
+}
+
+.catalog .catalogMain .leftCatalog .checkWrap p span:last-child {
+  display: none;
+}
+
+.catalog .catalogMain .leftCatalog .checkWrap .wrap {
   border-bottom: 1px solid rgba(40, 40, 48, 0.1);
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.catalog .catalogMain .checkWrap .wrap input {
+.catalog .catalogMain .leftCatalog .checkWrap .wrap input {
   pointer-events: none;
   opacity: 0;
   position: absolute;
   left: -100%;
 }
 
-.catalog .catalogMain .checkWrap .wrap input:checked ~ label::before {
+.catalog .catalogMain .leftCatalog .checkWrap .wrap input:checked ~ label::before {
   background-color: #00C65E;
   border-color: #00C65E;
 }
 
-.catalog .catalogMain .checkWrap .wrap input:checked ~ label span {
+.catalog .catalogMain .leftCatalog .checkWrap .wrap input:checked ~ label span {
   opacity: 1;
 }
 
-.catalog .catalogMain .checkWrap .wrap label {
+.catalog .catalogMain .leftCatalog .checkWrap .wrap label {
   font-size: 16px;
   font-weight: 500;
   color: #282830;
@@ -144,7 +165,7 @@
   display: inline-block;
 }
 
-.catalog .catalogMain .checkWrap .wrap label span {
+.catalog .catalogMain .leftCatalog .checkWrap .wrap label span {
   position: absolute;
   color: #fff;
   opacity: 0;
@@ -155,7 +176,7 @@
   transition: all .1s ease-in-out;
 }
 
-.catalog .catalogMain .checkWrap .wrap label::before {
+.catalog .catalogMain .leftCatalog .checkWrap .wrap label::before {
   content: '';
   border-radius: 5px;
   border: 1px solid #c5c9d2;
@@ -170,7 +191,96 @@
   transition: all .1s ease-in-out;
 }
 
-.catalog .catalogMain .checkWrap .wrap:last-child {
+.catalog .catalogMain .leftCatalog .checkWrap .wrap:last-child {
   border-bottom: 0;
+}
+
+.catalog .catalogMain .rightCatalog .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.catalog .catalogMain .rightCatalog .top h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #282830;
+}
+
+.catalog .catalogMain .rightCatalog .top .wrapDiv h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #282830;
+  margin-right: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.catalog .catalogMain .rightCatalog .top .wrapDiv h6 {
+  cursor: pointer;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  height: 18px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00C65E;
+  margin: 0;
+  position: relative;
+}
+
+.catalog .catalogMain .rightCatalog .top .wrapDiv h6 .myShadow {
+  width: 200px;
+  position: absolute;
+  top: -12px;
+  left: 0px;
+  opacity: 1;
+  border-radius: 12px;
+  padding: 8px;
+  background-color: #fff;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  opacity: 0;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  padding: 10px;
+}
+
+.catalog .catalogMain .rightCatalog .top .wrapDiv h6 .myShadow h5 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #282830;
+  -webkit-transition: color .2s ease-in-out;
+  transition: color .2s ease-in-out;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  -webkit-transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out;
+  padding: 10px 5px;
+}
+
+.catalog .catalogMain .rightCatalog .top .wrapDiv h6 .myShadow h5:last-child {
+  margin-bottom: 0;
+}
+
+.catalog .catalogMain .rightCatalog .top .wrapDiv h6 .myShadow h5.active, .catalog .catalogMain .rightCatalog .top .wrapDiv h6 .myShadow h5:hover {
+  background: #00C65E;
+  color: #fff;
+}
+
+.catalog .catalogMain .rightCatalog .top .wrapDiv h6:hover .myShadow {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 /*# sourceMappingURL=catalog.css.map */
