@@ -196,6 +196,7 @@
 }
 
 .catalog .catalogMain .rightCatalog .top {
+  margin-bottom: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -254,6 +255,7 @@
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   padding: 10px;
+  z-index: 999;
 }
 
 .catalog .catalogMain .rightCatalog .top .wrapDiv h6 .myShadow h5 {
@@ -282,5 +284,65 @@
   opacity: 1;
   -webkit-transform: scale(1);
           transform: scale(1);
+}
+
+.catalog .catalogMain .rightCatalog .myCol {
+  margin-bottom: 40px;
+}
+
+.catalog .catalogMain .rightCatalog .myCard {
+  padding: 20px 12px;
+  border-radius: 16px;
+  background: #fff;
+  height: 100%;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  display: block;
+}
+
+.catalog .catalogMain .rightCatalog .myCard .images {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.catalog .catalogMain .rightCatalog .myCard h5 {
+  color: rgba(40, 40, 48, 0.5);
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.catalog .catalogMain .rightCatalog .myCard h4 {
+  font-weight: bold;
+  color: #00C65E;
+  font-size: 17px;
+  margin: 20px 0 14px;
+}
+
+.catalog .catalogMain .rightCatalog .myCard p {
+  font-size: 14px;
+  height: 42px;
+}
+
+.catalog .catalogMain .rightCatalog .myCard .line {
+  margin: 35px 0 19px;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(40, 40, 48, 0.1);
+}
+
+.catalog .catalogMain .rightCatalog .myCard h3 {
+  font-weight: 500;
+  color: #282830;
+  font-size: 15px;
+}
+
+.catalog .catalogMain .rightCatalog .myCard:hover {
+  -webkit-box-shadow: 2px 3px 10px #0072ff40;
+          box-shadow: 2px 3px 10px #0072ff40;
 }
 /*# sourceMappingURL=catalog.css.map */
