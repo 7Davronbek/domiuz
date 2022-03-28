@@ -56,6 +56,18 @@ $( ".myBtn_inner" ).mouseenter(function(e) {
 
 });
 
+function navbar() {
+  const nav = document.querySelector("#nav");
+  let scrolling = window.pageYOffset > 0;
+
+  nav.classList.toggle("active", scrolling);
+}
+
+window.addEventListener("scroll", () => {
+  navbar();
+});
+
+
 $( ".myBtn_inner" ).mouseleave(function(e) {
 
     var parentOffset = $(this).offset(); 

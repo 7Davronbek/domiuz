@@ -44,6 +44,16 @@ body .btn-danger {
 body .nav-01 {
   padding: 20px 0;
   border-bottom: 1px solid #eceef4;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+  background: #ffffffab;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  z-index: 9999;
 }
 
 body .nav-01 .skoring a {
@@ -102,6 +112,16 @@ body .nav-01 .my_Btn a:hover {
   border-color: 1px solid #00C65E;
   background-color: #fff;
   color: #00C65E;
+}
+
+body .nav-01.active {
+  padding: 10px 0;
+  -webkit-box-shadow: 0 0 10px silver;
+          box-shadow: 0 0 10px silver;
+}
+
+body .navbarLine {
+  padding-top: 98px;
 }
 
 body .nav-02 {
