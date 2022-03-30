@@ -1,0 +1,50 @@
+.oferta {
+  padding-top: 48px;
+  padding-bottom: 40px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: repeat;
+  background-image: url(../../img/bgImage.svg);
+}
+
+.oferta .myCol {
+  padding: 30px 60px;
+  background: #fff0;
+  border-radius: 16px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+
+.oferta .myCol h1 {
+  font-size: 44px;
+  margin-bottom: 40px !important;
+  text-align: center;
+  font-weight: 600;
+}
+
+.oferta .myCol h6 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #282830;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.oferta .myCol p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #282830;
+  line-height: 20px;
+  margin-bottom: 16px;
+  padding-left: 12px;
+}
+
+.oferta .myCol h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #282830;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+/*# sourceMappingURL=third.css.map */
