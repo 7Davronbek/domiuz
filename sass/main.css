@@ -485,6 +485,7 @@ body .fancybox__toolbar {
 }
 
 body .fancybox__container {
+  z-index: 999999;
   cursor: -webkit-grab;
   cursor: grab;
 }

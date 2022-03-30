@@ -502,6 +502,7 @@ body {
     }
 
     .fancybox__container {
+        z-index: 999999;
         cursor: grab;
 
         .fancybox__counter {
