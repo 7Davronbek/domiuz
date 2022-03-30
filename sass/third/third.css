@@ -74,12 +74,29 @@
 
 .cooperation .cards {
   padding: 40px 52px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.637);
   border-radius: 30px;
+}
+
+.cooperation .cards h1 {
+  margin-bottom: 42px;
+  font-size: 34px;
+  line-height: 42px;
+}
+
+.cooperation .cards a {
+  padding: 24px 34px;
+  font-size: 22px;
+  line-height: 27px;
+  background: red;
+  border-radius: 24px;
+  font-weight: 600;
+  color: #fff;
 }
 
 .cooperation .cards .myCol {
   margin-top: 32px;
+  height: 100%;
 }
 
 .cooperation .cards .number {
@@ -112,6 +129,19 @@
 }
 
 .cooperation .cards a {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  border-bottom: 0.2px solid transparent;
+}
+
+.cooperation .cards a:hover {
+  border-color: #007bff;
+}
+
+.cooperation .cards .a {
   border: 1px solid #00c65c81 !important;
   color: #00C65E !important;
   border-radius: 16px;
@@ -124,7 +154,7 @@
   transition: all .3s ease-in-out;
 }
 
-.cooperation .cards a i {
+.cooperation .cards .a i {
   margin-right: 8px;
   -webkit-transition: all .1s ease-in-out;
   transition: all .1s ease-in-out;
@@ -132,12 +162,12 @@
   margin-top: 2px;
 }
 
-.cooperation .cards a:hover {
+.cooperation .cards .a:hover {
   background-color: #00C65E;
   color: #fff !important;
 }
 
-.cooperation .cards a:hover i {
+.cooperation .cards .a:hover i {
   color: #fff;
 }
 /*# sourceMappingURL=third.css.map */
