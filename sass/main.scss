@@ -48,6 +48,39 @@ body {
         border-color: $red !important;
     }
 
+    .slash {
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+
+        a {
+            font-size: 16px;
+            font-weight: 500;
+            color: #282830;
+            transition: all .3s ease-in-out;
+
+            span {
+                color: #c5c9d2;
+                padding: 0 8px;
+                font-size: 15px;
+            }
+
+            &:hover {
+                color: $red;
+            }
+
+            &:last-child {
+                color: #6c757d;
+                font-size: 15px;
+
+                &:hover {
+                    color: #6c757d;
+                    cursor: inherit;
+                }
+            }
+        }
+    }
+
     .nav-01 {
         padding: 20px 0;
         border-bottom: 1px solid #eceef4;
@@ -255,7 +288,7 @@ body {
                 height: 150%;
                 top: -100px;
                 right: -100px;
-                background-color: #ffffff48;            
+                background-color: #ffffff48;
             }
 
             &:hover {

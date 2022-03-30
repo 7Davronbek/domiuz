@@ -54,9 +54,9 @@ p {
 
 img {
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 a {
@@ -121,12 +121,12 @@ li {
 
 .explode-circle {
   -webkit-animation: explode 0.5s forwards;
-  animation: explode 0.5s forwards;
+          animation: explode 0.5s forwards;
 }
 
 .desplode-circle {
   -webkit-animation: desplode 0.5s forwards;
-  animation: desplode 0.5s forwards;
+          animation: desplode 0.5s forwards;
 }
 
 @-webkit-keyframes explode {
@@ -137,7 +137,6 @@ li {
     margin-top: 0px;
     background-color: rgba(42, 53, 80, 0.2);
   }
-
   100% {
     width: 400px;
     height: 400px;
@@ -155,7 +154,6 @@ li {
     margin-top: 0px;
     background-color: rgba(42, 53, 80, 0.2);
   }
-
   100% {
     width: 400px;
     height: 400px;
@@ -173,7 +171,6 @@ li {
     margin-top: -200px;
     background-color: rgba(20, 180, 87, 0.8);
   }
-
   100% {
     width: 0px;
     height: 0px;
@@ -191,7 +188,6 @@ li {
     margin-top: -200px;
     background-color: rgba(20, 180, 87, 0.8);
   }
-
   100% {
     width: 0px;
     height: 0px;
@@ -214,11 +210,11 @@ li {
   background-color: #fff;
   border-radius: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 400px;
   height: 400px;
   -webkit-animation: ripples 0.6s linear infinite;
-  animation: ripples 0.6s linear infinite;
+          animation: ripples 0.6s linear infinite;
   z-index: 1;
 }
 
@@ -228,7 +224,6 @@ li {
     height: 0;
     opacity: 0.5;
   }
-
   100% {
     width: 400px;
     height: 400px;
@@ -242,7 +237,6 @@ li {
     height: 0;
     opacity: 0.5;
   }
-
   100% {
     width: 400px;
     height: 400px;
@@ -252,51 +246,44 @@ li {
 
 .scales:hover {
   -webkit-animation: scales 1s linear infinite;
-  animation: scales 1s linear infinite;
+          animation: scales 1s linear infinite;
 }
 
 @-webkit-keyframes scales {
   0% {
     -webkit-transform: scale(1);
-    transform: scale(1);
+            transform: scale(1);
   }
-
   10% {
     -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+            transform: scale(1.1);
   }
-
   50% {
     -webkit-transform: scale(0.9);
-    transform: scale(0.9);
+            transform: scale(0.9);
   }
-
   100% {
     -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
 
 @keyframes scales {
   0% {
     -webkit-transform: scale(1);
-    transform: scale(1);
+            transform: scale(1);
   }
-
   10% {
     -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+            transform: scale(1.1);
   }
-
   50% {
     -webkit-transform: scale(0.9);
-    transform: scale(0.9);
+            transform: scale(0.9);
   }
-
   100% {
     -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
-
 /*# sourceMappingURL=secondary.css.map */

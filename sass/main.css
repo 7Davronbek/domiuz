@@ -41,6 +41,44 @@ body .btn-danger {
   border-color: #00C65E !important;
 }
 
+body .slash {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+body .slash a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #282830;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+body .slash a span {
+  color: #c5c9d2;
+  padding: 0 8px;
+  font-size: 15px;
+}
+
+body .slash a:hover {
+  color: #00C65E;
+}
+
+body .slash a:last-child {
+  color: #6c757d;
+  font-size: 15px;
+}
+
+body .slash a:last-child:hover {
+  color: #6c757d;
+  cursor: inherit;
+}
+
 body .nav-01 {
   padding: 20px 0;
   border-bottom: 1px solid #eceef4;
