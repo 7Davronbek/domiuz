@@ -88,13 +88,6 @@
   margin-bottom: 40px;
 }
 
-.cooperation .cards .inputWrap label {
-  font-size: 16px;
-  font-weight: 500;
-  color: #282830;
-  margin-bottom: 14px;
-}
-
 .cooperation .cards .girl {
   position: absolute;
   right: 30px;
@@ -203,5 +196,114 @@
 
 .cooperation .cards .a:hover i {
   color: #fff;
+}
+
+.application {
+  margin-top: 60px;
+}
+
+.application .inputWrap {
+  position: relative;
+}
+
+.application .inputWrap .wrap {
+  position: absolute;
+  padding: 8px;
+  max-height: 190px !important;
+  width: 100%;
+  background: red;
+  left: 0;
+  top: 40px;
+  margin: 0;
+  overflow-y: auto;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 12px;
+  opacity: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.application .inputWrap .wrap h6 {
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 12px;
+  color: #282830;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  margin-bottom: 8px;
+}
+
+.application .inputWrap .wrap h6:last-child {
+  margin-bottom: 0;
+}
+
+.application .inputWrap .wrap h6:hover, .application .inputWrap .wrap h6.active {
+  background-color: #00C65E;
+  color: #fff;
+}
+
+.application .inputWrap label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #282830;
+  margin-bottom: 14px;
+}
+
+.application .inputWrap .fas {
+  position: absolute;
+  right: 21px;
+  top: 50%;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.application .inputWrap .input {
+  height: 63px;
+  padding: 20px;
+  border-radius: 12px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  font-size: 16px;
+  font-weight: 500;
+  color: #282830;
+  line-height: 19px;
+  cursor: pointer;
+  border: 1px solid #eceef4;
+  background-color: #fff;
+}
+
+.application .inputWrap .input::-webkit-input-placeholder {
+  color: #282830;
+  font-weight: 600;
+}
+
+.application .inputWrap .input:-ms-input-placeholder {
+  color: #282830;
+  font-weight: 600;
+}
+
+.application .inputWrap .input::-ms-input-placeholder {
+  color: #282830;
+  font-weight: 600;
+}
+
+.application .inputWrap .input::placeholder {
+  color: #282830;
+  font-weight: 600;
+}
+
+.application .inputWrap .input:focus {
+  border-color: #00C65E;
+}
+
+.application .inputWrap .input:focus ~ .wrap {
+  opacity: 1;
+  z-index: 99;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 /*# sourceMappingURL=third.css.map */

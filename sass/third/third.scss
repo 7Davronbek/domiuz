@@ -87,16 +87,6 @@ $red: #00C65E;
             margin-bottom: 40px;
         }
 
-        .inputWrap {
-
-            label {
-                font-size: 16px;
-                font-weight: 500;
-                color: #282830;
-                margin-bottom: 14px;
-            }
-        }
-
         .girl {
             position: absolute;
             right: 30px;
@@ -193,6 +183,96 @@ $red: #00C65E;
 
                 i {
                     color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.application {
+    margin-top: 60px;
+
+    .inputWrap {
+        position: relative;
+
+        .wrap {
+            position: absolute;
+            padding: 8px;
+            max-height: 190px !important;
+            width: 100%;
+            background: red;
+            left: 0;
+            top: 40px;
+            margin: 0;
+            overflow-y: auto;
+            background-color: #fff;
+            cursor: pointer;
+            border-radius: 12px;
+            opacity: 0;
+            transform: scale(0);
+            transition: all .4s ease-in-out;
+
+            h6 {
+                padding: 8px;
+                font-size: 14px;
+                font-weight: 500;
+                border-radius: 12px;
+                color: #282830;
+                transition: all .2s ease-in-out;
+                margin-bottom: 8px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                &:hover,
+                &.active {
+                    background-color: $red;
+                    color: #fff;
+                }
+            }
+        }
+
+        label {
+            font-size: 16px;
+            font-weight: 500;
+            color: #282830;
+            margin-bottom: 14px;
+        }
+
+        .fas {
+            position: absolute;
+            right: 21px;
+            top: 50%;
+            transform: translateY(50%);
+        }
+
+        .input {
+            height: 63px;
+            padding: 20px;
+            border-radius: 12px;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            font-size: 16px;
+            font-weight: 500;
+            color: #282830;
+            line-height: 19px;
+            cursor: pointer;
+            border: 1px solid #eceef4;
+            background-color: #fff;
+
+            &::placeholder {
+                color: #282830;
+                font-weight: 600;
+            }
+
+            &:focus {
+                border-color: $red;
+
+                &~.wrap {
+                    opacity: 1;
+                    z-index: 99;
+                    transform: scale(1);
                 }
             }
         }

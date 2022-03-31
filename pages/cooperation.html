@@ -173,27 +173,71 @@
           </div>
         </div>
 
-        <div class="row application">
-          <div class="col-lg-10">
+        <form class="row application">
+          <div class="col-lg-10 mx-auto">
             <div class="cards myShadow">
               <h2>Hamkorlik qilish uchun ariza qoldirish</h2>
 
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 mb-4">
                   <div class="inputWrap">
                     <label for="name">Korxona nomi</label>
                     <input
                       type="text"
-                      class="form-control"
-                      required
+                      class="form-control input"
+                      required="required"
                       id="name"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                  <div class="inputWrap">
+                    <label for="director">Korxona direktori</label>
+                    <input
+                      type="text"
+                      class="form-control input"
+                      required="required"
+                      id="director"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                  <div class="inputWrap last">
+                    <label for="mchj">Korxona direktori</label>
+                    <i class="fas fa-sort-down"></i>
+                    <input
+                      type="text"
+                      class="form-control input"
+                      placeholder="MCHJ"
+                      id="mchj"
+                    />
+
+                    <div class="wrap myShadow">
+                      <h6 class="active">MCHJ</h6>
+                      <h6>LOREM</h6>
+                      <h6>IPSUM</h6>
+                      <h6>DOLOR</h6>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                  <div class="inputWrap">
+                    <label for="phone">Telefon</label>
+                    <input
+                      type="number"
+                      class="form-control input"
+                      required="required"
+                      id="phone"
                     />
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </form>
       </div>
     </div>
 
@@ -266,4 +310,5 @@
       </div>
     </footer>
   </body>
+
 </html>
