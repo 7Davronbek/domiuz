@@ -202,6 +202,21 @@
   margin-top: 60px;
 }
 
+.application .btn {
+  display: block;
+  color: #fff;
+  background-color: #00C65E;
+  margin-left: auto;
+  border-radius: 16px;
+  padding: 23px 48px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.application .cards {
+  padding: 60px;
+}
+
 .application .inputWrap {
   position: relative;
 }
@@ -261,6 +276,15 @@
           transform: translateY(50%);
 }
 
+.application .inputWrap span {
+  position: absolute;
+  top: 58%;
+  left: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #282830;
+}
+
 .application .inputWrap .input {
   height: 63px;
   padding: 20px;
@@ -274,6 +298,7 @@
   cursor: pointer;
   border: 1px solid #eceef4;
   background-color: #fff;
+  font-weight: 600;
 }
 
 .application .inputWrap .input::-webkit-input-placeholder {
@@ -305,5 +330,9 @@
   z-index: 99;
   -webkit-transform: scale(1);
           transform: scale(1);
+}
+
+.application .inputWrap #phone {
+  padding-left: 65px;
 }
 /*# sourceMappingURL=third.css.map */

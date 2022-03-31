@@ -192,6 +192,21 @@ $red: #00C65E;
 .application {
     margin-top: 60px;
 
+    .btn {
+        display: block;
+        color: #fff;
+        background-color: $red;
+        margin-left: auto;
+        border-radius: 16px;
+        padding: 23px 48px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .cards {
+        padding: 60px;
+    }
+
     .inputWrap {
         position: relative;
 
@@ -247,6 +262,15 @@ $red: #00C65E;
             transform: translateY(50%);
         }
 
+        span {
+            position: absolute;
+            top: 58%;
+            left: 20px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #282830;
+        }
+
         .input {
             height: 63px;
             padding: 20px;
@@ -260,6 +284,7 @@ $red: #00C65E;
             cursor: pointer;
             border: 1px solid #eceef4;
             background-color: #fff;
+            font-weight: 600;
 
             &::placeholder {
                 color: #282830;
@@ -275,6 +300,10 @@ $red: #00C65E;
                     transform: scale(1);
                 }
             }
+        }
+
+        #phone {
+            padding-left: 65px;
         }
     }
 }
