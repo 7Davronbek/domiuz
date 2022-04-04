@@ -62,6 +62,7 @@
   font-size: 44px;
   text-align: center;
   margin-bottom: 40px;
+  font-weight: 700;
 }
 
 .cooperation h5 {
@@ -86,6 +87,7 @@
 .cooperation .cards h2 {
   font-size: 44px;
   margin-bottom: 40px;
+  font-weight: 600;
 }
 
 .cooperation .cards .girl {
