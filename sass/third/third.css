@@ -338,9 +338,64 @@
   padding-left: 65px;
 }
 
+.letterBg {
+  background-image: url(../../img/chakana-letter.svg);
+  background-repeat: no-repeat;
+  background-position: top 60px right;
+  background-size: 105px;
+}
+
 .howToSell {
   background-color: #FCFFFF;
   padding: 40px 0 100px;
+}
+
+.howToSell h1 {
+  font-size: 44px;
+  margin-bottom: 40px;
+  letter-spacing: -1px;
+}
+
+.howToSell .myAccardion .card {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  border-radius: 16px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.howToSell .myAccardion .card .card-header {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+}
+
+.howToSell .myAccardion .card .card-header h5 {
+  font-size: 24px;
+  cursor: pointer;
+  color: #282830;
+  font-weight: 600;
+  padding: 34px 34px 34px 66px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.howToSell .myAccardion .card .card-body {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  padding: 0 54px 25px 66px;
+}
+
+.howToSell .myAccardion .card .card-body p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(40, 40, 48, 0.7);
+  margin-bottom: 16px !important;
 }
 
 .howToSell .leftCards {
