@@ -340,6 +340,7 @@
 
 .howToSell {
   background-color: #FCFFFF;
+  padding: 40px 0 100px;
 }
 
 .howToSell .leftCards {
@@ -364,6 +365,14 @@
           justify-content: space-between;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+}
+
+.howToSell .leftCards a:first-child {
+  border-radius: 16px 16px 0 0;
+}
+
+.howToSell .leftCards a:last-child {
+  border-radius: 0 0 16px 16px;
 }
 
 .howToSell .leftCards a i {

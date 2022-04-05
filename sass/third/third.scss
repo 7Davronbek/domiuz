@@ -313,6 +313,7 @@ $red: #00C65E;
 
 .howToSell {
     background-color: #FCFFFF;
+    padding: 40px 0 100px;
 
     .leftCards {
         border-radius: 16px;
@@ -328,6 +329,14 @@ $red: #00C65E;
             align-items: center;
             justify-content: space-between;
             transition: all .3s ease-in-out;
+
+            &:first-child {
+                border-radius: 16px 16px 0 0;
+            }
+
+            &:last-child {
+                border-radius: 0 0 16px 16px;
+            }
 
             i {
                 color: #8f8f8f;
