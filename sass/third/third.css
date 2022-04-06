@@ -417,6 +417,22 @@
   padding-top: 15px;
 }
 
+.howToSell .myAccardion .card .card-body p.p {
+  padding-left: 15px;
+  position: relative;
+}
+
+.howToSell .myAccardion .card .card-body p.p::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: -10px;
+  background-color: silver;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
 .howToSell .leftCards {
   border-radius: 16px;
 }
