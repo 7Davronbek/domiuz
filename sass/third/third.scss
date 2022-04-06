@@ -350,7 +350,14 @@ $red: #00C65E;
                     font-weight: 600;
                     padding: 34px 34px 34px 66px;
                     user-select: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
 
+                    i {
+                        font-size: 20px;
+                        color: #282828;
+                    }
                 }
             }
 
@@ -364,7 +371,7 @@ $red: #00C65E;
                     font-size: 18px;
                     font-weight: 500;
                     color: rgba(40,40,48,.7);
-                    margin-bottom: 16px !important;
+                    margin-bottom: 20px !important;
 
                     &:first-child {
                         border-top: 1px solid #c0c0c070;

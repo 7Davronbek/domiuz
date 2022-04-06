@@ -382,6 +382,20 @@
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.howToSell .myAccardion .card .card-header h5 i {
+  font-size: 20px;
+  color: #282828;
 }
 
 .howToSell .myAccardion .card .card-body {
@@ -395,7 +409,7 @@
   font-size: 18px;
   font-weight: 500;
   color: rgba(40, 40, 48, 0.7);
-  margin-bottom: 16px !important;
+  margin-bottom: 20px !important;
 }
 
 .howToSell .myAccardion .card .card-body p:first-child {
