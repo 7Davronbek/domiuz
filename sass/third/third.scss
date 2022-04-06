@@ -372,6 +372,7 @@ $red: #00C65E;
                     font-weight: 500;
                     color: rgba(40,40,48,.7);
                     margin-bottom: 20px !important;
+                    padding-left: 45px;
 
                     &:first-child {
                         border-top: 1px solid #c0c0c070;
@@ -382,10 +383,17 @@ $red: #00C65E;
                         padding-left: 15px;
                         position: relative;
 
+                        &:first-child {
+
+                            &::after {
+                                top: 25px;
+                            }
+                        }
+
                         &::after {
                             content: '';
                             position: absolute;
-                            top: 3px;
+                            top: 10px;
                             left: -10px;
                             background-color: silver;
                             width: 6px;

@@ -410,6 +410,7 @@
   font-weight: 500;
   color: rgba(40, 40, 48, 0.7);
   margin-bottom: 20px !important;
+  padding-left: 45px;
 }
 
 .howToSell .myAccardion .card .card-body p:first-child {
@@ -422,10 +423,14 @@
   position: relative;
 }
 
+.howToSell .myAccardion .card .card-body p.p:first-child::after {
+  top: 25px;
+}
+
 .howToSell .myAccardion .card .card-body p.p::after {
   content: '';
   position: absolute;
-  top: 3px;
+  top: 10px;
   left: -10px;
   background-color: silver;
   width: 6px;
