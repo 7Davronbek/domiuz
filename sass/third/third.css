@@ -398,6 +398,11 @@
   margin-bottom: 16px !important;
 }
 
+.howToSell .myAccardion .card .card-body p:first-child {
+  border-top: 1px solid #c0c0c070;
+  padding-top: 15px;
+}
+
 .howToSell .leftCards {
   border-radius: 16px;
 }

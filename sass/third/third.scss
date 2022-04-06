@@ -365,6 +365,11 @@ $red: #00C65E;
                     font-weight: 500;
                     color: rgba(40,40,48,.7);
                     margin-bottom: 16px !important;
+
+                    &:first-child {
+                        border-top: 1px solid #c0c0c070;
+                        padding-top: 15px;
+                    }
                 }
             }
         }
