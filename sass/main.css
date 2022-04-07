@@ -475,6 +475,33 @@ body .footer .socials a {
   margin-right: 20px;
 }
 
+body .footer .myRow {
+  margin-top: 60px;
+  border-top: 1px solid rgba(29, 57, 169, 0.08);
+}
+
+body .footer .myRow a:first-child:hover {
+  color: #00C65E;
+}
+
+body .footer .myRow .a {
+  margin-left: auto;
+  margin-right: 45px;
+}
+
+body .footer .imgWrap {
+  padding: 22px 0;
+}
+
+body .footer .imgWrap a {
+  width: 50px;
+  margin-right: 10px;
+}
+
+body .footer .imgWrap a img {
+  width: 100%;
+}
+
 body .fancybox__nav .carousel__button {
   width: 60px;
   height: 50px;
