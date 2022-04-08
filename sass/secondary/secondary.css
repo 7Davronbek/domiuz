@@ -14,6 +14,11 @@
   -webkit-mask-image: url("../../img/icon/heart.svg");
 }
 
+.icon.icon-cart {
+  mask-image: url("../../img/cart.svg");
+  -webkit-mask-image: url("../../img/cart.svg");
+}
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;

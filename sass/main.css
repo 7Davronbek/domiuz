@@ -94,6 +94,83 @@ body .nav-01 {
   z-index: 9999;
 }
 
+body .nav-01 .skoring .heart, body .nav-01 .skoring .cart, body .nav-01 .skoring .user, body .nav-01 .skoring .world {
+  width: 51px;
+  height: 55px;
+  position: relative;
+  padding: 0;
+  border-radius: 12px;
+  margin-right: 12px;
+  border: 1px solid #eceef4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+body .nav-01 .skoring .world {
+  position: relative;
+  cursor: pointer;
+}
+
+body .nav-01 .skoring .world .langWrap {
+  position: absolute;
+  z-index: 11;
+  background: #fff;
+  left: -15px;
+  top: 35px;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #eceef4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0 4px 10px #c0c0c04f;
+          box-shadow: 0 4px 10px #c0c0c04f;
+  opacity: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+body .nav-01 .skoring .world .langWrap a {
+  padding: 0.5rem;
+  margin-left: 0;
+  font-size: .9rem;
+  margin: 0;
+  border-radius: 12px !important;
+}
+
+body .nav-01 .skoring .world i {
+  font-size: 18px;
+  color: #00C65E;
+}
+
+body .nav-01 .skoring .world i:nth-child(2) {
+  margin-left: 6px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+body .nav-01 .skoring .world:hover .langWrap {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
 body .nav-01 .skoring a {
   border-color: #00C65E;
   cursor: pointer;
@@ -126,11 +203,14 @@ body .nav-01 .skoring form {
   padding-left: 15px;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
+  border-radius: 30px;
+  padding: 0 20px;
 }
 
 body .nav-01 .skoring form i {
   color: #9b9b9b;
   font-size: 15px;
+  cursor: pointer;
 }
 
 body .nav-01 .skoring form input {
@@ -153,6 +233,10 @@ body .nav-01.active {
 }
 
 body .nav-01.active form {
+  border-color: #00C65E;
+}
+
+body .nav-01.active .heart, body .nav-01.active .cart, body .nav-01.active .user, body .nav-01.active .world {
   border-color: #00C65E;
 }
 

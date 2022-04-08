@@ -18,6 +18,11 @@
       mask-image: url("../../img/icon/heart.svg");
       -webkit-mask-image: url("../../img/icon/heart.svg");
     }
+
+    &.icon-cart {
+        mask-image: url("../../img/cart.svg");
+        -webkit-mask-image: url("../../img/cart.svg");
+    }
 }
 
 html {
