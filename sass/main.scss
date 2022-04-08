@@ -96,7 +96,10 @@ body {
 
         .skoring {
 
-            .heart, .cart, .user , .world {
+            .heart,
+            .cart,
+            .user,
+            .world {
                 width: 51px;
                 height: 55px;
                 position: relative;
@@ -156,6 +159,36 @@ body {
                     .langWrap {
                         opacity: 1;
                         transform: scale(1);
+                    }
+                }
+            }
+
+            .heart,
+            .cart {
+                position: relative;
+                cursor: pointer;
+
+                h5 {
+                    position: absolute;
+                    font-weight: 500;
+                    bottom: 3px;
+                    right: 5px;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    background-color: $red;
+                    font-size: 12px;
+                    font-weight: 500;
+                    color: #fff;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                &:hover {
+
+                    i {
+                        animation: scales 1s linear infinite;
                     }
                 }
             }
@@ -221,7 +254,10 @@ body {
                 border-color: $red;
             }
 
-            .heart, .cart, .user , .world {
+            .heart,
+            .cart,
+            .user,
+            .world {
                 border-color: $red;
             }
         }
@@ -401,7 +437,7 @@ body {
         }
 
     }
-    
+
 
     .pop-products {
         padding: 50px 0 0 0;
@@ -544,7 +580,7 @@ body {
 
         .myRow {
             margin-top: 60px;
-            border-top: 1px solid rgba(29,57,169,.08);
+            border-top: 1px solid rgba(29, 57, 169, .08);
 
             a {
                 &:first-child {
@@ -1185,12 +1221,35 @@ body {
 
 
 @keyframes pulse {
-    0%, 100% {
+
+    0%,
+    100% {
         -webkit-transform: scale(1);
         transform: scale(1);
     }
+
     50% {
         -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+
+
+@keyframes scales {
+    0% {
+        transform: scale(1);
+    }
+
+    10% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(0.9);
+    }
+
+    100% {
         transform: scale(1.1);
     }
 }

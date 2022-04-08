@@ -94,7 +94,10 @@ body .nav-01 {
   z-index: 9999;
 }
 
-body .nav-01 .skoring .heart, body .nav-01 .skoring .cart, body .nav-01 .skoring .user, body .nav-01 .skoring .world {
+body .nav-01 .skoring .heart,
+body .nav-01 .skoring .cart,
+body .nav-01 .skoring .user,
+body .nav-01 .skoring .world {
   width: 51px;
   height: 55px;
   position: relative;
@@ -171,6 +174,42 @@ body .nav-01 .skoring .world:hover .langWrap {
           transform: scale(1);
 }
 
+body .nav-01 .skoring .heart,
+body .nav-01 .skoring .cart {
+  position: relative;
+  cursor: pointer;
+}
+
+body .nav-01 .skoring .heart h5,
+body .nav-01 .skoring .cart h5 {
+  position: absolute;
+  font-weight: 500;
+  bottom: 3px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #00C65E;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .nav-01 .skoring .heart:hover i,
+body .nav-01 .skoring .cart:hover i {
+  -webkit-animation: scales 1s linear infinite;
+          animation: scales 1s linear infinite;
+}
+
 body .nav-01 .skoring a {
   border-color: #00C65E;
   cursor: pointer;
@@ -236,7 +275,10 @@ body .nav-01.active form {
   border-color: #00C65E;
 }
 
-body .nav-01.active .heart, body .nav-01.active .cart, body .nav-01.active .user, body .nav-01.active .world {
+body .nav-01.active .heart,
+body .nav-01.active .cart,
+body .nav-01.active .user,
+body .nav-01.active .world {
   border-color: #00C65E;
 }
 
@@ -1175,7 +1217,8 @@ body .offers .myCard:last-child {
 }
 
 @-webkit-keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
@@ -1186,13 +1229,52 @@ body .offers .myCard:last-child {
 }
 
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     -webkit-transform: scale(1);
     transform: scale(1);
   }
   50% {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
+  }
+}
+
+@-webkit-keyframes scales {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  10% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes scales {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  10% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
 /*# sourceMappingURL=main.css.map */
