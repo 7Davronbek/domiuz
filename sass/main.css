@@ -101,6 +101,7 @@ body .nav-01 .skoring a {
   font-weight: 500;
   border-radius: 10px;
   padding: 15px 20px;
+  margin-right: 30px;
 }
 
 body .nav-01 .skoring a i {
@@ -112,50 +113,47 @@ body .nav-01 .skoring a:hover {
   background-color: #00C65E;
 }
 
-body .nav-01 .search input {
-  border-color: #00C65E;
-  color: #00C65E;
-  font-weight: 500;
-  padding: 27px;
-  border-radius: 10px 0 0 10px;
+body .nav-01 .skoring form {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 1px solid #eceef4;
+  border-radius: 12px;
+  padding-left: 15px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
-body .nav-01 .search input:focus {
+body .nav-01 .skoring form i {
+  color: #9b9b9b;
+  font-size: 15px;
+}
+
+body .nav-01 .skoring form input {
+  height: 54px;
+  padding: 14px 19px 14px 20px;
+  border: none;
+  border-radius: 12px;
   -webkit-box-shadow: none;
-          box-shadow: none;
-  border-color: #00C65E;
-}
-
-body .nav-01 .search a {
-  border-radius: 0 15px 15px 0;
-  padding: 15px 17px;
-  background-color: #00C65E;
-}
-
-body .nav-01 .contact i {
-  color: #00C65E;
-  font-size: 20px;
-}
-
-body .nav-01 .contact p {
-  margin: 0 0 0 10px;
-}
-
-body .nav-01 .my_Btn a {
-  color: #fff;
-  background: #00C65E;
-}
-
-body .nav-01 .my_Btn a:hover {
-  border-color: 1px solid #00C65E;
-  background-color: #fff;
-  color: #00C65E;
+  box-shadow: none;
+  outline: 0 !important;
+  font-size: 16px;
+  font-weight: 500;
+  background: transparent;
+  color: #000;
 }
 
 body .nav-01.active {
-  padding: 10px 0;
   -webkit-box-shadow: 0 0 10px silver;
           box-shadow: 0 0 10px silver;
+}
+
+body .nav-01.active form {
+  border-color: #00C65E;
 }
 
 body .navbarLine {

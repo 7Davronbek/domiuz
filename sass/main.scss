@@ -103,6 +103,7 @@ body {
                 font-weight: 500;
                 border-radius: 10px;
                 padding: 15px 20px;
+                margin-right: 30px;
 
                 i {
                     padding-right: 10px;
@@ -114,61 +115,44 @@ body {
                 }
             }
 
-            
-        }
+            form {
+                position: relative;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                border: 1px solid #eceef4;
+                border-radius: 12px;
+                padding-left: 15px;
+                transition: all .5s ease;
 
-        .search {
+                i {
+                    color: #9b9b9b;
+                    font-size: 15px;
+                }
 
-            input {
-                border-color: $red;
-                color: $red;
-                font-weight: 500;
-                padding: 27px;
-                border-radius: 10px 0 0 10px;
-
-                &:focus {
+                input {
+                    height: 54px;
+                    padding: 14px 19px 14px 20px;
+                    border: none;
+                    border-radius: 12px;
+                    -webkit-box-shadow: none;
                     box-shadow: none;
-                    border-color: $red;
+                    outline: 0 !important;
+                    font-size: 16px;
+                    font-weight: 500;
+                    background: transparent;
+                    color: #000;
                 }
             }
-
-            a {
-                border-radius: 0 15px 15px 0;
-                padding: 15px 17px;
-                background-color: $red;
-            }
-
-        }
-
-        .contact {
-
-            i {
-                color: $red;
-                font-size: 20px;
-            }
-
-            p {
-                margin: 0 0 0 10px;
-            }
-        }
-
-        .my_Btn {
-            a {
-                color: $white;
-                background: $red;
-
-                &:hover {
-                    border-color: 1px solid $red;
-                    background-color: $white;
-                    color: $red;
-                }
-            }
-
         }
 
         &.active {
-            padding: 10px 0;
             box-shadow: 0 0 10px silver;
+
+            form {
+                border-color: $red;
+            }
         }
 
     }
