@@ -147,6 +147,10 @@ body {
                 background-color: $red;
                 cursor: pointer;
                 margin-right: 0;
+
+                &:hover {
+                    background-color: $red;
+                }
             }
 
             .world {
@@ -588,7 +592,7 @@ body {
             font-size: 22px;
             font-weight: 500;
             color: #282830;
-            margin-bottom: 20px !important;
+            margin-bottom: 16px !important;
         }
 
         p {
@@ -599,7 +603,7 @@ body {
         }
 
         .footer__links {
-            font-size: 18px;
+            font-size: 14px;
             font-weight: 500;
             color: rgba(40, 40, 48, .6);
         }

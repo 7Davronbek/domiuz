@@ -163,6 +163,10 @@ body .nav-01 .skoring .user {
   margin-right: 0;
 }
 
+body .nav-01 .skoring .user:hover {
+  background-color: #00C65E;
+}
+
 body .nav-01 .skoring .world {
   position: relative;
   cursor: pointer;
@@ -621,7 +625,7 @@ body .footer .footer__title {
   font-size: 22px;
   font-weight: 500;
   color: #282830;
-  margin-bottom: 20px !important;
+  margin-bottom: 16px !important;
 }
 
 body .footer p {
@@ -632,7 +636,7 @@ body .footer p {
 }
 
 body .footer .footer__links {
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
   color: rgba(40, 40, 48, 0.6);
 }

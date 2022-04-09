@@ -589,6 +589,8 @@
 .cartPage img {
   -webkit-animation: cart 5s linear infinite;
           animation: cart 5s linear infinite;
+  width: 220px;
+  height: 220px;
 }
 
 .cartPage h1 {
