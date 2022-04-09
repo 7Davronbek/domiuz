@@ -19,6 +19,11 @@
   -webkit-mask-image: url("../../img/cart.svg");
 }
 
+.icon.icon-search {
+  mask-image: url("../../img/icon/search.svg");
+  -webkit-mask-image: url("../../img/icon/search.svg");
+}
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
