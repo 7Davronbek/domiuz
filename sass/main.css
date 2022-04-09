@@ -149,6 +149,14 @@ body .nav-01 .skoring .world {
   transition: all .5s ease;
 }
 
+body .nav-01 .skoring .heart:hover,
+body .nav-01 .skoring .cart:hover,
+body .nav-01 .skoring .user:hover,
+body .nav-01 .skoring .world:hover {
+  color: #fff;
+  background-color: #fff;
+}
+
 body .nav-01 .skoring .user {
   background-color: #00C65E;
   cursor: pointer;

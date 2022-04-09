@@ -136,6 +136,11 @@ body {
                 align-items: center;
                 justify-content: center;
                 transition: all .5s ease;
+
+                &:hover {
+                    color: #fff;
+                    background-color: #fff;
+                }
             }
 
             .user {

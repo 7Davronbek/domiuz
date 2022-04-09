@@ -336,7 +336,7 @@ $red: #00C65E;
             border-radius: 16px;
             background-color: #fff;
             margin-bottom: 20px;
-            position: relative; 
+            position: relative;
 
             .card-header {
                 background-color: transparent;
@@ -370,7 +370,7 @@ $red: #00C65E;
                 p {
                     font-size: 18px;
                     font-weight: 500;
-                    color: rgba(40,40,48,.7);
+                    color: rgba(40, 40, 48, .7);
                     margin-bottom: 20px !important;
                     padding-left: 45px;
 
@@ -443,5 +443,171 @@ $red: #00C65E;
                 }
             }
         }
+    }
+}
+
+.scoring {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: repeat;
+    background-image: url(../../img/bgImage.svg);
+    padding-top: 60px;
+    padding-bottom: 130px;
+
+    .cards {
+        border-radius: 16px;
+        padding: 40px;
+        background-color: #fff;
+
+        h1 {
+            margin-bottom: 30px;
+            font-size: 34px;
+            font-weight: 500;
+            color: #282830;
+            text-align: center;
+        }
+
+        label {
+            font-size: 16px;
+            font-weight: 500;
+            color: #282830;
+            margin-bottom: 14px;
+            cursor: pointer;
+        }
+
+        input {
+            height: 63px;
+            padding: 20px;
+            border-radius: 12px;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            font-size: 16px;
+            font-weight: 500;
+            color: #282830;
+            line-height: 19px;
+            -webkit-transition: .2s ease;
+            -o-transition: .2s ease;
+            transition: .2s ease;
+            margin-bottom: 30px;
+        }
+
+        .numberWrap {
+            position: relative;
+
+            .label {
+                position: absolute;
+                top: 58px;
+                left: 21px;
+
+                ~input {
+                    padding-left: 62px;
+                }
+            }
+        }
+
+        .a {
+            color: #007bff;
+            font-size: 14px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all .2s ease-in-out;
+        }
+
+        a {
+            display: block;
+        }
+
+        .main {
+            padding: 23px;
+            font-size: 18px;
+            font-weight: 500;
+            color: #fff;
+            background: $red;
+            border-radius: 15px;
+            margin: 15px;
+            font-size: 18px;
+
+            ~a {
+                padding-top: 0.7rem;
+                padding-bottom: 0.7rem;
+                border-radius: 16px;
+                border: 1px solid #b3b3b352 !important;
+                color: #8d8d8dc2;
+                margin: 0 15px;
+
+                &:hover {
+                    color: #000;
+                    border-color: #000 !important;
+                }
+            }
+        }
+    }
+}
+
+.cartPage {
+    padding: 50px 0 80px;
+
+    img {
+        animation: cart 5s linear infinite;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    .slash {
+        margin-bottom: 10px;
+    }
+
+    .cards {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 100px 0;
+    }
+
+    h2 {
+        font-size: 24px;
+        font-weight: 500;
+        color: #282830;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+        ~a {
+            width: 100%;
+            max-width: 300px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff;
+            padding: 15px 35px;
+            background-color: $red;
+            text-align: center;
+            border-radius: 13px;
+        }
+    }
+}
+
+@keyframes cart {
+    0% {
+        transform: translate(0, 0);
+    }
+    30% {
+        transform: translate(-30px, 0);
+    }
+
+    60% {
+        transform: translate(40px, 0);
+    }
+
+    100% {
+        transform: translate(0, 0);
     }
 }
