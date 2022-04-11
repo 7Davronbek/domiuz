@@ -327,6 +327,8 @@ body .nav-01 .fixedCatalog {
   transition: all 0.5s ease-in-out;
   visibility: visible;
   opacity: 1;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 
 body .nav-01 .fixedCatalog nav .myNav {
@@ -339,10 +341,66 @@ body .nav-01 .fixedCatalog nav .myNav {
           flex-direction: column;
 }
 
-body .nav-01 .fixedCatalog nav .myNav a {
+body .nav-01 .fixedCatalog nav .myNav .nav-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 12px;
+  position: relative;
+  font-size: 16px;
+  color: #222;
+  height: 64px;
+  margin-bottom: 7px;
+  padding: 20px;
+  background: #eceef4;
+}
+
+body .nav-01 .fixedCatalog nav .myNav .nav-link span {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+body .nav-01 .fixedCatalog nav .myNav .nav-link span img {
+  width: 100%;
+}
+
+body .nav-01 .fixedCatalog nav .myNav .nav-link span::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  z-index: -1;
+  border-radius: 50%;
+  background: #d1d5df;
+}
+
+body .nav-01 .fixedCatalog nav .myNav .nav-link.active {
+  background-color: #00C65E;
+  color: #fff;
+}
+
+body .nav-01 .fixedCatalog nav .myNav .nav-link.active::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -5px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-left: 6px solid #00C65E;
+  border-bottom: 12px solid transparent;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 body .nav-01 .fixedCatalog::after {

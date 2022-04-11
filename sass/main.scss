@@ -298,6 +298,8 @@ body {
             transition: all 0.5s ease-in-out;
             visibility: visible;
             opacity: 1;
+            padding-top: 30px;
+            padding-bottom: 40px;
             
             nav {
 
@@ -305,8 +307,61 @@ body {
                     display: flex;
                     flex-direction: column;
 
-                    a {
+                    .nav-link {
                         display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        border-radius: 12px;
+                        position: relative;
+                        font-size: 16px;
+                        color: #222;
+                        height: 64px;
+                        margin-bottom: 7px;
+                        padding: 20px;
+                        background: #eceef4;
+
+                        span {
+                            width: 50px;
+                            height: 50px;
+                            position: relative;
+
+                            img {
+                                width: 100%;
+                            }
+
+                            &::after {
+                                content: "";
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 50px;
+                                height: 50px;
+                                z-index: -1;
+                                border-radius: 50%;
+                                background: #d1d5df;
+                            }
+                        }
+
+                        &.active {
+                            background-color: $red;
+                            color: #fff;
+
+                            &::after {
+                                content: "";
+                                position: absolute;
+                                top: 50%;
+                                right: -5px;
+                                display: block;
+                                width: 0;
+                                height: 0;
+                                border-top: 12px solid transparent;
+                                border-left: 6px solid $red;
+                                border-bottom: 12px solid transparent;
+                                -webkit-transform: translateY(-50%);
+                                -ms-transform: translateY(-50%);
+                                transform: translateY(-50%);
+                            }
+                        }
                     }
                 }
             }
