@@ -325,6 +325,24 @@ body .nav-01 .fixedCatalog {
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  visibility: visible;
+  opacity: 1;
+}
+
+body .nav-01 .fixedCatalog nav .myNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .nav-01 .fixedCatalog nav .myNav a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 body .nav-01 .fixedCatalog::after {
@@ -342,6 +360,8 @@ body .nav-01 .fixedCatalog::after {
   transition: all 0.2s linear 0.5s;
   visibility: hidden;
   opacity: 0;
+  visibility: visible;
+  opacity: 1;
 }
 
 body .nav-01 .fixedCatalog.active {
