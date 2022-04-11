@@ -371,7 +371,7 @@ body .nav-01 .fixedCatalog nav .myNav .nav-link span img {
   width: 100%;
 }
 
-body .nav-01 .fixedCatalog nav .myNav .nav-link span::after {
+body .nav-01 .fixedCatalog nav .myNav .nav-link span .i {
   content: "";
   position: absolute;
   top: 0;
