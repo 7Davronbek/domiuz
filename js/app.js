@@ -45,6 +45,13 @@
 //     document.querySelector('.mobile').classList.toggle('active')
 // })
 
+const catalog = document.querySelector('.fixedCatalog')
+const catalogId = document.querySelector('#catalogId')
+
+catalogId.addEventListener('click', () => {
+  catalog.classList.toggle('active')
+})
+
 $( ".myBtn_inner" ).mouseenter(function(e) {
   var parentOffset = $(this).offset(); 
  
