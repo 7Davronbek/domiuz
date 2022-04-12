@@ -331,6 +331,70 @@ body .nav-01 .fixedCatalog {
   padding-bottom: 40px;
 }
 
+body .nav-01 .fixedCatalog .myCol {
+  padding: 0 30px;
+}
+
+body .nav-01 .fixedCatalog .tab-content .right .img {
+  margin-bottom: 10px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+body .nav-01 .fixedCatalog .tab-content .right .img img {
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+body .nav-01 .fixedCatalog .tab-content .right .img img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body .nav-01 .fixedCatalog .tab-content h1 {
+  margin-bottom: 30px;
+}
+
+body .nav-01 .fixedCatalog .tab-content h1 a {
+  font-size: 36px;
+  font-weight: 500;
+  color: #282830;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+body .nav-01 .fixedCatalog .tab-content h1 a:hover {
+  color: #00C65E;
+}
+
+body .nav-01 .fixedCatalog .tab-content a {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(40, 40, 48, 0.7);
+  margin-bottom: 4px;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+body .nav-01 .fixedCatalog .tab-content a:hover {
+  color: #00C65E;
+}
+
+body .nav-01 .fixedCatalog .tab-content a b {
+  font-size: 20px;
+  font-weight: 500;
+  color: #282830;
+  margin-bottom: 22px;
+  display: block;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+body .nav-01 .fixedCatalog .tab-content a b:hover {
+  color: #00C65E;
+}
+
 body .nav-01 .fixedCatalog nav .myNav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -351,7 +415,6 @@ body .nav-01 .fixedCatalog nav .myNav .nav-link {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border-radius: 12px;
   position: relative;
   font-size: 16px;
   color: #222;
@@ -359,6 +422,7 @@ body .nav-01 .fixedCatalog nav .myNav .nav-link {
   margin-bottom: 7px;
   padding: 20px;
   background: #eceef4;
+  border-radius: 22px;
 }
 
 body .nav-01 .fixedCatalog nav .myNav .nav-link span {

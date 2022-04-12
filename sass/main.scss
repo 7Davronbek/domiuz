@@ -300,6 +300,71 @@ body {
             opacity: 1;
             padding-top: 30px;
             padding-bottom: 40px;
+
+            .myCol {
+                padding: 0 30px;
+            }
+
+            .tab-content {
+
+                .right {
+
+                    .img {
+                        margin-bottom: 10px;
+                        overflow: hidden;
+                        border-radius: 16px;
+
+                        img {
+                            transition: all .4s ease-in-out;
+
+                            &:hover {
+                                transform: scale(1.1);
+                            }
+                        }
+                    }
+                }
+
+                h1 {
+                    margin-bottom: 30px;
+
+                    a {
+                        font-size: 36px;
+                        font-weight: 500;
+                        color: #282830;
+                        transition: all .2s ease;
+
+                        &:hover {
+                            color: $red;
+                        }
+                    }
+                }
+                
+                a {
+                    display: block;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: rgba(40,40,48,.7);
+                    margin-bottom: 4px;
+                    transition: all .2s ease;
+
+                    &:hover {
+                        color: $red;
+                    }
+
+                    b {
+                        font-size: 20px;
+                        font-weight: 500;
+                        color: #282830;
+                        margin-bottom: 22px;
+                        display: block;
+                        transition: all .2s ease;
+
+                        &:hover {
+                            color: $red;
+                        }
+                    }
+                }
+            }
             
             nav {
 
@@ -311,7 +376,6 @@ body {
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
-                        border-radius: 12px;
                         position: relative;
                         font-size: 16px;
                         color: #222;
@@ -319,6 +383,7 @@ body {
                         margin-bottom: 7px;
                         padding: 20px;
                         background: #eceef4;
+                        border-radius: 22px;
 
                         span {
                             width: 50px;
