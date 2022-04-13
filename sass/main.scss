@@ -233,7 +233,8 @@ body {
                 }
             }
 
-            a, .div {
+            a,
+            .div {
                 border-color: $red;
                 cursor: pointer;
                 color: $red;
@@ -262,7 +263,7 @@ body {
                 border-radius: 10px;
                 padding-left: 15px;
                 transition: all .5s ease;
-                    padding: 0 20px;
+                padding: 0 20px;
 
                 i {
                     color: #9b9b9b;
@@ -303,6 +304,10 @@ body {
 
             .myCol {
                 padding: 0 30px;
+
+                .nav-tabs {
+                    border: 0;
+                }
             }
 
             .tab-content {
@@ -338,12 +343,12 @@ body {
                         }
                     }
                 }
-                
+
                 a {
                     display: block;
                     font-size: 16px;
                     font-weight: 500;
-                    color: rgba(40,40,48,.7);
+                    color: rgba(40, 40, 48, .7);
                     margin-bottom: 4px;
                     transition: all .2s ease;
 
@@ -365,7 +370,7 @@ body {
                     }
                 }
             }
-            
+
             nav {
 
                 .myNav {
@@ -382,29 +387,28 @@ body {
                         height: 64px;
                         margin-bottom: 7px;
                         padding: 20px;
-                        background: #eceef4;
+                        background: #d1d5dfde;
                         border-radius: 22px;
+                        position: relative;
 
-                        span {
+                        .imgSpan {
                             width: 50px;
                             height: 50px;
-                            position: relative;
+                            z-index: 99;
 
                             img {
                                 width: 100%;
                             }
+                        }
 
-                            .i {
-                                content: "";
-                                position: absolute;
-                                top: 0;
-                                left: 0;
-                                width: 50px;
-                                height: 50px;
-                                z-index: -1;
-                                border-radius: 50%;
-                                background: #d1d5df;
-                            }
+                        .i {
+                            position: absolute;
+                            top: 6px;
+                            right: 20px;
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                            background: #d1d5df;
                         }
 
                         &.active {
@@ -445,8 +449,8 @@ body {
                 transition: all 0.2s linear 0.5s;
                 visibility: hidden;
                 opacity: 0;
-                    visibility: visible;
-                    opacity: 1;
+                visibility: visible;
+                opacity: 1;
             }
 
             &.active {
