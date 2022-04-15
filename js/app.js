@@ -1,5 +1,3 @@
-
-
 // const mobileUl = document.querySelector('.mobileUl ul')
 
 // const burgerHandlerOpen = () => {
@@ -39,29 +37,28 @@
 //   navbar();
 // });
 
-
 // document.querySelector('.burger').addEventListener('click', () => {
 //     document.querySelector('.burger').classList.toggle('burgered')
 //     document.querySelector('.mobile').classList.toggle('active')
 // })
 
-const catalog = document.querySelector('.fixedCatalog')
-const catalogId = document.querySelector('#catalogId')
+const catalog = document.querySelector(".fixedCatalog");
+const catalogId = document.querySelector("#catalogId");
 
-catalogId.addEventListener('click', () => {
-  catalog.classList.toggle('active')
-})
+catalogId.addEventListener("click", () => {
+  catalog.classList.toggle("active");
+});
 
-$( ".myBtn_inner" ).mouseenter(function(e) {
-  var parentOffset = $(this).offset(); 
- 
+$(".myBtn_inner").mouseenter(function (e) {
+  var parentOffset = $(this).offset();
+
   var relX = e.pageX - parentOffset.left;
   var relY = e.pageY - parentOffset.top;
-  $(this).prev(".myBtn_circle").css({"left": relX, "top": relY });
+  $(this).prev(".myBtn_circle").css({ left: relX, top: relY });
   $(this).prev(".myBtn_circle").removeClass("desplode-circle");
   $(this).prev(".myBtn_circle").addClass("explode-circle");
-
 });
+
 
 function navbar() {
   const nav = document.querySelector("#nav");
@@ -74,37 +71,33 @@ window.addEventListener("scroll", () => {
   navbar();
 });
 
+// $( ".myBtn_inner" ).mouseleave(function(e) {
 
-$( ".myBtn_inner" ).mouseleave(function(e) {
+//     var parentOffset = $(this).offset();
 
-    var parentOffset = $(this).offset(); 
+//     var relX = e.pageX - parentOffset.left;
+//     var relY = e.pageY - parentOffset.top;
+//     $(this).prev(".myBtn_circle").css({"left": relX, "top": relY });
+//     $(this).prev(".myBtn_circle").removeClass("explode-circle");
+//     $(this).prev(".myBtn_circle").addClass("desplode-circle");
 
-    var relX = e.pageX - parentOffset.left;
-    var relY = e.pageY - parentOffset.top;
-    $(this).prev(".myBtn_circle").css({"left": relX, "top": relY });
-    $(this).prev(".myBtn_circle").removeClass("explode-circle");
-    $(this).prev(".myBtn_circle").addClass("desplode-circle");
+// });
 
-});
+// const buttons = document.querySelectorAll('.myCircle')
+// buttons.forEach((button) => {
+//   button.onclick = function(e) {
+//     let x = e.clientX - e.target.offsetLeft;
+//     let y = e.clientY - e.target.offsetTop;
+//     let ripple = document.createElement('span')
 
-
-
-
-const buttons = document.querySelectorAll('.myCircle')
-buttons.forEach((button) => {
-  button.onclick = function(e) {
-    let x = e.clientX - e.target.offsetLeft;
-    let y = e.clientY - e.target.offsetTop;
-    let ripple = document.createElement('span')
-
-    ripple.style.left = `${x}px`
-    ripple.style.top = `${y}px`
-    this.appendChild(ripple)
-    // setTimeout(function() {
-    //   ripple.remove()
-    // }, 600)
-  }
-})
+//     ripple.style.left = `${x}px`
+//     ripple.style.top = `${y}px`
+//     this.appendChild(ripple)
+//     // setTimeout(function() {
+//     //   ripple.remove()
+//     // }, 600)
+//   }
+// })
 
 var swiper = new Swiper(".productSwiper", {
   spaceBetween: 10,
@@ -112,6 +105,7 @@ var swiper = new Swiper(".productSwiper", {
   freeMode: true,
   watchSlidesProgress: true,
 });
+
 var swiper2 = new Swiper(".productSwiper2", {
   spaceBetween: 10,
   navigation: {
