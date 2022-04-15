@@ -82,6 +82,7 @@ body {
     }
 
     .nav-01 {
+        display: none;
         padding: 20px 0;
         border-bottom: 1px solid #eceef4;
         position: fixed;
@@ -480,10 +481,12 @@ body {
 
     .navbarLine {
         padding-top: 98px;
+        display: none;
     }
 
 
     .nav-02 {
+        display: none;
         padding: 20px 0;
         border-radius: 0 0 16px 16px;
         box-shadow: 0 9px 11px rgba(31, 41, 124, 0.08);
