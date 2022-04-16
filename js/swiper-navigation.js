@@ -21,11 +21,24 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-
 var swiper2 = new Swiper(".mySwiper-products", {
   slidesPerView: 4,
+  // slidesPerView: "auto",
   loop: true,
   lazy: true,
+  breakpoints: {
+    0: {
+      spaceBetween: 10,
+      slidesPerView: 1.8,
+    },
+    768: {
+      spaceBetween: 20,
+      slidesPerView: 3,
+    },
+    1480: {
+      spaceBetween: 45,
+    },
+  },
   slidesPerView: "auto",
   spaceBetween: 30,
   navigation: {
@@ -34,19 +47,30 @@ var swiper2 = new Swiper(".mySwiper-products", {
   },
 });
 
-
 var swiper3 = new Swiper(".mySwiper-new-products", {
   slidesPerView: 4,
   loop: true,
   lazy: true,
   slidesPerView: "auto",
   spaceBetween: 30,
+  breakpoints: {
+    0: {
+      spaceBetween: 10,
+      slidesPerView: 1.8,
+    },
+    768: {
+      spaceBetween: 20,
+      slidesPerView: 3,
+    },
+    1480: {
+      spaceBetween: 45,
+    },
+  },
   navigation: {
     nextEl: "#swp-new-next",
     prevEl: "#swp-new-prev",
   },
 });
-
 
 var swiper4 = new Swiper(".mySwiper-smart-products", {
   slidesPerView: 4,
@@ -54,15 +78,40 @@ var swiper4 = new Swiper(".mySwiper-smart-products", {
   lazy: true,
   slidesPerView: "auto",
   spaceBetween: 30,
+  breakpoints: {
+    0: {
+      spaceBetween: 10,
+      slidesPerView: 1.8,
+    },
+    768: {
+      spaceBetween: 20,
+      slidesPerView: 3,
+    },
+    1480: {
+      spaceBetween: 45,
+    },
+  },
   navigation: {
     nextEl: "#swp-smart-next",
     prevEl: "#swp-smart-prev",
   },
 });
 
-
 var swiper5 = new Swiper(".mySwiper-tel-products", {
   slidesPerView: 4,
+  breakpoints: {
+    0: {
+      spaceBetween: 10,
+      slidesPerView: 1.8,
+    },
+    768: {
+      spaceBetween: 20,
+      slidesPerView: 3,
+    },
+    1480: {
+      spaceBetween: 45,
+    },
+  },
   loop: true,
   lazy: true,
   slidesPerView: "auto",
@@ -73,9 +122,21 @@ var swiper5 = new Swiper(".mySwiper-tel-products", {
   },
 });
 
-
 var swiper6 = new Swiper(".mySwiper-muz-products", {
   slidesPerView: 4,
+  breakpoints: {
+    0: {
+      spaceBetween: 10,
+      slidesPerView: 1.8,
+    },
+    768: {
+      spaceBetween: 20,
+      slidesPerView: 3,
+    },
+    1480: {
+      spaceBetween: 45,
+    },
+  },
   loop: true,
   lazy: true,
   slidesPerView: "auto",
@@ -96,5 +157,3 @@ var swiper7 = new Swiper(".brands-slider", {
   },
   loop: true,
 });
-
-

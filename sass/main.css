@@ -1508,6 +1508,12 @@ body .offers .myCard:last-child {
   margin-bottom: 0;
 }
 
+@media (max-width: 767px) {
+  body {
+    background-color: #FBFBFE;
+  }
+}
+
 .fixedPhone {
   width: 56px;
   height: 56px;

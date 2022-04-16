@@ -1479,6 +1479,10 @@ body {
             }
         }
     }
+
+    @media(max-width: 767px) {
+        background-color: #FBFBFE;
+    }
 }
 
 .fixedPhone {
