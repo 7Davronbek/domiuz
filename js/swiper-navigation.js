@@ -22,7 +22,7 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 var swiper2 = new Swiper(".mySwiper-products", {
-  slidesPerView: 4,
+  slidesPerView: 4.5,
   // slidesPerView: "auto",
   loop: true,
   lazy: true,
@@ -48,7 +48,7 @@ var swiper2 = new Swiper(".mySwiper-products", {
 });
 
 var swiper3 = new Swiper(".mySwiper-new-products", {
-  slidesPerView: 4,
+  slidesPerView: 4.5,
   loop: true,
   lazy: true,
   slidesPerView: "auto",
@@ -73,7 +73,7 @@ var swiper3 = new Swiper(".mySwiper-new-products", {
 });
 
 var swiper4 = new Swiper(".mySwiper-smart-products", {
-  slidesPerView: 4,
+  slidesPerView: 4.5,
   loop: true,
   lazy: true,
   slidesPerView: "auto",
@@ -98,7 +98,7 @@ var swiper4 = new Swiper(".mySwiper-smart-products", {
 });
 
 var swiper5 = new Swiper(".mySwiper-tel-products", {
-  slidesPerView: 4,
+  slidesPerView: 4.5,
   breakpoints: {
     0: {
       spaceBetween: 10,
@@ -123,7 +123,7 @@ var swiper5 = new Swiper(".mySwiper-tel-products", {
 });
 
 var swiper6 = new Swiper(".mySwiper-muz-products", {
-  slidesPerView: 4,
+  slidesPerView: 4.5,
   breakpoints: {
     0: {
       spaceBetween: 10,

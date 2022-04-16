@@ -543,6 +543,7 @@ body {
 
             .swiper-pagination-bullet {
                 transition: all .3s ease;
+
                 &.swiper-pagination-bullet-active {
                     width: 25px;
                     background-color: $red;
@@ -598,6 +599,13 @@ body {
 
     .pop-categories {
 
+        .col-6 {
+
+            @media(max-width: 576px) {
+                padding: 0 10px;
+            }
+        }
+
         h2 {
             font-weight: 600;
             font-size: 40px;
@@ -605,6 +613,10 @@ body {
 
             @media(max-width: 992px) {
                 font-size: 30px;
+            }
+
+            @media(max-width: 767px) {
+                font-size: 22px;
             }
         }
 
@@ -688,6 +700,11 @@ body {
                 background-color: #ffffff48;
             }
 
+            @media(max-width: 767px) {
+                -webkit-box-shadow: 0 3px 16px #1d39a90a;
+                box-shadow: 0 3px 16px #1d39a90a;
+            }
+
             &:hover {
 
                 img {
@@ -736,7 +753,34 @@ body {
     .pop-products {
         padding: 50px 0 0 0;
 
+        .swiper-button-next,
+        .swiper-button-prev {
+
+            @media(max-width: 767px) {
+                width: 54px !important;
+                height: 46px !important;
+            }
+
+            &::after {
+
+                @media(max-width: 767px) {
+                    font-size: 14px;
+                }
+            }
+        }
+
         .pop-product {
+
+            h2 {
+                margin-top: 0;
+                font-size: 32px;
+                font-weight: 500;
+                color: #282830;
+
+                @media(max-width: 767px) {
+                    font-size: 22px;
+                }
+            }
 
             .myCard {
                 padding: 20px;
