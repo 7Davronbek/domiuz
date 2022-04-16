@@ -6,6 +6,10 @@ var swiper = new Swiper(".mySwiper", {
   loop: true,
   lazy: true,
   spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
   centeredSlides: true,
   autoplay: {
     delay: 2500,

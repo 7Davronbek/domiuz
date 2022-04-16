@@ -569,16 +569,35 @@ body .nav-02 .btn-light {
   transition: all .3s ease-in-out;
 }
 
+body .header-slider .swiper-pagination {
+  display: none;
+}
+
 @media (max-width: 767px) {
-  body .header-slider .swiper-button-next::after, body .header-slider .swiper-button-prev::after {
+  body .header-slider .swiper-pagination {
+    display: block;
+  }
+}
+
+@media (max-width: 992px) {
+  body .header-slider .swiper-button-next::after,
+  body .header-slider .swiper-button-prev::after {
     font-size: 13px;
   }
 }
 
-@media (max-width: 767px) {
-  body .header-slider .swiper-button-next, body .header-slider .swiper-button-prev {
+@media (max-width: 992px) {
+  body .header-slider .swiper-button-next,
+  body .header-slider .swiper-button-prev {
     width: 30px;
     height: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  body .header-slider .swiper-button-next,
+  body .header-slider .swiper-button-prev {
+    display: none;
   }
 }
 
@@ -605,6 +624,18 @@ body .header-slider .swiper-slide img {
   }
 }
 
+body .pop-categories h2 {
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+  body .pop-categories h2 {
+    font-size: 30px;
+  }
+}
+
 body .pop-categories .card {
   background: #eceef4b3;
   padding: 25px 10px;
@@ -615,6 +646,12 @@ body .pop-categories .card {
 body .pop-categories .card .card-body img {
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
+}
+
+@media (max-width: 1200px) {
+  body .pop-categories .card .card-body img {
+    width: 100%;
+  }
 }
 
 body .pop-categories .card .card-body p {
@@ -642,6 +679,13 @@ body .pop-categories .card .card-body .cardImg::after {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1200px) {
+  body .pop-categories .card .card-body .cardImg::after {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 body .pop-categories .card .card-body .cardImg::before {
@@ -709,12 +753,6 @@ body .pop-categories .card:hover::after {
     height: 100%;
     opacity: 0;
   }
-}
-
-body .pop-categories h2 {
-  font-weight: 600;
-  font-size: 40px;
-  margin-bottom: 30px;
 }
 
 body .pop-categories .pop-category a {
