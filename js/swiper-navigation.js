@@ -150,6 +150,19 @@ var swiper6 = new Swiper(".mySwiper-muz-products", {
 var swiper7 = new Swiper(".brands-slider", {
   slidesPerView: 5,
   spaceBetween: 30,
+  breakpoints: {
+    0: {
+      spaceBetween: 10,
+      slidesPerView: 2,
+    },
+    768: {
+      spaceBetween: 20,
+      slidesPerView: 3,
+    },
+    1480: {
+      spaceBetween: 45,
+    },
+  },
   autoplay: true,
   autoplay: {
     delay: 1500,
