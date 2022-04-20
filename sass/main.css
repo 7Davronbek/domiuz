@@ -82,6 +82,7 @@ body .slash a:last-child:hover {
 }
 
 body .nav-01 {
+  display: none;
   padding: 20px 0;
   border-bottom: 1px solid #eceef4;
   position: fixed;
@@ -527,6 +528,20 @@ body .nav-02 {
           box-shadow: 0 9px 11px rgba(31, 41, 124, 0.08);
 }
 
+body .nav-02 ::-webkit-scrollbar {
+  width: 10px;
+  height: 3px;
+}
+
+body .nav-02 ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body .nav-02 ::-webkit-scrollbar-thumb {
+  background: rgba(192, 192, 192, 0.411);
+  border-radius: 1px;
+}
+
 body .nav-02 .katalog {
   position: relative;
 }
@@ -547,6 +562,13 @@ body .nav-02 .katalog i {
   margin-right: 8px;
 }
 
+@media (max-width: 992px) {
+  body .nav-02 .row {
+    overflow-x: auto;
+    width: 100%;
+  }
+}
+
 body .nav-02 .btn {
   font-size: 16px;
   font-weight: 600;
@@ -558,12 +580,24 @@ body .nav-02 .btn:hover {
   color: #00C65E;
 }
 
+@media (max-width: 767px) {
+  body .nav-02 .btn {
+    font-size: 15px;
+  }
+}
+
 body .nav-02 .btn-light {
   border-radius: 10px;
   padding: 9px 16px;
   background: #d9d9d97a;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+}
+
+@media (max-width: 992px) {
+  body .nav-02 .btn-light {
+    display: none !important;
+  }
 }
 
 body .header-slider .swiper-pagination {

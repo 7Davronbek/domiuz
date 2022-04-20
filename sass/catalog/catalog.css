@@ -195,6 +195,12 @@
   border-bottom: 0;
 }
 
+@media (max-width: 992px) {
+  .catalog .catalogMain .leftCatalog {
+    display: none !important;
+  }
+}
+
 .catalog .catalogMain .rightCatalog .top {
   margin-bottom: 30px;
   display: -webkit-box;
