@@ -96,7 +96,6 @@ body {
         backdrop-filter: blur(10px);
         z-index: 9999;
 
-
         .skoring {
 
             .catalog {
@@ -163,6 +162,10 @@ body {
                 background-color: $red;
                 cursor: pointer;
                 margin-right: 0;
+
+                @media(max-width: 992px) {
+                    margin-right: 10px;
+                }
 
                 &:hover {
                     background-color: $red;
@@ -481,6 +484,76 @@ body {
                     visibility: visible;
                     opacity: 1;
                 }
+            }
+        }
+
+        .mobileMenu {
+            margin-left: 6px;
+            padding: 8px 12px;
+            background-color: $red;
+            text-transform: uppercase !important;
+            font-size: 16px;
+            font-weight: 500;
+            color: #fff !important;
+            line-height: 20px;
+            height: 55px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            display: none;
+
+            .line {
+                margin-right: 8px;
+
+                div {
+                    width: 25px;
+                    height: 2px;
+                    background-color: #fff;
+                    transition: all .5s ease-in-out;
+                    transform: translateY(-5px);
+                    margin-left: auto;
+
+                    &:nth-child(2) {
+                        width: 13px;
+                        transform: translateY(0px);
+                    }
+
+                    &:nth-child(3) {
+                        // width: 18px;
+                        transform: translateY(5px);
+                    }
+                }
+            }
+
+            &.active {
+
+                .line {
+
+                    div {
+                        transform: translateY(1px) rotate(-45deg);
+    
+                        &:nth-child(2) {
+                            opacity: 0;
+                            transform: translateX(5px);
+                        }
+    
+                        &:nth-child(3) {
+                            transform: translateY(-3px) rotate(45deg);
+                        }
+                    }
+                }
+            }
+
+            @media(max-width: 992px) {
+                display: flex;
+            }
+        }
+
+        .mobileContent {
+            display: block;
+
+            @media(max-width: 992px) {
+                display: none !important;
             }
         }
 

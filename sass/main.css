@@ -187,6 +187,12 @@ body .nav-01 .skoring .user {
   margin-right: 0;
 }
 
+@media (max-width: 992px) {
+  body .nav-01 .skoring .user {
+    margin-right: 10px;
+  }
+}
+
 body .nav-01 .skoring .user:hover {
   background-color: #00C65E;
 }
@@ -532,6 +538,86 @@ body .nav-01 .fixedCatalog.active {
 body .nav-01 .fixedCatalog.active::after {
   visibility: visible;
   opacity: 1;
+}
+
+body .nav-01 .mobileMenu {
+  margin-left: 6px;
+  padding: 8px 12px;
+  background-color: #00C65E;
+  text-transform: uppercase !important;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff !important;
+  line-height: 20px;
+  height: 55px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 12px;
+  display: none;
+}
+
+body .nav-01 .mobileMenu .line {
+  margin-right: 8px;
+}
+
+body .nav-01 .mobileMenu .line div {
+  width: 25px;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+  margin-left: auto;
+}
+
+body .nav-01 .mobileMenu .line div:nth-child(2) {
+  width: 13px;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+body .nav-01 .mobileMenu .line div:nth-child(3) {
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+}
+
+body .nav-01 .mobileMenu.active .line div {
+  -webkit-transform: translateY(1px) rotate(-45deg);
+          transform: translateY(1px) rotate(-45deg);
+}
+
+body .nav-01 .mobileMenu.active .line div:nth-child(2) {
+  opacity: 0;
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+}
+
+body .nav-01 .mobileMenu.active .line div:nth-child(3) {
+  -webkit-transform: translateY(-3px) rotate(45deg);
+          transform: translateY(-3px) rotate(45deg);
+}
+
+@media (max-width: 992px) {
+  body .nav-01 .mobileMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+body .nav-01 .mobileContent {
+  display: block;
+}
+
+@media (max-width: 992px) {
+  body .nav-01 .mobileContent {
+    display: none !important;
+  }
 }
 
 body .nav-01.active {

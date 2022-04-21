@@ -49,6 +49,19 @@ catalogId.addEventListener("click", () => {
   catalog.classList.toggle("active");
 });
 
+
+
+$("img.lazyload").lazyload();
+
+
+
+const burgerBtn = document.querySelector('#mobileMenu')
+burgerBtn.addEventListener('click', () => {
+  burgerBtn.classList.toggle('active')
+})
+
+
+
 $(".myBtn_inner").mouseenter(function (e) {
   var parentOffset = $(this).offset();
 
@@ -58,6 +71,7 @@ $(".myBtn_inner").mouseenter(function (e) {
   $(this).prev(".myBtn_circle").removeClass("desplode-circle");
   $(this).prev(".myBtn_circle").addClass("explode-circle");
 });
+
 
 
 function navbar() {

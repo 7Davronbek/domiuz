@@ -327,19 +327,19 @@
       </div>
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-1">
+          <div class="col-lg-1 col-md-3 col-4">
             <a href="/pages/product" class="logo">
               <img src="/img/logo.png" alt="" class="w-100" />
             </a>
           </div>
-          <div class="col-11 skoring d-flex align-items-center">
-            <div id="catalogId" class="catalog div">
+          <div class="col-lg-11 col-md-9 col-8 skoring d-flex align-items-center">
+            <div id="catalogId" class="catalog div mobileContent">
               <i class="icon icon-search"></i> Katalog
             </div>
-            <a href="pages/scoring" class="btn"
+            <a href="pages/scoring" class="btn mobileContent"
               ><i class="far fa-credit-card"></i>Skoringdan o`tish</a
             >
-            <form>
+            <form class="mobileContent"> 
               <i class=""><img src="/img/search.svg" alt="" /></i>
               <input
                 type="text"
@@ -349,7 +349,7 @@
             </form>
 
             <div class="d-flex align-items-center ml-auto">
-              <div class="world">
+              <div class="world mobileContent">
                 <i class="fas fa-globe"></i>
                 <i class="fas fa-angle-down"></i>
 
@@ -362,12 +362,21 @@
                 <i class="icon icon-cart"></i>
                 <h5>0</h5>
               </a>
-              <a href="pages/cart" class="heart">
+              <a href="pages/cart" class="heart mobileContent">
                 <i class="icon icon-heart"></i>
                 <h5>0</h5>
               </a>
               <div class="user">
                 <img src="/img/user.svg" alt="" />
+              </div>
+
+              <div id="mobileMenu" class="mobileMenu">
+                  <div class="line">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                  Menyu
               </div>
             </div>
           </div>
@@ -1506,9 +1515,7 @@
         </div>
         <div class="row myRow">
           <div class="col-12 d-flex align-items-center">
-            <a class="mobileA" href="/pages/oferta"
-              >Saytdan foydalanish shartlari</a
-            >
+            <a class="mobileA" href="/pages/oferta">Saytdan foydalanish shartlari</a>
             <a href="https://kokoagency.uz/"
               >© kOkO digital agency | Barcha huquqlar himoyalangan</a
             >
@@ -1541,9 +1548,13 @@
     <script src="js/lazyload.js"></script>
 
     <script src="js/app.js"></script>
-
+    
     <script>
-      $("img.lazyload").lazyload();
+        $("img.lazyload").lazyload();
+        const burgerBtn = document.querySelector('#mobileMenu')
+        burgerBtn.addEventListener('click', () => {
+          burgerBtn.classList.toggle('active')
+        })
     </script>
   </body>
 </html>
