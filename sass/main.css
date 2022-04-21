@@ -565,7 +565,7 @@ body .nav-01 .mobileMenu .line {
 }
 
 body .nav-01 .mobileMenu .line div {
-  width: 25px;
+  width: 20px;
   height: 2px;
   background-color: #fff;
   -webkit-transition: all .5s ease-in-out;
@@ -582,6 +582,7 @@ body .nav-01 .mobileMenu .line div:nth-child(2) {
 }
 
 body .nav-01 .mobileMenu .line div:nth-child(3) {
+  width: 25px;
   -webkit-transform: translateY(5px);
           transform: translateY(5px);
 }
@@ -589,6 +590,7 @@ body .nav-01 .mobileMenu .line div:nth-child(3) {
 body .nav-01 .mobileMenu.active .line div {
   -webkit-transform: translateY(1px) rotate(-45deg);
           transform: translateY(1px) rotate(-45deg);
+  width: 25px;
 }
 
 body .nav-01 .mobileMenu.active .line div:nth-child(2) {
