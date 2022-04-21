@@ -82,7 +82,6 @@ body .slash a:last-child:hover {
 }
 
 body .nav-01 {
-  display: none;
   padding: 20px 0;
   border-bottom: 1px solid #eceef4;
   position: fixed;
@@ -115,8 +114,21 @@ body .nav-01 .skoring .catalog {
   margin-left: 20px;
 }
 
+@media (max-width: 1300px) {
+  body .nav-01 .skoring .catalog {
+    width: 150px;
+    margin-left: 0;
+  }
+}
+
 body .nav-01 .skoring .catalog i {
   margin-right: 15px;
+}
+
+@media (max-width: 1300px) {
+  body .nav-01 .skoring .catalog i {
+    margin-right: 10px;
+  }
 }
 
 body .nav-01 .skoring .catalog:hover {
@@ -158,6 +170,15 @@ body .nav-01 .skoring .user:hover,
 body .nav-01 .skoring .world:hover {
   color: #fff;
   background-color: #fff;
+}
+
+@media (max-width: 1200px) {
+  body .nav-01 .skoring .heart,
+  body .nav-01 .skoring .cart,
+  body .nav-01 .skoring .user,
+  body .nav-01 .skoring .world {
+    margin-right: 15px;
+  }
 }
 
 body .nav-01 .skoring .user {
@@ -318,6 +339,18 @@ body .nav-01 .skoring form input {
   background: transparent;
   color: #000;
   width: 400px;
+}
+
+@media (max-width: 1300px) {
+  body .nav-01 .skoring form {
+    width: 350px;
+  }
+}
+
+@media (max-width: 1200px) {
+  body .nav-01 .skoring form {
+    width: 280px;
+  }
 }
 
 body .nav-01 .fixedCatalog {

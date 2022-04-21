@@ -84,7 +84,7 @@ body {
     }
 
     .nav-01 {
-        display: none;
+        // display: none;
         padding: 20px 0;
         border-bottom: 1px solid #eceef4;
         position: fixed;
@@ -110,8 +110,17 @@ body {
                 justify-content: center;
                 margin-left: 20px;
 
+                @media(max-width: 1300px) {
+                    width: 150px;
+                    margin-left: 0;
+                }
+
                 i {
                     margin-right: 15px;
+
+                    @media(max-width: 1300px) {
+                        margin-right: 10px;
+                    }
                 }
 
                 &:hover {
@@ -143,6 +152,10 @@ body {
                 &:hover {
                     color: #fff;
                     background-color: #fff;
+                }
+
+                @media(max-width: 1200px) {
+                    margin-right: 15px;
                 }
             }
 
@@ -286,6 +299,14 @@ body {
                     background: transparent;
                     color: #000;
                     width: 400px;
+                }
+
+                @media(max-width: 1300px) {
+                    width: 350px;
+                }
+
+                @media(max-width: 1200px) {
+                    width: 280px;
                 }
             }
         }
