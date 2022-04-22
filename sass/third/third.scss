@@ -63,6 +63,13 @@ $red: #00C65E;
         text-align: center;
         margin-bottom: 40px;
         font-weight: 700;
+
+        @media(max-width: 767px) {
+            font-size: 22px;
+            text-align: left;
+            margin-bottom: 24px;
+            line-height: 28px;
+        }
     }
 
     h5 {
@@ -71,6 +78,11 @@ $red: #00C65E;
         font-size: 18px;
         font-weight: 500;
         color: #282830;
+
+        @media(max-width: 767px) {
+            text-align: left !important;
+            margin-bottom: 30px;
+        }
     }
 
     .myRow {
@@ -139,6 +151,11 @@ $red: #00C65E;
             color: #fff;
             background-color: $red;
             border-radius: 30px;
+
+            @media(max-width: 767px) {
+                width: 50px;
+                height: 50px;
+            }
         }
 
         p {
@@ -188,6 +205,18 @@ $red: #00C65E;
                 }
             }
         }
+
+        @media(max-width: 992px) {
+            padding: 30px 42px;
+        }
+
+        @media(max-width: 767px) {
+            padding: 0 15px 15px;
+        }
+    }
+
+    @media(max-width: 767px) {
+        padding: 20px 0;
     }
 }
 

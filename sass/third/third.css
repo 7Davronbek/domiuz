@@ -65,12 +65,28 @@
   font-weight: 700;
 }
 
+@media (max-width: 767px) {
+  .cooperation h1 {
+    font-size: 22px;
+    text-align: left;
+    margin-bottom: 24px;
+    line-height: 28px;
+  }
+}
+
 .cooperation h5 {
   margin-bottom: 60px;
   opacity: .8;
   font-size: 18px;
   font-weight: 500;
   color: #282830;
+}
+
+@media (max-width: 767px) {
+  .cooperation h5 {
+    text-align: left !important;
+    margin-bottom: 30px;
+  }
 }
 
 .cooperation .myRow {
@@ -149,6 +165,13 @@
   border-radius: 30px;
 }
 
+@media (max-width: 767px) {
+  .cooperation .cards .number {
+    width: 50px;
+    height: 50px;
+  }
+}
+
 .cooperation .cards p {
   margin-bottom: 15px;
   font-size: 18px;
@@ -198,6 +221,24 @@
 
 .cooperation .cards .a:hover i {
   color: #fff;
+}
+
+@media (max-width: 992px) {
+  .cooperation .cards {
+    padding: 30px 42px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cooperation .cards {
+    padding: 0 15px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cooperation {
+    padding: 20px 0;
+  }
 }
 
 .application {
