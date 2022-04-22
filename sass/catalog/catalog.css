@@ -315,11 +315,27 @@
   display: flex;
 }
 
+@media (max-width: 576px) {
+  .catalog .catalogMain .rightCatalog .myCard .images {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+
 .catalog .catalogMain .rightCatalog .myCard h5 {
   color: rgba(40, 40, 48, 0.5);
   font-weight: 600;
   margin-top: 20px;
   font-size: 15px;
+}
+
+@media (max-width: 576px) {
+  .catalog .catalogMain .rightCatalog .myCard h5 {
+    font-size: 10px;
+    margin-top: 16px;
+  }
 }
 
 .catalog .catalogMain .rightCatalog .myCard h4 {
@@ -329,9 +345,22 @@
   margin: 20px 0 14px;
 }
 
+@media (max-width: 576px) {
+  .catalog .catalogMain .rightCatalog .myCard h4 {
+    font-size: 11px;
+    margin: 10px 0;
+  }
+}
+
 .catalog .catalogMain .rightCatalog .myCard p {
   font-size: 14px;
   height: 42px;
+}
+
+@media (max-width: 576px) {
+  .catalog .catalogMain .rightCatalog .myCard p {
+    font-size: 9px;
+  }
 }
 
 .catalog .catalogMain .rightCatalog .myCard .line {
@@ -341,14 +370,37 @@
   background-color: rgba(40, 40, 48, 0.1);
 }
 
+@media (max-width: 576px) {
+  .catalog .catalogMain .rightCatalog .myCard .line {
+    margin: 12px 0;
+  }
+}
+
 .catalog .catalogMain .rightCatalog .myCard h3 {
   font-weight: 500;
   color: #282830;
   font-size: 15px;
 }
 
+@media (max-width: 576px) {
+  .catalog .catalogMain .rightCatalog .myCard h3 {
+    font-size: 10px;
+  }
+}
+
+.catalog .catalogMain .rightCatalog .myCard .heart i {
+  width: 15px;
+  height: 15px;
+}
+
 .catalog .catalogMain .rightCatalog .myCard:hover {
   -webkit-box-shadow: 2px 3px 10px #0072ff40;
           box-shadow: 2px 3px 10px #0072ff40;
+}
+
+@media (max-width: 576px) {
+  .catalog .catalogMain .rightCatalog .myCard {
+    height: initial;
+  }
 }
 /*# sourceMappingURL=catalog.css.map */
