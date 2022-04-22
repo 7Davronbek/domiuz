@@ -20,6 +20,15 @@ $red: #00C65E;
             margin-bottom: 40px !important;
             text-align: center;
             font-weight: 600;
+
+            @media(max-width: 767px) {
+                font-size: 34px;
+                margin-bottom: 30px;
+            }
+
+            @media(max-width: 767px) {
+                font-size: 24px;
+            }
         }
 
         h6 {
@@ -28,6 +37,10 @@ $red: #00C65E;
             color: #282830;
             line-height: 20px;
             margin-bottom: 16px;
+
+            @media(max-width: 767px) {
+                font-size: 16px;
+            }
         }
 
         p {
@@ -37,6 +50,10 @@ $red: #00C65E;
             line-height: 20px;
             margin-bottom: 16px;
             padding-left: 12px;
+
+            @media(max-width: 767px) {
+                padding: 0;
+            }
         }
 
         h5 {
@@ -45,11 +62,34 @@ $red: #00C65E;
             color: #282830;
             line-height: 20px;
             margin-bottom: 16px;
+
+            @media(max-width: 767px) {
+                font-size: 16px;
+            }
+        }
+
+        @media(max-width: 1200px) {
+            padding: 30px;
+        }
+
+        @media(max-width: 992px) {
+            padding: 30px 15px;
+        }
+    }
+
+    .container {
+
+        @media(max-width: 767px) {
+            padding: 0 35px;
         }
     }
 
     @media(max-width: 992px) {
         padding-top: 35px;
+    }
+
+    @media(max-width: 767px) {
+        padding-top: 0px;
     }
 }
 

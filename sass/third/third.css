@@ -23,12 +23,31 @@
   font-weight: 600;
 }
 
+@media (max-width: 767px) {
+  .oferta .myCol h1 {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .oferta .myCol h1 {
+    font-size: 24px;
+  }
+}
+
 .oferta .myCol h6 {
   font-size: 18px;
   font-weight: 700;
   color: #282830;
   line-height: 20px;
   margin-bottom: 16px;
+}
+
+@media (max-width: 767px) {
+  .oferta .myCol h6 {
+    font-size: 16px;
+  }
 }
 
 .oferta .myCol p {
@@ -40,6 +59,12 @@
   padding-left: 12px;
 }
 
+@media (max-width: 767px) {
+  .oferta .myCol p {
+    padding: 0;
+  }
+}
+
 .oferta .myCol h5 {
   font-size: 16px;
   font-weight: 700;
@@ -48,9 +73,39 @@
   margin-bottom: 16px;
 }
 
+@media (max-width: 767px) {
+  .oferta .myCol h5 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .oferta .myCol {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .oferta .myCol {
+    padding: 30px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .oferta .container {
+    padding: 0 35px;
+  }
+}
+
 @media (max-width: 992px) {
   .oferta {
     padding-top: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .oferta {
+    padding-top: 0px;
   }
 }
 
