@@ -48,6 +48,12 @@
   margin-bottom: 16px;
 }
 
+@media (max-width: 992px) {
+  .oferta {
+    padding-top: 35px;
+  }
+}
+
 .cooperation {
   padding-bottom: 130px;
   padding-top: 50px;
@@ -71,6 +77,7 @@
     text-align: left;
     margin-bottom: 24px;
     line-height: 28px;
+    font-weight: 600;
   }
 }
 
@@ -93,6 +100,12 @@
   margin-top: 130px;
 }
 
+@media (max-width: 767px) {
+  .cooperation .myRow {
+    margin-top: 70px;
+  }
+}
+
 .cooperation .cards {
   padding: 40px 52px;
   background-color: rgba(255, 255, 255, 0.637);
@@ -112,11 +125,31 @@
   bottom: 0;
 }
 
+@media (max-width: 767px) {
+  .cooperation .cards .girl {
+    display: none;
+  }
+}
+
 .cooperation .cards h1 {
   margin-bottom: 42px;
   font-size: 34px;
   line-height: 42px;
   text-align: left;
+}
+
+@media (max-width: 767px) {
+  .cooperation .cards h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cooperation .cards h1 {
+    font-size: 24px;
+  }
 }
 
 .cooperation .cards .myBtn {
@@ -137,6 +170,13 @@
   color: #00C65E;
   background-color: #fff;
   border-color: #00C65E;
+}
+
+@media (max-width: 767px) {
+  .cooperation .cards .myBtn {
+    font-size: 18px;
+    padding: 16px 25px;
+  }
 }
 
 .cooperation .cards .myCol {
@@ -256,8 +296,28 @@
   font-weight: 600;
 }
 
+@media (max-width: 767px) {
+  .application .btn {
+    width: 100%;
+  }
+}
+
 .application .cards {
   padding: 60px;
+}
+
+@media (max-width: 767px) {
+  .application .cards h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 767px) {
+  .application .cards {
+    padding: 30px 15px;
+  }
 }
 
 .application .inputWrap {
