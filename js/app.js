@@ -44,10 +44,15 @@
 
 const catalog = document.querySelector(".fixedCatalog");
 const catalogId = document.querySelector("#catalogId");
+const mobileMenu = document.querySelector("#mobileMenu");
 
-catalogId.addEventListener("click", () => {
+const menyu = () => {
   catalog.classList.toggle("active");
-});
+}
+
+// catalogId.addEventListener("click", () => {
+//   catalog.classList.toggle("active");
+// });
 
 
 

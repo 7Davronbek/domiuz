@@ -328,19 +328,19 @@ body {
             padding-bottom: 40px;
 
             .desktop {
-                 display: block;
+                display: block;
 
-                 @media(max-width: 992px) {
-                     display: none;
-                 }
+                @media(max-width: 992px) {
+                    display: none;
+                }
             }
 
             .mobile {
-                 display: none;
+                display: none;
 
-                 @media(max-width: 992px) {
-                     display: block;
-                 }
+                @media(max-width: 992px) {
+                    display: block;
+                }
             }
 
             .myCol {
