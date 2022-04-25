@@ -326,6 +326,8 @@ body {
             transition: all 0.4s ease-in-out;
             padding-top: 30px;
             padding-bottom: 40px;
+            height: 100vh;
+            overflow-y: auto;
 
             .desktop {
                 display: block;
@@ -341,8 +343,26 @@ body {
                 h2 {
                     font-size: 20px;
                     font-weight: 600;
-                    margin-bottom: 20px;
+                    margin-bottom: 10px;
                     color: $red;
+                    padding: 12px 0;
+                }
+
+                h1 {
+                    border-bottom: 1px solid rgba(192, 192, 192, 0.308);
+
+                    a {
+                        font-size: 14px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 12px 0;
+                        font-weight: 600;
+
+                        i {
+                            font-size: 18px;
+                        }
+                    }
                 }
 
                 @media(max-width: 992px) {
@@ -501,6 +521,10 @@ body {
                 transition: all 0.2s linear 0.5s;
                 visibility: hidden;
                 opacity: 0;
+            }
+
+            @media(max-width: 992px) {
+                padding-top: 10px;
             }
 
             &.active {

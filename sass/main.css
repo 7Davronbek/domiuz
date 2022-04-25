@@ -372,6 +372,8 @@ body .nav-01 .fixedCatalog {
   transition: all 0.4s ease-in-out;
   padding-top: 30px;
   padding-bottom: 40px;
+  height: 100vh;
+  overflow-y: auto;
 }
 
 body .nav-01 .fixedCatalog .desktop {
@@ -391,8 +393,32 @@ body .nav-01 .fixedCatalog .mobile {
 body .nav-01 .fixedCatalog .mobile h2 {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #00C65E;
+  padding: 12px 0;
+}
+
+body .nav-01 .fixedCatalog .mobile h1 {
+  border-bottom: 1px solid rgba(192, 192, 192, 0.308);
+}
+
+body .nav-01 .fixedCatalog .mobile h1 a {
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 12px 0;
+  font-weight: 600;
+}
+
+body .nav-01 .fixedCatalog .mobile h1 a i {
+  font-size: 18px;
 }
 
 @media (max-width: 992px) {
@@ -561,6 +587,12 @@ body .nav-01 .fixedCatalog::after {
   transition: all 0.2s linear 0.5s;
   visibility: hidden;
   opacity: 0;
+}
+
+@media (max-width: 992px) {
+  body .nav-01 .fixedCatalog {
+    padding-top: 10px;
+  }
 }
 
 body .nav-01 .fixedCatalog.active {
