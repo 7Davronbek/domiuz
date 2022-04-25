@@ -382,6 +382,12 @@ body .nav-01 .fixedCatalog .myCol .nav-tabs {
   border: 0;
 }
 
+@media (max-width: 992px) {
+  body .nav-01 .fixedCatalog .myCol {
+    padding: 0 15px;
+  }
+}
+
 body .nav-01 .fixedCatalog .tab-content .right .img {
   margin-bottom: 10px;
   overflow: hidden;
