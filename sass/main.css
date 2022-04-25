@@ -388,6 +388,13 @@ body .nav-01 .fixedCatalog .mobile {
   display: none;
 }
 
+body .nav-01 .fixedCatalog .mobile h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #00C65E;
+}
+
 @media (max-width: 992px) {
   body .nav-01 .fixedCatalog .mobile {
     display: block;
