@@ -390,6 +390,70 @@ body .nav-01 .fixedCatalog .mobile {
   display: none;
 }
 
+body .nav-01 .fixedCatalog .mobile .world {
+  position: relative;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.308);
+}
+
+body .nav-01 .fixedCatalog .mobile .world .langWrap {
+  position: absolute;
+  z-index: 11;
+  background: #fff;
+  left: -15px;
+  top: 35px;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #eceef4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0 4px 10px #c0c0c04f;
+          box-shadow: 0 4px 10px #c0c0c04f;
+  opacity: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+body .nav-01 .fixedCatalog .mobile .world .langWrap a {
+  padding: 0.5rem;
+  margin-left: 0;
+  font-size: .9rem;
+  margin: 0;
+  border-radius: 12px !important;
+}
+
+body .nav-01 .fixedCatalog .mobile .world i {
+  font-size: 18px;
+  color: #00C65E;
+}
+
+body .nav-01 .fixedCatalog .mobile .world i:nth-child(2) {
+  margin-left: 6px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+body .nav-01 .fixedCatalog .mobile .world:hover .langWrap {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
 body .nav-01 .fixedCatalog .mobile h2 {
   font-size: 20px;
   font-weight: 600;
