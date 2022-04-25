@@ -1909,6 +1909,20 @@ body .sameProducts .myCard:hover {
           transform: translateY(-3px);
 }
 
+body .pre-footer {
+  padding: 20px 0 30px;
+}
+
+body .pre-footer h1 {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+body .pre-footer p {
+  color: #222;
+  margin-bottom: 10px;
+}
+
 body .offers {
   padding-top: 48px;
 }
