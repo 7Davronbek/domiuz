@@ -1923,6 +1923,10 @@ body .pre-footer p {
   margin-bottom: 10px;
 }
 
+body .pre-footer p a {
+  color: #00C65E;
+}
+
 body .offers {
   padding-top: 48px;
 }

@@ -1799,6 +1799,10 @@ body {
         p {
             color: #222;
             margin-bottom: 10px;
+
+            a {
+                color: $red;
+            }
         }
     }
 
