@@ -374,6 +374,26 @@ body .nav-01 .fixedCatalog {
   padding-bottom: 40px;
 }
 
+body .nav-01 .fixedCatalog .desktop {
+  display: block;
+}
+
+@media (max-width: 992px) {
+  body .nav-01 .fixedCatalog .desktop {
+    display: none;
+  }
+}
+
+body .nav-01 .fixedCatalog .mobile {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  body .nav-01 .fixedCatalog .mobile {
+    display: block;
+  }
+}
+
 body .nav-01 .fixedCatalog .myCol {
   padding: 0 30px;
 }

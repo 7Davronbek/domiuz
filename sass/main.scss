@@ -327,6 +327,22 @@ body {
             padding-top: 30px;
             padding-bottom: 40px;
 
+            .desktop {
+                 display: block;
+
+                 @media(max-width: 992px) {
+                     display: none;
+                 }
+            }
+
+            .mobile {
+                 display: none;
+
+                 @media(max-width: 992px) {
+                     display: block;
+                 }
+            }
+
             .myCol {
                 padding: 0 30px;
 
