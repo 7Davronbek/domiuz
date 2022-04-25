@@ -50,6 +50,14 @@ const menyu = () => {
   catalog.classList.toggle("active");
 }
 
+const heart = document.querySelectorAll('.hearts')
+
+heart.forEach(item => {
+  item.addEventListener('click', () => {
+    item.classList.toggle('click')
+  })
+})
+
 // catalogId.addEventListener("click", () => {
 //   catalog.classList.toggle("active");
 // });

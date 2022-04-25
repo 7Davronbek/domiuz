@@ -1963,3 +1963,36 @@ body {
         transform: scale(1.1);
     }
 }
+
+.hearts {
+    img {
+        transition: all .15s linear;
+    }
+
+    &.empty {
+        img {
+            display: inline-block;
+        }
+    }
+
+    .full {
+        img {
+            display: none;
+        }
+    }
+
+    &.click {
+
+        &.empty {
+            img {
+                display: none;
+            }
+        }
+
+        .full {
+            img {
+                display: inline-block;
+            }
+        }
+    }
+}

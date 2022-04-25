@@ -2119,4 +2119,25 @@ body .offers .myCard:last-child {
             transform: scale(1.1);
   }
 }
+
+.hearts img {
+  -webkit-transition: all .15s linear;
+  transition: all .15s linear;
+}
+
+.hearts.empty img {
+  display: inline-block;
+}
+
+.hearts .full img {
+  display: none;
+}
+
+.hearts.click.empty img {
+  display: none;
+}
+
+.hearts.click .full img {
+  display: inline-block;
+}
 /*# sourceMappingURL=main.css.map */
