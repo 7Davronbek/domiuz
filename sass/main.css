@@ -1243,7 +1243,7 @@ body .footer .myRow .mobileA {
 @media (max-width: 767px) {
   body .footer .myRow .mobileA {
     display: block;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 }
 
