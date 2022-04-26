@@ -1969,30 +1969,34 @@ body {
         transition: all .15s linear;
     }
 
-    &.empty {
-        img {
-            display: inline-block;
-        }
-    }
+    // &.empty {
+    //     img {
+    //         display: inline-block;
+    //     }
+    // }
 
-    .full {
-        img {
-            display: none;
-        }
-    }
+    // .full {
+    //     img {
+    //         display: none;
+    //     }
+    // }
 
     &.click {
 
-        &.empty {
-            img {
-                display: none;
-            }
+        &.icon-heart {
+            background-color: red;
         }
 
-        .full {
-            img {
-                display: inline-block;
-            }
-        }
+        // &.empty {
+        //     img {
+        //         display: none;
+        //     }
+        // }
+
+        // .full {
+        //     img {
+        //         display: inline-block;
+        //     }
+        // }
     }
 }

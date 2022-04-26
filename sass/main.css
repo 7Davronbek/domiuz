@@ -2125,19 +2125,7 @@ body .offers .myCard:last-child {
   transition: all .15s linear;
 }
 
-.hearts.empty img {
-  display: inline-block;
-}
-
-.hearts .full img {
-  display: none;
-}
-
-.hearts.click.empty img {
-  display: none;
-}
-
-.hearts.click .full img {
-  display: inline-block;
+.hearts.click.icon-heart {
+  background-color: red;
 }
 /*# sourceMappingURL=main.css.map */
