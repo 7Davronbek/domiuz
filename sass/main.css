@@ -923,6 +923,10 @@ body .header-slider .swiper-slide img {
   }
 }
 
+body .pop-categories .swiper-slide {
+  padding: 0 20px;
+}
+
 @media (max-width: 576px) {
   body .pop-categories .col-6 {
     padding: 0 10px;
@@ -949,7 +953,7 @@ body .pop-categories h2 {
 
 body .pop-categories .card {
   background: #eceef4b3;
-  padding: 25px 10px;
+  padding: 20px 0;
   overflow: hidden;
   border-radius: 12px;
 }
@@ -1093,6 +1097,10 @@ body .pop-products {
   padding: 50px 0 0 0;
 }
 
+body .pop-products .swiper-slide {
+  padding: 0 20px;
+}
+
 @media (max-width: 767px) {
   body .pop-products .swiper-button-next,
   body .pop-products .swiper-button-prev {
@@ -1141,7 +1149,7 @@ body .pop-products .pop-product .swiper-slide:hover {
 }
 
 body .pop-products .pop-product .myCard {
-  padding: 20px 20px 0 20px;
+  padding: 20px 0;
   border-radius: 16px;
   background: #fff;
   height: 100%;

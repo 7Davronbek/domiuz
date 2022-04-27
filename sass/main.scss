@@ -829,6 +829,10 @@ body {
 
     .pop-categories {
 
+        .swiper-slide {
+            padding: 0 20px;
+        }
+
         .col-6 {
 
             @media(max-width: 576px) {
@@ -852,7 +856,7 @@ body {
 
         .card {
             background: #eceef4b3;
-            padding: 25px 10px;
+            padding: 20px 0;
             overflow: hidden;
             border-radius: 12px;
 
@@ -985,6 +989,10 @@ body {
     .pop-products {
         padding: 50px 0 0 0;
 
+        .swiper-slide {
+            padding: 0 20px;
+        }
+
         .swiper-button-next,
         .swiper-button-prev {
 
@@ -1030,7 +1038,7 @@ body {
             }
 
             .myCard {
-                padding: 20px 20px 0 20px;
+                padding: 20px 0;
                 border-radius: 16px;
                 background: #fff;
                 height: 100%;
