@@ -1296,12 +1296,12 @@ body .brands .slider .slide img {
 }
 
 body .footer {
-  background: #fff;
+  background: #fbfbfb;
   padding-top: 30px;
   border-radius: 16px 16px 0 0;
   -webkit-appearance: none;
-  -webkit-box-shadow: 0 3px 16px #1d39a914;
-  box-shadow: 0 3px 16px #1d39a914;
+  -webkit-box-shadow: 0 3px 16px #1d39a96b;
+  box-shadow: 0 3px 16px #1d39a96b;
 }
 
 body .footer .footer__link {
