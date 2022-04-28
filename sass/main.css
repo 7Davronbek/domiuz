@@ -1761,6 +1761,13 @@ body .view .view-right h6.full__price span {
   line-height: 23px;
 }
 
+@media (max-width: 767px) {
+  body .view .view-right h6.full__price {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+}
+
 body .view .view-right h6.monthly__price {
   font-size: 30px;
   line-height: 38px;
@@ -1772,6 +1779,13 @@ body .view .view-right h6.monthly__price {
 body .view .view-right h6.monthly__price span {
   line-height: 23px;
   font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  body .view .view-right h6.monthly__price {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
 }
 
 body .view .view-right .delivery {
@@ -1838,6 +1852,13 @@ body .viewTable .info h4 {
   font-weight: 600;
 }
 
+@media (max-width: 767px) {
+  body .viewTable .info h4 {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+}
+
 body .viewTable .info .table {
   margin-bottom: 30px;
 }
@@ -1850,6 +1871,13 @@ body .viewTable h1 {
   font-size: 44px;
   margin-bottom: 40px;
   font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  body .viewTable h1 {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
 }
 
 body .viewTable .section-info {
@@ -1869,8 +1897,28 @@ body .viewTable .section-info .info table tr td {
   border-bottom: 1px solid rgba(40, 40, 48, 0.1);
 }
 
+@media (max-width: 767px) {
+  body .viewTable .section-info .info table tr td {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(40, 40, 48, 0.8);
+  }
+}
+
 body .viewTable .section-info .info table .text-left {
   color: #818181;
+}
+
+@media (max-width: 992px) {
+  body .viewTable .section-info .info {
+    padding: 20px 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  body .viewTable .section-info {
+    padding: 0;
+  }
 }
 
 body .sameProducts {
@@ -1991,11 +2039,23 @@ body .offers .myCard h2 {
   margin-bottom: 0.5rem !important;
 }
 
+@media (max-width: 830px) {
+  body .offers .myCard h2 {
+    margin-bottom: 12px !important;
+  }
+}
+
 body .offers .myCard h3 {
   font-size: 24px;
   font-weight: 500;
   color: #282830;
   line-height: 23px;
+}
+
+@media (max-width: 830px) {
+  body .offers .myCard h3 {
+    margin-bottom: 12px !important;
+  }
 }
 
 body .offers .myCard span,
@@ -2006,6 +2066,13 @@ body .offers .myCard h4 {
   line-height: 23px;
 }
 
+@media (max-width: 767px) {
+  body .offers .myCard span,
+  body .offers .myCard h4 {
+    font-size: 14px;
+  }
+}
+
 body .offers .myCard a {
   text-decoration: underline;
   font-size: 14px;
@@ -2013,6 +2080,13 @@ body .offers .myCard a {
   color: #241cf0;
   line-height: 18px;
   outline: none !important;
+}
+
+@media (max-width: 830px) {
+  body .offers .myCard a {
+    margin-bottom: 12px !important;
+    display: block;
+  }
 }
 
 body .offers .myCard .line {
@@ -2046,6 +2120,14 @@ body .offers .myCard .myBtn {
   margin-left: auto !important;
 }
 
+@media (max-width: 830px) {
+  body .offers .myCard .myBtn {
+    display: block;
+    width: 100%;
+    margin-top: 17px !important;
+  }
+}
+
 body .offers .myCard:last-child {
   margin-bottom: 0;
 }
@@ -2053,6 +2135,12 @@ body .offers .myCard:last-child {
 @media (max-width: 992px) {
   body .offers .myCard {
     padding: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  body .offers .myCard {
+    margin-bottom: 28px;
   }
 }
 

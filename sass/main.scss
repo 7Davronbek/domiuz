@@ -1630,6 +1630,11 @@ body {
                     font-size: 18px;
                     line-height: 23px;
                 }
+
+                @media(max-width: 767px) {
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                }
             }
 
             h6.monthly__price {
@@ -1643,6 +1648,11 @@ body {
                     line-height: 23px;
                     font-size: 18px;
 
+                }
+
+                @media(max-width: 767px) {
+                    margin-bottom: 20px;
+                    font-size: 25px;
                 }
             }
 
@@ -1709,6 +1719,11 @@ body {
                 margin-bottom: 15px;
                 font-size: 24px;
                 font-weight: 600;
+
+                @media(max-width: 767px) {
+                    margin-bottom: 15px;
+                    font-size: 22px;
+                }
             }
 
             .table {
@@ -1724,10 +1739,14 @@ body {
             font-size: 44px;
             margin-bottom: 40px;
             font-weight: 600;
+
+            @media(max-width: 767px) {
+                margin-bottom: 20px;
+                font-size: 22px;
+            }
         }
 
         .section-info {
-
             padding: 16px;
 
             .info {
@@ -1742,6 +1761,12 @@ body {
                             color: #282830;
                             line-height: 18px;
                             border-bottom: 1px solid rgba(40, 40, 48, .1);
+
+                            @media(max-width: 767px) {
+                                font-size: 14px;
+                                font-weight: 500;
+                                color: rgba(40, 40, 48, .8);
+                            }
                         }
                     }
 
@@ -1749,6 +1774,14 @@ body {
                         color: #818181;
                     }
                 }
+
+                @media(max-width: 992px) {
+                    padding: 20px 16px;
+                }
+            }
+
+            @media(max-width: 992px) {
+                padding: 0;
             }
         }
     }
@@ -1858,6 +1891,10 @@ body {
                 color: rgba(40, 40, 48, .5);
                 line-height: 23px;
                 margin-bottom: 0.5rem !important;
+
+                @media(max-width: 830px) {
+                    margin-bottom: 12px !important;
+                }
             }
 
             h3 {
@@ -1865,6 +1902,10 @@ body {
                 font-weight: 500;
                 color: #282830;
                 line-height: 23px;
+
+                @media(max-width: 830px) {
+                    margin-bottom: 12px !important;
+                }
             }
 
             span,
@@ -1873,6 +1914,10 @@ body {
                 font-weight: 500;
                 color: #282830;
                 line-height: 23px;
+
+                @media(max-width: 767px) {
+                    font-size: 14px;
+                }
             }
 
             a {
@@ -1882,6 +1927,11 @@ body {
                 color: #241cf0;
                 line-height: 18px;
                 outline: none !important;
+
+                @media(max-width: 830px) {
+                    margin-bottom: 12px !important;
+                    display: block;
+                }
             }
 
             .line {
@@ -1911,6 +1961,12 @@ body {
                 background: #25c36f;
                 border-color: #25c36f;
                 margin-left: auto !important;
+
+                @media(max-width: 830px) {
+                    display: block;
+                    width: 100%;
+                    margin-top: 17px !important;
+                }
             }
 
             &:last-child {
@@ -1919,6 +1975,10 @@ body {
 
             @media(max-width: 992px) {
                 padding: 16px;
+            }
+
+            @media(max-width: 767px) {
+                margin-bottom: 28px;
             }
         }
     }
