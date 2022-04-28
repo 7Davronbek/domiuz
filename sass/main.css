@@ -1953,10 +1953,33 @@ body .offers h1 {
   margin-bottom: 35px;
 }
 
+@media (max-width: 992px) {
+  body .offers h1 {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+}
+
 body .offers .myCard {
   border-radius: 16px;
   padding: 18px 20px 18px 20px;
   margin-bottom: 32px;
+}
+
+@media (max-width: 830px) {
+  body .offers .myCard .justify-content-between {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: left;
+    -webkit-box-align: inherit !important;
+        -ms-flex-align: inherit !important;
+            align-items: inherit !important;
+    -webkit-box-pack: inherit !important;
+        -ms-flex-pack: inherit !important;
+            justify-content: inherit !important;
+  }
 }
 
 body .offers .myCard h2 {
@@ -2000,6 +2023,12 @@ body .offers .myCard .line {
   border-radius: 1px;
 }
 
+@media (max-width: 830px) {
+  body .offers .myCard .line {
+    display: none;
+  }
+}
+
 body .offers .myCard i {
   margin-right: 8px;
   color: #3b3b41;
@@ -2019,6 +2048,12 @@ body .offers .myCard .myBtn {
 
 body .offers .myCard:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  body .offers .myCard {
+    padding: 16px;
+  }
 }
 
 @media (max-width: 767px) {

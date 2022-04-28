@@ -1828,12 +1828,27 @@ body {
             font-size: 42px;
             font-weight: 600;
             margin-bottom: 35px;
+
+            @media(max-width: 992px) {
+                font-size: 34px;
+                margin-bottom: 30px;
+            }
         }
 
         .myCard {
             border-radius: 16px;
             padding: 18px 20px 18px 20px;
             margin-bottom: 32px;
+
+            .justify-content-between {
+
+                @media(max-width: 830px) {
+                    flex-direction: column;
+                    text-align: left;
+                    align-items: inherit !important;
+                    justify-content: inherit !important;
+                }
+            }
 
 
             h2 {
@@ -1875,6 +1890,10 @@ body {
                 background-color: #c0c0c082;
                 margin: 0 50px 0 50px;
                 border-radius: 1px;
+
+                @media(max-width: 830px) {
+                    display: none;
+                }
             }
 
             i {
@@ -1896,6 +1915,10 @@ body {
 
             &:last-child {
                 margin-bottom: 0;
+            }
+
+            @media(max-width: 992px) {
+                padding: 16px;
             }
         }
     }
