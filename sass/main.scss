@@ -1469,6 +1469,9 @@ body {
 
         .leftCol {
             padding: 0;
+            align-items: center;
+            justify-content: center;
+            display: flex;
 
             .swiper-wrapper {
                 overflow: visible;

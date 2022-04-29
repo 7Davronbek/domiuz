@@ -1607,6 +1607,15 @@ body .view .midCol .swiper-pagination .swiper-pagination-bullet.swiper-paginatio
 
 body .view .leftCol {
   padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 body .view .leftCol .swiper-wrapper {
