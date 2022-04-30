@@ -7,6 +7,11 @@
             font-size: 44px;
             margin-bottom: 40px;
             font-weight: 700;
+
+            @media(max-width: 767px) {
+                font-size: 34px;
+                margin-bottom: 10px;
+            }
         }
 
         .line {
@@ -284,10 +289,19 @@
                         }
                     }
                 }
+
+                @media(max-width: 992px) {
+                    display: none;
+                }
             }
 
             .myCol {
                 margin-bottom: 35px;
+
+                @media(max-width: 767px) {
+                    margin-bottom: 15px;
+                    padding: 10px;
+                }
             }
 
             .myCard {
@@ -328,6 +342,7 @@
                     color: #00C65E;
                     font-size: 17px;
                     margin: 20px 0 14px;
+
                     @media (max-width:576px) {
                         font-size: 11px;
                         margin: 10px 0;
@@ -337,6 +352,7 @@
                 p {
                     font-size: 14px;
                     height: 42px;
+
                     @media (max-width:576px) {
                         font-size: 9px;
                     }
@@ -362,19 +378,26 @@
                         font-size: 10px;
                     }
                 }
-                .heart{
-                    i{
+
+                .heart {
+                    i {
                         width: 15px;
                         height: 15px;
                     }
                 }
+
                 &:hover {
                     box-shadow: 2px 3px 10px #0072ff40;
                 }
+
                 @media (max-width:576px) {
-                 height: initial;
+                    height: initial;
                 }
             }
         }
+    }
+
+    @media(max-width: 767px) {
+        padding: 25px 0;
     }
 }
