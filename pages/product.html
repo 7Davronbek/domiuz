@@ -972,14 +972,27 @@
       });
 
       var swiper3 = new Swiper(".productSwiper3", {
-        spaceBetween: 10,
-        slidesPerView: 4,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+        slidesPerView: 4.5,
+        loop: true,
+        lazy: true,
+        slidesPerView: "auto",
+        spaceBetween: 30,
+        breakpoints: {
+          0: {
+            spaceBetween: 10,
+            slidesPerView: 1.8,
+          },
+          768: {
+            spaceBetween: 20,
+            slidesPerView: 3,
+          },
+          1480: {
+            spaceBetween: 45,
+          },
         },
-        thumbs: {
-          swiper: swiper,
+        navigation: {
+          nextEl: "#swp-smart-next",
+          prevEl: "#swp-smart-prev",
         },
       });
     </script>

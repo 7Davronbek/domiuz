@@ -2052,13 +2052,54 @@ body .sameProducts {
   margin-bottom: 50px;
 }
 
+@media (max-width: 767px) {
+  body .sameProducts .swiper-button-next,
+  body .sameProducts .swiper-button-prev {
+    width: 54px !important;
+    height: 46px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  body .sameProducts .swiper-button-next::after,
+  body .sameProducts .swiper-button-prev::after {
+    font-size: 14px;
+  }
+}
+
+body .sameProducts .swiper-slide {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+body .sameProducts .swiper-slide:hover {
+  -webkit-box-shadow: 0 3px 16px #51ff7d1a;
+  box-shadow: 2px 3px 10px #0072ff40;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
+@media (max-width: 576px) {
+  body .sameProducts .swiper-slide {
+    -webkit-box-shadow: 0 3px 16px #1d39a90a;
+    box-shadow: 0 3px 16px #1d39a90a;
+  }
+}
+
 body .sameProducts .myCard {
-  padding: 20px;
+  padding: 20px 0;
   border-radius: 16px;
   background: #fff;
   height: 100%;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+}
+
+@media (max-width: 576px) {
+  body .sameProducts .myCard .icon {
+    width: 15px;
+    height: 15px;
+  }
 }
 
 body .sameProducts .myCard h5 {
@@ -2068,6 +2109,12 @@ body .sameProducts .myCard h5 {
   font-size: 15px;
 }
 
+@media (max-width: 576px) {
+  body .sameProducts .myCard h5 {
+    font-size: 10px;
+  }
+}
+
 body .sameProducts .myCard h4 {
   font-weight: bold;
   color: #00C65E;
@@ -2075,9 +2122,32 @@ body .sameProducts .myCard h4 {
   margin: 20px 0 14px;
 }
 
+@media (max-width: 576px) {
+  body .sameProducts .myCard h4 {
+    font-size: 14px;
+    margin-top: 14px;
+  }
+}
+
+body .sameProducts .myCard span {
+  font-size: 15px;
+}
+
+@media (max-width: 576px) {
+  body .sameProducts .myCard span {
+    font-size: 10px;
+  }
+}
+
 body .sameProducts .myCard p {
   font-size: 14px;
   height: 42px;
+}
+
+@media (max-width: 576px) {
+  body .sameProducts .myCard p {
+    font-size: 11px;
+  }
 }
 
 body .sameProducts .myCard .line {
@@ -2087,17 +2157,33 @@ body .sameProducts .myCard .line {
   background-color: rgba(40, 40, 48, 0.1);
 }
 
-body .sameProducts .myCard h3 {
+@media (max-width: 576px) {
+  body .sameProducts .myCard .line {
+    margin: 13px 0 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  body .sameProducts .myCard {
+    padding: 10px 12px;
+  }
+}
+
+body .sameProducts h3 {
   font-weight: 500;
   color: #282830;
   font-size: 15px;
+  cursor: pointer;
 }
 
-body .sameProducts .myCard:hover {
-  -webkit-box-shadow: 2px 3px 10px #0072ff40;
-          box-shadow: 2px 3px 10px #0072ff40;
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
+@media (max-width: 576px) {
+  body .sameProducts h3 {
+    font-size: 11px;
+  }
+}
+
+body .sameProducts .icon-heart {
+  cursor: pointer;
 }
 
 body .pre-footer {
