@@ -1426,7 +1426,18 @@ body {
             overflow: visible;
         }
 
+        .swiper-wrapper {
+
+            @media(max-width: 767px) {
+                flex-direction: row !important;
+                justify-content: space-around;
+            }
+        }
+
         .midCol {
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
             .swiper-button-next,
             .swiper-button-prev {
@@ -1474,6 +1485,17 @@ body {
             display: flex;
 
             .swiper-wrapper {
+    
+                @media(max-width: 767px) {
+                    height: 95px !important;
+                }
+            }
+
+            .swiper-slide {
+                width: 20% !important;
+            }
+
+            .swiper-wrapper {
                 overflow: visible;
             }
 
@@ -1505,6 +1527,8 @@ body {
 
                     &::after {
                         background-color: $red;
+
+                     
                     }
                 }
 
@@ -1513,6 +1537,14 @@ body {
                     max-width: 100%;
                     max-height: 100%;
                     border-radius: 0;
+
+                    @media(max-width: 992px) {
+                        object-fit: contain !important;
+                    }
+                }
+
+                @media(max-width: 767px) {
+                    width: 20% !important;
                 }
             }
         }
