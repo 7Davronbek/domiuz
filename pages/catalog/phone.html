@@ -125,7 +125,7 @@
             <div class="col-12 filterBtn ">
               <h1>Smartfonlar</h1>
 
-              <div class="filter">
+              <div onclick="handleClick()" class="filter">
                 Filtrlar <span><img src="/img/filter.svg" alt=""></span>
               </div>
 
@@ -139,6 +139,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-3 leftCatalog">
+              <div onclick="handleClick()" class="close">x</div>
               <h2>Narx</h2>
 
               <div
@@ -918,5 +919,14 @@
     <script src="../../js/jquery-3.3.1.slim.min.js"></script>
     <script src="../../js/popper.min.js"></script>
     <script src="../../js/bootstrap.js"></script>
+    <script>
+
+      const content = document.querySelector('.leftCatalog')
+
+      const handleClick = () => {
+        content.classList.toggle('active')
+      }
+      
+    </script>
   </body>
 </html>
