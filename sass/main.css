@@ -59,6 +59,13 @@ body .slash a {
   color: #282830;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .slash a span {
@@ -81,7 +88,20 @@ body .slash a:last-child:hover {
   cursor: inherit;
 }
 
+@media (max-width: 767px) {
+  body .slash a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  body .slash {
+    margin-bottom: 20px;
+  }
+}
+
 body .nav-01 {
+  display: none;
   padding: 20px 0;
   border-bottom: 1px solid #eceef4;
   position: fixed;
@@ -90,7 +110,7 @@ body .nav-01 {
   left: 0;
   -webkit-transition: all .6s ease-in-out;
   transition: all .6s ease-in-out;
-  background: #ffffffab;
+  background: #ffffff;
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   z-index: 9999;
@@ -1296,6 +1316,7 @@ body .brands .slider .slide img {
 }
 
 body .footer {
+  display: none;
   background: #fbfbfb;
   padding-top: 30px;
   border-radius: 16px 16px 0 0;
@@ -2050,6 +2071,19 @@ body .viewTable .section-info .info table .text-left {
 
 body .sameProducts {
   margin-bottom: 50px;
+}
+
+body .sameProducts h2 {
+  margin-top: 0;
+  font-size: 32px;
+  font-weight: 500;
+  color: #282830;
+}
+
+@media (max-width: 767px) {
+  body .sameProducts h2 {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 767px) {

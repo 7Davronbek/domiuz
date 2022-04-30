@@ -60,6 +60,9 @@ body {
             font-weight: 500;
             color: #282830;
             transition: all .3s ease-in-out;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
 
             span {
                 color: #c5c9d2;
@@ -80,11 +83,19 @@ body {
                     cursor: inherit;
                 }
             }
+
+            @media(max-width: 767px) {
+                font-size: 14px;
+            }
+        }
+
+        @media(max-width: 767px) {
+            margin-bottom: 20px;
         }
     }
 
     .nav-01 {
-        // display: none;
+        display: none;
         padding: 20px 0;
         border-bottom: 1px solid #eceef4;
         position: fixed;
@@ -92,7 +103,7 @@ body {
         top: 0;
         left: 0;
         transition: all .6s ease-in-out;
-        background: #ffffffab;
+        background: #ffffff;
         backdrop-filter: blur(10px);
         z-index: 9999;
 
@@ -1174,6 +1185,7 @@ body {
     }
 
     .footer {
+        display: none;
         background: #fbfbfb;
         padding-top: 30px;
         border-radius: 16px 16px 0 0;
@@ -1876,6 +1888,17 @@ body {
 
     .sameProducts {
         margin-bottom: 50px;
+
+        h2 {
+            margin-top: 0;
+            font-size: 32px;
+            font-weight: 500;
+            color: #282830;
+
+            @media(max-width: 767px) {
+                font-size: 22px;
+            }
+        }
 
         .swiper-button-next,
         .swiper-button-prev {
