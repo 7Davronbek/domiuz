@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3135" data-name="Rectangle 3135" width="15" height="15" transform="translate(0 -0.175)" fill="#f01c41"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_775" data-name="Mask Group 775" transform="translate(0 0.175)" clip-path="url(#clip-path)">
+    <path id="mail" d="M9.73,18.227a.656.656,0,0,0-.656-.656H-.344A.656.656,0,0,0-1,18.227a.656.656,0,0,0,.656.656H9.074A.656.656,0,0,0,9.73,18.227Z" transform="translate(1 -14.989)" fill="#f01c41"/>
+    <path id="mail-2" data-name="mail" d="M7,18.227a.656.656,0,0,0-.656-.656H-.344A.656.656,0,0,0-1,18.227a.656.656,0,0,0,.656.656H6.347A.656.656,0,0,0,7,18.227Z" transform="translate(1 -10.898)" fill="#f01c41"/>
+    <path id="mail-3" data-name="mail" d="M3.594,18.227a.656.656,0,0,0-.656-.656H-.344A.656.656,0,0,0-1,18.227a.656.656,0,0,0,.656.656H2.938A.656.656,0,0,0,3.594,18.227Z" transform="translate(1 -6.807)" fill="#f01c41"/>
+    <path id="mail-4" data-name="mail" d="M8.177,18.227a.656.656,0,0,0-.656-.656H5.656a.656.656,0,0,0,0,1.312H7.521A.656.656,0,0,0,8.177,18.227Z" transform="translate(6.823 -14.989)" fill="#f01c41"/>
+    <path id="mail-5" data-name="mail" d="M6.9,18.227a.656.656,0,0,0-.656-.656H1.656a.656.656,0,0,0,0,1.312H6.248A.656.656,0,0,0,6.9,18.227Z" transform="translate(8.096 -10.898)" fill="#f01c41"/>
+    <path id="mail-6" data-name="mail" d="M5.313,18.227a.656.656,0,0,0-.656-.656h-8A.656.656,0,0,0-4,18.227a.656.656,0,0,0,.656.656h8A.656.656,0,0,0,5.313,18.227Z" transform="translate(9.687 -6.807)" fill="#f01c41"/>
+    <path id="mail-7" data-name="mail" d="M3.8.656A.656.656,0,0,0,3.149,0H.656a.656.656,0,0,0,0,1.312H3.149A.656.656,0,0,0,3.8.656Z" transform="translate(11.08 1.336) rotate(90)" fill="#f01c41"/>
+    <path id="mail-8" data-name="mail" d="M3.8.656A.656.656,0,0,0,3.149,0H.656a.656.656,0,0,0,0,1.312H3.149A.656.656,0,0,0,3.8.656Z" transform="translate(8.353 5.427) rotate(90)" fill="#f01c41"/>
+    <path id="mail-9" data-name="mail" d="M3.8.656A.656.656,0,0,0,3.149,0H.656a.656.656,0,0,0,0,1.312H3.149A.656.656,0,0,0,3.8.656Z" transform="translate(4.944 9.518) rotate(90)" fill="#f01c41"/>
+  </g>
+</svg>
