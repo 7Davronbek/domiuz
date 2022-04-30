@@ -1320,6 +1320,15 @@ body {
 
             svg {
                 color: $red !important;
+
+                @media(max-width: 767px) {
+                    width: 15px;
+                }
+            }
+
+            @media(max-width: 767px) {
+                width: 35px;
+                height: 30px;
             }
         }
 
@@ -1394,11 +1403,43 @@ body {
                 max-width: none;
                 max-height: none;
                 cursor: grab;
+
+                @media(max-width: 767px) {
+                    width: 100% !important;
+                    height: 100% !important;
+                    object-fit: scale-down;
+                }
+            }
+
+            @media(max-width: 767px) {
+                width: 100% !important;
+                height: 100% !important;
             }
         }
     }
 
     .view {
+
+        .img {
+            text-align: right;
+            background: #fff;
+            width: 44px;
+            height: 44px;
+            padding: 0;
+            border-radius: 12px;
+            z-index: 5;
+            box-shadow: 0 0 10px #c0c0c024;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            margin: 2px;
+            margin-left: auto;
+
+            @media(max-width: 992px) {
+                display: flex;
+            }
+
+        }
 
         .info {
 
@@ -1428,10 +1469,7 @@ body {
 
         .swiper-wrapper {
 
-            @media(max-width: 767px) {
-                flex-direction: row !important;
-                justify-content: space-around;
-            }
+            @media(max-width: 767px) {}
         }
 
         .midCol {
@@ -1475,6 +1513,10 @@ body {
                         border-radius: 16px;
                     }
                 }
+
+                @media(max-width: 767px) {
+                    bottom: -10px;
+                }
             }
         }
 
@@ -1485,9 +1527,11 @@ body {
             display: flex;
 
             .swiper-wrapper {
-    
+
                 @media(max-width: 767px) {
                     height: 95px !important;
+                    flex-direction: row !important;
+                    justify-content: space-around;
                 }
             }
 
@@ -1528,7 +1572,7 @@ body {
                     &::after {
                         background-color: $red;
 
-                     
+
                     }
                 }
 
@@ -1546,6 +1590,10 @@ body {
                 @media(max-width: 767px) {
                     width: 20% !important;
                 }
+            }
+
+            @media(max-width: 767px) {
+                margin-top: 45px;
             }
         }
 
@@ -1647,6 +1695,11 @@ body {
                         color: #241cf0;
                     }
                 }
+            }
+
+            @media(max-width: 767px) {
+                padding: 20px;
+                background: #fff;
             }
         }
 
