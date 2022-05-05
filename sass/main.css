@@ -101,7 +101,6 @@ body .slash a:last-child:hover {
 }
 
 body .nav-01 {
-  display: none;
   padding: 20px 0;
   border-bottom: 1px solid #eceef4;
   position: fixed;
@@ -1316,7 +1315,6 @@ body .brands .slider .slide img {
 }
 
 body .footer {
-  display: none;
   background: #fbfbfb;
   padding-top: 30px;
   border-radius: 16px 16px 0 0;
