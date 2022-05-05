@@ -48,6 +48,7 @@ const mobileMenu = document.querySelector("#mobileMenu");
 
 const menyu = () => {
   catalog.classList.toggle("active");
+  mobileMenu.classList.toggle('active')
 }
 
 const heart = document.querySelectorAll('.hearts')
@@ -64,14 +65,13 @@ heart.forEach(item => {
 
 
 
-$("img.lazyload").lazyload();
 
 
 
-const burgerBtn = document.querySelector('#mobileMenu')
-burgerBtn.addEventListener('click', () => {
-  burgerBtn.classList.toggle('active')
-})
+// const burgerBtn = document.querySelector('#mobileMenu')
+// burgerBtn.addEventListener('click', () => {
+//   burgerBtn.classList.toggle('active')
+// })
 
 
 
