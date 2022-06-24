@@ -2189,11 +2189,34 @@ body {
 
                 th {
                     font-weight: 600;
+                    padding-bottom: 30px;
                 }
             }
 
             tbody {
                 font-weight: 500;
+
+                .eye {
+                    padding: 20px 14px;
+                    background: $red;
+                    width: 44px;
+                    height: 52px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                    border-radius: 12px;
+
+                    i {
+                        color: #fff;
+                        font-weight: 300;
+                    }
+                }
 
                 .contents {
                     font-size: 14px;
@@ -2202,8 +2225,8 @@ body {
                 }
 
                 .img {
-                    width: 180px;
-                    height: 180px;
+                    width: 160px;
+                    height: 160px;
                     display: block;
 
                     img {

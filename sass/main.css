@@ -2409,10 +2409,33 @@ body .cardList .table th {
 
 body .cardList .table thead th {
   font-weight: 600;
+  padding-bottom: 30px;
 }
 
 body .cardList .table tbody {
   font-weight: 500;
+}
+
+body .cardList .table tbody .eye {
+  padding: 20px 14px;
+  background: #00C65E;
+  width: 44px;
+  height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+body .cardList .table tbody .eye i {
+  color: #fff;
+  font-weight: 300;
 }
 
 body .cardList .table tbody .contents {
@@ -2422,8 +2445,8 @@ body .cardList .table tbody .contents {
 }
 
 body .cardList .table tbody .img {
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   display: block;
 }
 
