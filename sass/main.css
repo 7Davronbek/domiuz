@@ -2389,6 +2389,71 @@ body .offers .myCard:last-child {
   }
 }
 
+body .cardList {
+  padding: 50px 0;
+}
+
+body .cardList h1 {
+  font-size: 44px;
+  margin-bottom: 40px;
+}
+
+body .cardList .table th {
+  font-size: 15px;
+  font-weight: 600;
+  color: #282830;
+  line-height: 19px;
+  border-bottom: 1px solid rgba(40, 40, 48, 0.1);
+  vertical-align: middle;
+}
+
+body .cardList .table thead th {
+  font-weight: 600;
+}
+
+body .cardList .table tbody {
+  font-weight: 500;
+}
+
+body .cardList .table tbody .contents {
+  font-size: 14px;
+  margin: 0;
+  color: #212529;
+}
+
+body .cardList .table tbody .img {
+  width: 180px;
+  height: 180px;
+  display: block;
+}
+
+body .cardList .table tbody .img img {
+  width: 100%;
+}
+
+body .cardList .table tbody .times {
+  padding: 20px 14px;
+  background: #333;
+  width: 44px;
+  height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 12px;
+}
+
+body .cardList .table tbody .times span {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+}
+
 @media (max-width: 767px) {
   body {
     background-color: #FBFBFE;
