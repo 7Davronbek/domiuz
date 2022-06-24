@@ -2389,16 +2389,16 @@ body .offers .myCard:last-child {
   }
 }
 
-body .cardList {
+body .wishList {
   padding: 50px 0;
 }
 
-body .cardList h1 {
+body .wishList h1 {
   font-size: 44px;
   margin-bottom: 40px;
 }
 
-body .cardList .table th {
+body .wishList .table th {
   font-size: 15px;
   font-weight: 600;
   color: #282830;
@@ -2407,16 +2407,16 @@ body .cardList .table th {
   vertical-align: middle;
 }
 
-body .cardList .table thead th {
+body .wishList .table thead th {
   font-weight: 600;
   padding-bottom: 30px;
 }
 
-body .cardList .table tbody {
+body .wishList .table tbody {
   font-weight: 500;
 }
 
-body .cardList .table tbody .eye {
+body .wishList .table tbody .eye {
   padding: 20px 14px;
   background: #00C65E;
   width: 44px;
@@ -2433,28 +2433,28 @@ body .cardList .table tbody .eye {
   border-radius: 12px;
 }
 
-body .cardList .table tbody .eye i {
+body .wishList .table tbody .eye i {
   color: #fff;
   font-weight: 300;
 }
 
-body .cardList .table tbody .contents {
+body .wishList .table tbody .contents {
   font-size: 14px;
   margin: 0;
   color: #212529;
 }
 
-body .cardList .table tbody .img {
+body .wishList .table tbody .img {
   width: 160px;
   height: 160px;
   display: block;
 }
 
-body .cardList .table tbody .img img {
+body .wishList .table tbody .img img {
   width: 100%;
 }
 
-body .cardList .table tbody .times {
+body .wishList .table tbody .times {
   padding: 20px 14px;
   background: #333;
   width: 44px;
@@ -2471,7 +2471,7 @@ body .cardList .table tbody .times {
   border-radius: 12px;
 }
 
-body .cardList .table tbody .times span {
+body .wishList .table tbody .times span {
   color: #fff;
   font-size: 25px;
   font-weight: 500;
