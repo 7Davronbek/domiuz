@@ -2332,7 +2332,7 @@ body {
                             }
 
                             .modal {
-                                .modal-content{
+                                .modal-content {
                                     border-radius: 16px;
 
                                     .modal-header {
@@ -2340,72 +2340,72 @@ body {
                                             color: #00C65E;
                                             font-weight: 500;
                                             font-size: 30px;
-    
-                                            &:focus{
+
+                                            &:focus {
                                                 outline: none;
                                             }
                                         }
                                     }
-    
-                                    .modal-body{
-                                        .company-data{
+
+                                    .modal-body {
+                                        .company-data {
                                             box-shadow: 0 3px 16px #878a9580;
                                             padding: 14px 16px;
                                             margin-bottom: 20px;
                                             border-radius: 16px;
 
-                                            .address{
+                                            .address {
                                                 display: flex;
                                                 align-items: center;
                                                 padding: 15px 0;
-                                                border-bottom: 1px solid rgba(40,40,48,.1);
+                                                border-bottom: 1px solid rgba(40, 40, 48, .1);
                                                 padding-top: 0;
 
-                                                p{
+                                                p {
                                                     font-size: 15px;
                                                     font-weight: 600;
                                                     color: #282830;
                                                 }
 
-                                                i{
+                                                i {
                                                     font-size: 23px;
                                                     margin-right: 15px;
                                                     color: #00C65E;
                                                 }
                                             }
 
-                                            .phone{
+                                            .phone {
                                                 display: flex;
                                                 align-items: center;
                                                 padding: 15px 0;
-                                                border-bottom: 1px solid rgba(40,40,48,.1);
+                                                border-bottom: 1px solid rgba(40, 40, 48, .1);
 
-                                                p{
+                                                p {
                                                     font-size: 15px;
                                                     font-weight: 600;
                                                     color: #4285f4;
                                                 }
 
-                                                i{
+                                                i {
                                                     font-size: 23px;
                                                     margin-right: 15px;
                                                     color: #00C65E;
                                                 }
                                             }
 
-                                            .time{
+                                            .time {
                                                 display: flex;
                                                 align-items: center;
                                                 padding: 15px 0;
-                                                border-bottom: 1px solid rgba(40,40,48,.1);
+                                                border-bottom: 1px solid rgba(40, 40, 48, .1);
 
-                                                p{
+                                                p {
                                                     font-size: 15px;
                                                     font-weight: 600;
                                                     color: #282830;
                                                 }
 
-                                                i{
+                                                i {
                                                     font-size: 23px;
                                                     margin-right: 15px;
                                                     color: #00C65E;
@@ -2415,7 +2415,7 @@ body {
                                         }
                                     }
                                 }
-                                
+
                             }
 
                         }
