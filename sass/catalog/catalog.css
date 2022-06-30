@@ -65,6 +65,51 @@
   }
 }
 
+.catalog .catalogMain .leftCards {
+  border-radius: 16px;
+}
+
+.catalog .catalogMain .leftCards a {
+  padding: 15px 15px 19px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #282830;
+  border-bottom: 1px solid rgba(40, 40, 48, 0.1);
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.catalog .catalogMain .leftCards a:first-child {
+  border-radius: 16px 16px 0 0;
+}
+
+.catalog .catalogMain .leftCards a:last-child {
+  border-radius: 0 0 16px 16px;
+}
+
+.catalog .catalogMain .leftCards a i {
+  color: #8f8f8f;
+  font-size: 14px;
+}
+
+.catalog .catalogMain .leftCards a.active, .catalog .catalogMain .leftCards a:hover {
+  color: #00C65E;
+}
+
+.catalog .catalogMain .leftCards a.active i, .catalog .catalogMain .leftCards a:hover i {
+  color: #00C65E;
+}
+
 .catalog .catalogMain .leftCatalog {
   scroll-behavior: smooth;
   overflow-x: hidden;

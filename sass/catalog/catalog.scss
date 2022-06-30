@@ -1,3 +1,5 @@
+$red: #00C65E;
+
 .catalog {
     padding: 50px 0;
 
@@ -54,6 +56,47 @@
     }
 
     .catalogMain {
+
+
+
+        .leftCards {
+            border-radius: 16px;
+
+            a {
+                padding: 15px 15px 19px;
+                font-size: 15px;
+                font-weight: 500;
+                color: #282830;
+                border-bottom: 1px solid rgba(40, 40, 48, .1);
+                background: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                transition: all .3s ease-in-out;
+
+                &:first-child {
+                    border-radius: 16px 16px 0 0;
+                }
+
+                &:last-child {
+                    border-radius: 0 0 16px 16px;
+                }
+
+                i {
+                    color: #8f8f8f;
+                    font-size: 14px;
+                }
+
+                &.active,
+                &:hover {
+                    color: $red;
+
+                    i {
+                        color: $red;
+                    }
+                }
+            }
+        }
 
         .leftCatalog {
 
