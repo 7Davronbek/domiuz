@@ -24,6 +24,7 @@ $red: #00C65E;
 
                 @media(max-width: 992px) {
                     display: block;
+                    padding: 12px 27px;
                 }
             }
 
@@ -57,7 +58,9 @@ $red: #00C65E;
 
     .catalogMain {
 
-
+        .close {
+            transform: translateY(-35px);
+        }
 
         .leftCards {
             border-radius: 16px;
@@ -307,6 +310,7 @@ $red: #00C65E;
                 padding: 30px 15px;
                 left: -100%;
                 transition: all .5s ease-in-out;
+                padding-top: 50px !important;
 
                 &.active {
                     left: 0;

@@ -30,6 +30,7 @@
 @media (max-width: 992px) {
   .catalog .catalogTop .filterBtn .filter {
     display: block;
+    padding: 12px 27px;
   }
 }
 
@@ -63,6 +64,11 @@
   .catalog .catalogTop .line {
     display: none;
   }
+}
+
+.catalog .catalogMain .close {
+  -webkit-transform: translateY(-35px);
+          transform: translateY(-35px);
 }
 
 .catalog .catalogMain .leftCards {
@@ -331,6 +337,7 @@
     left: -100%;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
+    padding-top: 50px !important;
   }
   .catalog .catalogMain .leftCatalog.active {
     left: 0;
