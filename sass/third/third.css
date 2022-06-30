@@ -813,6 +813,12 @@
   padding: 100px 0;
 }
 
+.cartPage p {
+  width: 27%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .cartPage h2 {
   font-size: 24px;
   font-weight: 500;
