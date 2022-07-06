@@ -2174,104 +2174,206 @@ body {
             margin-bottom: 40px;
         }
 
-        .wishlist-table {
-            box-shadow: 0 3px 16px #878a9580;
-            padding: 30px 20px;
-            border-radius: 16px;
+        .wishlist-card{
+            .myCol {
+                margin-bottom: 35px;
 
+                @media(max-width: 767px) {
+                    margin-bottom: 15px;
+                    padding: 10px;
+                }
+            }
 
-            .table {
-                border-collapse: unset;
+            .myCard {
+                padding: 20px 12px;
+                border-radius: 16px;
+                background: #fff;
+                height: 100%;
+                transition: all .3s ease-in-out;
+                display: block;
 
-                th {
-                    font-size: 15px;
+                .images {
+                    width: 200px;
+                    height: 200px;
+                    margin: 0 auto;
+                    display: flex;
+
+                    @media (max-width:576px) {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
+
+                h5 {
+                    color: rgba(40, 40, 48, .5);
                     font-weight: 600;
-                    color: #282830;
-                    line-height: 19px;
-                    border-bottom: 1px solid rgba(40, 40, 48, .1);
-                    vertical-align: middle;
-                    border-right: 1px solid rgba(40, 40, 48, .1);
-                }
+                    margin-top: 20px;
+                    font-size: 15px;
 
-                thead {
-
-                    th {
-                        font-weight: 600;
-                        padding-bottom: 30px;
-                        border-top: 0;
+                    @media (max-width:576px) {
+                        font-size: 10px;
+                        margin-top: 16px;
                     }
                 }
 
-                tbody {
+                h4 {
+                    font-weight: bold;
+                    color: #00C65E;
+                    font-size: 17px;
+                    margin: 20px 0 14px;
+
+                    @media (max-width:576px) {
+                        font-size: 11px;
+                        margin: 10px 0;
+                    }
+                }
+
+                p {
+                    font-size: 14px;
+                    height: 42px;
+
+                    @media (max-width:576px) {
+                        font-size: 9px;
+                    }
+                }
+
+                .line {
+                    margin: 35px 0 19px;
+                    width: 100%;
+                    height: 1px;
+                    background-color: rgba(40, 40, 48, .1);
+
+                    @media (max-width:576px) {
+                        margin: 12px 0;
+                    }
+                }
+
+                h3 {
                     font-weight: 500;
+                    color: #282830;
+                    font-size: 15px;
 
-                    td {
-                        font-size: 14px;
-                        font-weight: 500;
-                        color: #282830;
-                        line-height: 22px;
-                        border-top: 0;
-                        border-right: 1px solid rgba(40, 40, 48, .1);
-                        vertical-align: baseline;
+                    @media (max-width:576px) {
+                        font-size: 10px;
                     }
+                }
 
-                    .eye {
-                        padding: 20px 14px;
-                        background: $red;
-                        width: 44px;
-                        height: 52px;
-                        display: -webkit-box;
-                        display: -ms-flexbox;
-                        display: flex;
-                        -webkit-box-align: center;
-                        -ms-flex-align: center;
-                        align-items: center;
-                        -webkit-box-pack: center;
-                        -ms-flex-pack: center;
-                        justify-content: center;
-                        border-radius: 12px;
-
-                        i {
-                            color: #fff;
-                            font-weight: 300;
-                        }
+                .heart {
+                    i {
+                        width: 15px;
+                        height: 15px;
                     }
+                }
 
-                    .contents {
-                        font-size: 14px;
-                        margin: 0;
-                        color: #212529;
-                    }
+                &:hover {
+                    box-shadow: 2px 3px 10px #0072ff40;
+                }
 
-                    .img {
-                        width: 160px;
-                        height: 160px;
-                        display: block;
-
-                        img {
-                            width: 100%;
-                        }
-                    }
-
-                    .times {
-                        padding: 20px 14px;
-                        background: #333;
-                        width: 44px;
-                        height: 52px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        border-radius: 12px;
-
-                        span {
-                            color: #fff;
-                            font-size: 25px;
-                            font-weight: 500;
-                        }
-                    }
+                @media (max-width:576px) {
+                    height: initial;
                 }
             }
         }
+
+        // .wishlist-table {
+        //     box-shadow: 0 3px 16px #878a9580;
+        //     padding: 30px 20px;
+        //     border-radius: 16px;
+
+
+        //     .table {
+        //         border-collapse: unset;
+
+        //         th {
+        //             font-size: 15px;
+        //             font-weight: 600;
+        //             color: #282830;
+        //             line-height: 19px;
+        //             border-bottom: 1px solid rgba(40, 40, 48, .1);
+        //             vertical-align: middle;
+        //             border-right: 1px solid rgba(40, 40, 48, .1);
+        //         }
+
+        //         thead {
+
+        //             th {
+        //                 font-weight: 600;
+        //                 padding-bottom: 30px;
+        //                 border-top: 0;
+        //             }
+        //         }
+
+        //         tbody {
+        //             font-weight: 500;
+
+        //             td {
+        //                 font-size: 14px;
+        //                 font-weight: 500;
+        //                 color: #282830;
+        //                 line-height: 22px;
+        //                 border-top: 0;
+        //                 border-right: 1px solid rgba(40, 40, 48, .1);
+        //                 vertical-align: baseline;
+        //             }
+
+        //             .eye {
+        //                 padding: 20px 14px;
+        //                 background: $red;
+        //                 width: 44px;
+        //                 height: 52px;
+        //                 display: -webkit-box;
+        //                 display: -ms-flexbox;
+        //                 display: flex;
+        //                 -webkit-box-align: center;
+        //                 -ms-flex-align: center;
+        //                 align-items: center;
+        //                 -webkit-box-pack: center;
+        //                 -ms-flex-pack: center;
+        //                 justify-content: center;
+        //                 border-radius: 12px;
+
+        //                 i {
+        //                     color: #fff;
+        //                     font-weight: 300;
+        //                 }
+        //             }
+
+        //             .contents {
+        //                 font-size: 14px;
+        //                 margin: 0;
+        //                 color: #212529;
+        //             }
+
+        //             .img {
+        //                 width: 160px;
+        //                 height: 160px;
+        //                 display: block;
+
+        //                 img {
+        //                     width: 100%;
+        //                 }
+        //             }
+
+        //             .times {
+        //                 padding: 20px 14px;
+        //                 background: #333;
+        //                 width: 44px;
+        //                 height: 52px;
+        //                 display: flex;
+        //                 align-items: center;
+        //                 justify-content: center;
+        //                 border-radius: 12px;
+
+        //                 span {
+        //                     color: #fff;
+        //                     font-size: 25px;
+        //                     font-weight: 500;
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
 
 
     }

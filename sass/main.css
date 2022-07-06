@@ -2398,106 +2398,123 @@ body .wishList h1 {
   margin-bottom: 40px;
 }
 
-body .wishList .wishlist-table {
-  -webkit-box-shadow: 0 3px 16px #878a9580;
-          box-shadow: 0 3px 16px #878a9580;
-  padding: 30px 20px;
+body .wishList .wishlist-card .myCol {
+  margin-bottom: 35px;
+}
+
+@media (max-width: 767px) {
+  body .wishList .wishlist-card .myCol {
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+}
+
+body .wishList .wishlist-card .myCard {
+  padding: 20px 12px;
   border-radius: 16px;
-}
-
-body .wishList .wishlist-table .table {
-  border-collapse: unset;
-}
-
-body .wishList .wishlist-table .table th {
-  font-size: 15px;
-  font-weight: 600;
-  color: #282830;
-  line-height: 19px;
-  border-bottom: 1px solid rgba(40, 40, 48, 0.1);
-  vertical-align: middle;
-  border-right: 1px solid rgba(40, 40, 48, 0.1);
-}
-
-body .wishList .wishlist-table .table thead th {
-  font-weight: 600;
-  padding-bottom: 30px;
-  border-top: 0;
-}
-
-body .wishList .wishlist-table .table tbody {
-  font-weight: 500;
-}
-
-body .wishList .wishlist-table .table tbody td {
-  font-size: 14px;
-  font-weight: 500;
-  color: #282830;
-  line-height: 22px;
-  border-top: 0;
-  border-right: 1px solid rgba(40, 40, 48, 0.1);
-  vertical-align: baseline;
-}
-
-body .wishList .wishlist-table .table tbody .eye {
-  padding: 20px 14px;
-  background: #00C65E;
-  width: 44px;
-  height: 52px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  border-radius: 12px;
-}
-
-body .wishList .wishlist-table .table tbody .eye i {
-  color: #fff;
-  font-weight: 300;
-}
-
-body .wishList .wishlist-table .table tbody .contents {
-  font-size: 14px;
-  margin: 0;
-  color: #212529;
-}
-
-body .wishList .wishlist-table .table tbody .img {
-  width: 160px;
-  height: 160px;
+  background: #fff;
+  height: 100%;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
   display: block;
 }
 
-body .wishList .wishlist-table .table tbody .img img {
-  width: 100%;
-}
-
-body .wishList .wishlist-table .table tbody .times {
-  padding: 20px 14px;
-  background: #333;
-  width: 44px;
-  height: 52px;
+body .wishList .wishlist-card .myCard .images {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  border-radius: 12px;
 }
 
-body .wishList .wishlist-table .table tbody .times span {
-  color: #fff;
-  font-size: 25px;
+@media (max-width: 576px) {
+  body .wishList .wishlist-card .myCard .images {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+
+body .wishList .wishlist-card .myCard h5 {
+  color: rgba(40, 40, 48, 0.5);
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+@media (max-width: 576px) {
+  body .wishList .wishlist-card .myCard h5 {
+    font-size: 10px;
+    margin-top: 16px;
+  }
+}
+
+body .wishList .wishlist-card .myCard h4 {
+  font-weight: bold;
+  color: #00C65E;
+  font-size: 17px;
+  margin: 20px 0 14px;
+}
+
+@media (max-width: 576px) {
+  body .wishList .wishlist-card .myCard h4 {
+    font-size: 11px;
+    margin: 10px 0;
+  }
+}
+
+body .wishList .wishlist-card .myCard p {
+  font-size: 14px;
+  height: 42px;
+}
+
+@media (max-width: 576px) {
+  body .wishList .wishlist-card .myCard p {
+    font-size: 9px;
+  }
+}
+
+body .wishList .wishlist-card .myCard .line {
+  margin: 35px 0 19px;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(40, 40, 48, 0.1);
+}
+
+@media (max-width: 576px) {
+  body .wishList .wishlist-card .myCard .line {
+    margin: 12px 0;
+  }
+}
+
+body .wishList .wishlist-card .myCard h3 {
   font-weight: 500;
+  color: #282830;
+  font-size: 15px;
+}
+
+@media (max-width: 576px) {
+  body .wishList .wishlist-card .myCard h3 {
+    font-size: 10px;
+  }
+}
+
+body .wishList .wishlist-card .myCard .heart i {
+  width: 15px;
+  height: 15px;
+}
+
+body .wishList .wishlist-card .myCard:hover {
+  -webkit-box-shadow: 2px 3px 10px #0072ff40;
+          box-shadow: 2px 3px 10px #0072ff40;
+}
+
+@media (max-width: 576px) {
+  body .wishList .wishlist-card .myCard {
+    height: initial;
+  }
 }
 
 body .cartTable {

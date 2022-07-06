@@ -10,9 +10,15 @@
     />
     <link rel="stylesheet" href="/css/bootstrap.css" />
 
+
     <link rel="stylesheet" href="/sass/secondary/secondary.css" />
     <link rel="stylesheet" href="/sass/main.css" />
     <link rel="stylesheet" href="/sass/third/third.css" />
+
+    <!-- <link rel="stylesheet" href="/sass/catalog/catalog.css" />
+    <link rel="stylesheet" href="/sass/product/product.css" /> -->
+
+
 
     <title>Смартфон</title>
   </head>
@@ -497,7 +503,7 @@
         <div class="row">
           <div class="col-lg-4 mx-auto">
             <div class="cards myShadow">
-              <h1>Tizimga kirish</h1>
+              <h1>Ro'yxatdan o'tish</h1>
               <form action="POST">
                 <div class="numberWrap">
                   <label for="phone">Sizning telefon raqamingiz *</label>
@@ -510,7 +516,15 @@
                   />
                 </div>
 
-                <label for="password">Parol *</label>
+                <label for="password">Установите пароль *</label>
+                <input
+                  required
+                  type="password"
+                  class="form-control"
+                  id="password1"
+                />
+
+                <label for="password">Parol tasdiqlang *</label>
                 <input
                   required
                   type="password"
@@ -518,12 +532,21 @@
                   id="password"
                 />
 
-                <a class="a" href="#">Parolni unutdingzmi?</a>
 
-                <a href="#" class="main btn">Kirish</a>
-                <a href="/pages/register" class="btn"> Ro'yxatdan o'tish </a>
+                <div class="checkWrap">
+                    <div class="wrap">
+                    <input type="checkbox" name="" id="check1" />
+                    <label for="check1">
+                        Men <a href="/pages/oferta" >Saytdan foydalanish shartlari</a> ni o'qib chiqdim va roziman                        
+                        <span>&#10004;</span></label>
+                    </div>
+                </div>
+
+                <a href="#" class="main btn">Ro'yxatdan o'tish</a>
+                <a href="/pages/scoring" class="btn"> Kirish </a>
 
               </form>
+
 
               
             </div>
