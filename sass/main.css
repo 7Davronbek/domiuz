@@ -3116,6 +3116,13 @@ body .shaxsiy-kabinet {
   padding-bottom: 95px;
 }
 
+body .shaxsiy-kabinet h2 {
+  font-weight: 600;
+  color: #282830;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
 body .shaxsiy-kabinet .infoWrap {
   padding: 20px 40px;
   margin-bottom: 40px;
@@ -3268,13 +3275,6 @@ body .shaxsiy-kabinet .leftCards a.active i, body .shaxsiy-kabinet .leftCards a:
   color: #00C65E;
 }
 
-body .personal h2 {
-  font-weight: 600;
-  color: #282830;
-  font-size: 34px;
-  margin-bottom: 30px;
-}
-
 body .personal .personalWrap {
   background-color: #fff;
   padding: 20px 50px 40px;
@@ -3320,6 +3320,49 @@ body .personal .personalWrap .wrap .inputDiv input {
   color: #282830;
   line-height: 19px;
   border: 1px solid #c3c3c3;
+}
+
+body .my-cards .cards {
+  width: 280px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px dashed red;
+  min-height: 149px;
+  margin: 0;
+  border: 1px dashed rgba(240, 28, 65, 0.14);
+  font-size: 16px;
+  font-weight: 500;
+  color: #00C65E;
+  border-radius: 16px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+body .my-cards .cards h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+body .my-cards .cards i {
+  font-weight: 600;
+  color: #00c65ed1;
+}
+
+body .my-cards .cards:hover {
+  border-color: #00C65E;
+  cursor: pointer;
 }
 
 body .logoutModal {

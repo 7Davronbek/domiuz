@@ -2846,6 +2846,13 @@ body {
         padding-top: 30px;
         padding-bottom: 95px;
 
+        h2 {
+            font-weight: 600;
+            color: #282830;
+            font-size: 34px;
+            margin-bottom: 30px;
+        }
+
         .infoWrap {
             padding: 20px 40px;
             margin-bottom: 40px;
@@ -2977,13 +2984,6 @@ body {
 
     .personal {
 
-        h2 {
-            font-weight: 600;
-            color: #282830;
-            font-size: 34px;
-            margin-bottom: 30px;
-        }
-
         .personalWrap {
             background-color: #fff;
             padding: 20px 50px 40px;
@@ -3026,6 +3026,44 @@ body {
                 }
             }
         }
+    }
+
+    .my-cards {
+
+        .cards {
+            width: 280px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border: 1px dashed red;
+            min-height: 149px;
+            margin: 0;
+            border: 1px dashed rgba(240, 28, 65, .14);
+            font-size: 16px;
+            font-weight: 500;
+            color: $red;
+            border-radius: 16px;
+            transition: all .2s ease-in-out;
+
+            h3 {
+                font-size: 18px;
+                margin-top: 10px;
+            }
+
+            i {
+                font-weight: 600;
+                color: #00c65ed1;
+            }
+
+            &:hover {
+                border-color: $red;
+                cursor: pointer;
+            }
+        }
+
+
     }
 
     .logoutModal {

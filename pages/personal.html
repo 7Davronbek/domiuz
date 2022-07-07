@@ -553,7 +553,6 @@
             <h2>Shaxsiy ma'lumotlar</h2>
 
             <form class="personalWrap">
-
               <div class="wrap">
                 <div class="inputDiv">
                   <label for="name">Ism</label>
@@ -561,7 +560,12 @@
                 </div>
                 <div class="inputDiv">
                   <label for="surname">Familiya</label>
-                  <input required id="surname" type="text" class="form-control" />
+                  <input
+                    required
+                    id="surname"
+                    type="text"
+                    class="form-control"
+                  />
                 </div>
               </div>
 
@@ -572,12 +576,16 @@
                 </div>
                 <div class="inputDiv">
                   <label for="surname2">Email</label>
-                  <input required id="surname2" type="email" class="form-control" />
+                  <input
+                    required
+                    id="surname2"
+                    type="email"
+                    class="form-control"
+                  />
                 </div>
               </div>
 
               <button class="btn" type="submit">Saqlash</button>
-              
             </form>
           </div>
         </div>
@@ -702,5 +710,18 @@
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.js"></script>
     <script src="../js/app.js"></script>
+    <script>
+      const logoutBtn = document.querySelector("#logout");
+      const logoutModal = document.querySelector("#logoutModal");
+      const closeModal = document.querySelector("#closeModal");
+
+      logoutBtn.addEventListener("click", () => {
+        logoutModal.classList.add("active");
+      });
+
+      const closeLogoutModal = () => {
+        logoutModal.classList.remove("active");
+      };
+    </script>
   </body>
 </html>
