@@ -24,6 +24,46 @@
   -webkit-mask-image: url("../../img/icon/search.svg");
 }
 
+.icon.icon-profile-1 {
+  mask-image: url("../../img/icon/1.svg");
+  -webkit-mask-image: url("../../img/icon/1.svg");
+  width: 24px;
+  height: 24px;
+  background-color: #282830;
+}
+
+.icon.icon-profile-2 {
+  mask-image: url("../../img/icon/2.svg");
+  -webkit-mask-image: url("../../img/icon/2.svg");
+  width: 24px;
+  height: 24px;
+  background-color: #282830;
+}
+
+.icon.icon-profile-3 {
+  mask-image: url("../../img/icon/3.svg");
+  -webkit-mask-image: url("../../img/icon/3.svg");
+  width: 24px;
+  height: 24px;
+  background-color: #282830;
+}
+
+.icon.icon-profile-4 {
+  mask-image: url("../../img/icon/4.svg");
+  -webkit-mask-image: url("../../img/icon/4.svg");
+  width: 24px;
+  height: 24px;
+  background-color: #282830;
+}
+
+.icon.icon-profile-5 {
+  mask-image: url("../../img/icon/5.svg");
+  -webkit-mask-image: url("../../img/icon/5.svg");
+  width: 24px;
+  height: 24px;
+  background-color: #282830;
+}
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;

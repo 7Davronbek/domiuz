@@ -3129,13 +3129,13 @@ body .shaxsiy-kabinet h1 {
 body .shaxsiy-kabinet .leftCards {
   border-radius: 16px;
   margin-bottom: 50px;
-  padding-top: 60px;
+  margin-top: 60px;
 }
 
 body .shaxsiy-kabinet .leftCards a {
   padding: 15px 15px 19px;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
   color: #282830;
   border-bottom: 1px solid rgba(40, 40, 48, 0.1);
   background: #fff;
@@ -3150,6 +3150,24 @@ body .shaxsiy-kabinet .leftCards a {
           justify-content: space-between;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+}
+
+body .shaxsiy-kabinet .leftCards a span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .shaxsiy-kabinet .leftCards a span .icon {
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+body .shaxsiy-kabinet .leftCards a span b {
+  margin-right: 10px;
 }
 
 body .shaxsiy-kabinet .leftCards a:first-child {
@@ -3167,6 +3185,10 @@ body .shaxsiy-kabinet .leftCards a i {
 
 body .shaxsiy-kabinet .leftCards a.active, body .shaxsiy-kabinet .leftCards a:hover {
   color: #00C65E;
+}
+
+body .shaxsiy-kabinet .leftCards a.active .icon, body .shaxsiy-kabinet .leftCards a:hover .icon {
+  background-color: #00C65E;
 }
 
 body .shaxsiy-kabinet .leftCards a.active i, body .shaxsiy-kabinet .leftCards a:hover i {

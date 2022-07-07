@@ -5,18 +5,18 @@
     width: 21px;
     height: 21px;
     display: inline-block;
-  
+
     mask-size: 100%;
     mask-repeat: no-repeat;
-  
+
     -webkit-mask-size: 100%;
     -webkit-mask-repeat: no-repeat;
-  
+
     background-color: #00C65E;
-  
+
     &.icon-heart {
-      mask-image: url("../../img/icon/heart.svg");
-      -webkit-mask-image: url("../../img/icon/heart.svg");
+        mask-image: url("../../img/icon/heart.svg");
+        -webkit-mask-image: url("../../img/icon/heart.svg");
     }
 
     &.icon-cart {
@@ -27,6 +27,46 @@
     &.icon-search {
         mask-image: url("../../img/icon/search.svg");
         -webkit-mask-image: url("../../img/icon/search.svg");
+    }
+
+    &.icon-profile-1 {
+        mask-image: url("../../img/icon/1.svg");
+        -webkit-mask-image: url("../../img/icon/1.svg");
+        width: 24px;
+        height: 24px;
+        background-color: #282830;
+    }
+
+    &.icon-profile-2 {
+        mask-image: url("../../img/icon/2.svg");
+        -webkit-mask-image: url("../../img/icon/2.svg");
+        width: 24px;
+        height: 24px;
+        background-color: #282830;
+    }
+
+    &.icon-profile-3 {
+        mask-image: url("../../img/icon/3.svg");
+        -webkit-mask-image: url("../../img/icon/3.svg");
+        width: 24px;
+        height: 24px;
+        background-color: #282830;
+    }
+
+    &.icon-profile-4 {
+        mask-image: url("../../img/icon/4.svg");
+        -webkit-mask-image: url("../../img/icon/4.svg");
+        width: 24px;
+        height: 24px;
+        background-color: #282830;
+    }
+
+    &.icon-profile-5 {
+        mask-image: url("../../img/icon/5.svg");
+        -webkit-mask-image: url("../../img/icon/5.svg");
+        width: 24px;
+        height: 24px;
+        background-color: #282830;
     }
 }
 
@@ -179,7 +219,7 @@ li {
 .myCircle {
     position: relative;
     overflow: hidden;
-    padding: 40px ;
+    padding: 40px;
     text-align: center;
     background-color: red;
 

@@ -2860,12 +2860,12 @@ body {
         .leftCards {
             border-radius: 16px;
             margin-bottom: 50px;
-            padding-top: 60px;
+            margin-top: 60px;
 
             a {
                 padding: 15px 15px 19px;
-                font-size: 15px;
-                font-weight: 500;
+                font-size: 16px;
+                font-weight: 600;
                 color: #282830;
                 border-bottom: 1px solid rgba(40, 40, 48, .1);
                 background: #fff;
@@ -2873,6 +2873,19 @@ body {
                 align-items: center;
                 justify-content: space-between;
                 transition: all .3s ease-in-out;
+
+                span {
+                    display: flex;
+                    align-items: center;
+
+                    .icon {
+                        transition: all .3s ease-in-out;
+                    }
+
+                    b {
+                        margin-right: 10px;
+                    }
+                }
 
                 &:first-child {
                     border-radius: 16px 16px 0 0;
@@ -2890,6 +2903,10 @@ body {
                 &.active,
                 &:hover {
                     color: $red;
+
+                    .icon {
+                        background-color: $red;
+                    }
 
                     i {
                         color: $red;
