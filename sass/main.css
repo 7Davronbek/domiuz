@@ -3160,6 +3160,7 @@ body .shaxsiy-kabinet .infoWrap .logout {
   border: 1px solid #e31e24b0 !important;
   padding: 11px 34px;
   border-radius: 12px;
+  cursor: pointer;
 }
 
 body .shaxsiy-kabinet .infoWrap .logout i {
@@ -3288,6 +3289,10 @@ body .logoutModal {
   background: #32542f54;
   -webkit-backdrop-filter: blur(20px);
           backdrop-filter: blur(20px);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
 }
 
 body .logoutModal .close {
@@ -3305,6 +3310,13 @@ body .logoutModal .cards {
   border-radius: 14px;
   -webkit-box-shadow: 0 0 10px silver;
           box-shadow: 0 0 10px silver;
+  -webkit-transition: all .4s ease-in-out 0.1s;
+  transition: all .4s ease-in-out 0.1s;
+  -webkit-transform: translate(0, -50px);
+          transform: translate(0, -50px);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
 }
 
 body .logoutModal .cards .circle {
@@ -3354,6 +3366,18 @@ body .logoutModal .cards .btn {
 
 body .logoutModal .cards .btn.no {
   background-color: red !important;
+}
+
+body .logoutModal.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+body .logoutModal.active .cards {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translate(0);
+          transform: translate(0);
 }
 
 @media (max-width: 767px) {

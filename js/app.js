@@ -42,6 +42,18 @@
 //     document.querySelector('.mobile').classList.toggle('active')
 // })
 
+const logoutBtn = document.querySelector('#logout')
+const logoutModal = document.querySelector("#logoutModal")
+const closeModal = document.querySelector("#closeModal")
+
+logoutBtn.addEventListener("click", () => {
+  logoutModal.classList.add('active')
+})  
+
+closeModal.addEventListener("click", () => {
+  logoutModal.classList.remove("active")
+})
+
 const catalog = document.querySelector(".fixedCatalog");
 const catalogId = document.querySelector("#catalogId");
 const mobileMenu = document.querySelector("#mobileMenu");
