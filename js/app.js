@@ -50,9 +50,9 @@ logoutBtn.addEventListener("click", () => {
   logoutModal.classList.add('active')
 })  
 
-closeModal.addEventListener("click", () => {
+const closeLogoutModal = () => {
   logoutModal.classList.remove("active")
-})
+}
 
 const catalog = document.querySelector(".fixedCatalog");
 const catalogId = document.querySelector("#catalogId");
