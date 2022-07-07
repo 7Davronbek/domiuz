@@ -2906,7 +2906,7 @@ body {
         }
 
         .slash {
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
 
         h1 {
@@ -2969,6 +2969,59 @@ body {
 
                     i {
                         color: $red;
+                    }
+                }
+            }
+        }
+    }
+
+    .personal {
+
+        h2 {
+            font-weight: 600;
+            color: #282830;
+            font-size: 34px;
+            margin-bottom: 30px;
+        }
+
+        .personalWrap {
+            background-color: #fff;
+            padding: 20px 50px 40px;
+            -webkit-box-shadow: 0 3px 16px #4b6c2929;
+            box-shadow: 0 3px 16px #4b6c2929;
+
+            .btn {
+                padding: 15px 70px;
+                margin: 0;
+                line-height: 20px;
+                font-size: 16px;
+                font-weight: 600;
+                color: #fff;
+                background: $red;
+                margin-left: auto;
+                display: block;
+                margin-top: 45px;
+                border-radius: 18px;
+            }
+
+            .wrap {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+
+                .inputDiv {
+                    width: 48%;
+
+                    input {
+                        padding: 20px;
+                        border-radius: 12px;
+                        -webkit-box-shadow: none !important;
+                        box-shadow: none !important;
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: #282830;
+                        line-height: 19px;
+                        border: 1px solid #c3c3c3;
                     }
                 }
             }

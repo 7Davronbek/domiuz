@@ -3190,7 +3190,7 @@ body .shaxsiy-kabinet .infoWrap p i {
 }
 
 body .shaxsiy-kabinet .slash {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 body .shaxsiy-kabinet h1 {
@@ -3266,6 +3266,60 @@ body .shaxsiy-kabinet .leftCards a.active .icon, body .shaxsiy-kabinet .leftCard
 
 body .shaxsiy-kabinet .leftCards a.active i, body .shaxsiy-kabinet .leftCards a:hover i {
   color: #00C65E;
+}
+
+body .personal h2 {
+  font-weight: 600;
+  color: #282830;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+body .personal .personalWrap {
+  background-color: #fff;
+  padding: 20px 50px 40px;
+  -webkit-box-shadow: 0 3px 16px #4b6c2929;
+  box-shadow: 0 3px 16px #4b6c2929;
+}
+
+body .personal .personalWrap .btn {
+  padding: 15px 70px;
+  margin: 0;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background: #00C65E;
+  margin-left: auto;
+  display: block;
+  margin-top: 45px;
+  border-radius: 18px;
+}
+
+body .personal .personalWrap .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+body .personal .personalWrap .wrap .inputDiv {
+  width: 48%;
+}
+
+body .personal .personalWrap .wrap .inputDiv input {
+  padding: 20px;
+  border-radius: 12px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  font-size: 16px;
+  font-weight: 500;
+  color: #282830;
+  line-height: 19px;
+  border: 1px solid #c3c3c3;
 }
 
 body .logoutModal {
