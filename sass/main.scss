@@ -2174,7 +2174,7 @@ body {
             margin-bottom: 40px;
         }
 
-        .wishlist-card{
+        .wishlist-card {
             .myCol {
                 margin-bottom: 35px;
 
@@ -2842,7 +2842,62 @@ body {
         }
     }
 
+    .shaxsiy-kabinet {
+        padding-top: 30px;
+        padding-bottom: 95px;
 
+        .slash {
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-weight: 600;
+            color: #282830;
+            font-size: 38px;
+        }
+
+
+        .leftCards {
+            border-radius: 16px;
+            margin-bottom: 50px;
+            padding-top: 60px;
+
+            a {
+                padding: 15px 15px 19px;
+                font-size: 15px;
+                font-weight: 500;
+                color: #282830;
+                border-bottom: 1px solid rgba(40, 40, 48, .1);
+                background: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                transition: all .3s ease-in-out;
+
+                &:first-child {
+                    border-radius: 16px 16px 0 0;
+                }
+
+                &:last-child {
+                    border-radius: 0 0 16px 16px;
+                }
+
+                i {
+                    color: #8f8f8f;
+                    font-size: 14px;
+                }
+
+                &.active,
+                &:hover {
+                    color: $red;
+
+                    i {
+                        color: $red;
+                    }
+                }
+            }
+        }
+    }
 
     @media(max-width: 767px) {
         background-color: #FBFBFE;

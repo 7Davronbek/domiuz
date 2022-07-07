@@ -3111,6 +3111,68 @@ body .cartTable .all-cart .cart-total .total .btn-success:focus {
   }
 }
 
+body .shaxsiy-kabinet {
+  padding-top: 30px;
+  padding-bottom: 95px;
+}
+
+body .shaxsiy-kabinet .slash {
+  margin-bottom: 20px;
+}
+
+body .shaxsiy-kabinet h1 {
+  font-weight: 600;
+  color: #282830;
+  font-size: 38px;
+}
+
+body .shaxsiy-kabinet .leftCards {
+  border-radius: 16px;
+  margin-bottom: 50px;
+  padding-top: 60px;
+}
+
+body .shaxsiy-kabinet .leftCards a {
+  padding: 15px 15px 19px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #282830;
+  border-bottom: 1px solid rgba(40, 40, 48, 0.1);
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+body .shaxsiy-kabinet .leftCards a:first-child {
+  border-radius: 16px 16px 0 0;
+}
+
+body .shaxsiy-kabinet .leftCards a:last-child {
+  border-radius: 0 0 16px 16px;
+}
+
+body .shaxsiy-kabinet .leftCards a i {
+  color: #8f8f8f;
+  font-size: 14px;
+}
+
+body .shaxsiy-kabinet .leftCards a.active, body .shaxsiy-kabinet .leftCards a:hover {
+  color: #00C65E;
+}
+
+body .shaxsiy-kabinet .leftCards a.active i, body .shaxsiy-kabinet .leftCards a:hover i {
+  color: #00C65E;
+}
+
 @media (max-width: 767px) {
   body {
     background-color: #FBFBFE;
